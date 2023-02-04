@@ -22,6 +22,10 @@ There are several algorithms that can be used for path planning in this project,
 
 The path planning algorithms can be implemented and integrated with the Unity platform, which provides a flexible and powerful environment for developing simulation and visualization. The Unity scripting API can be used to write the code for the algorithms, and Unity's visualization tools can be used to display the planned path and other information about the robot's motion. The Unity physics engine can also be used to simulate the motion of the robot in the virtual environment.
 
+## Simulation in Gazebo
+
+After testing and debugging the algorithms in Unity, the next step will be to simulate the robot in Gazebo. Gazebo is a powerful robotics simulation platform that supports advanced physics, sensor, and actuator models. It can be used to simulate the real-world environment and test the algorithms in a more realistic scenario. The algorithms developed in Unity can be ported to Gazebo for further testing and refinement.
+
 ## Conclusion
 
-This project provides a great opportunity to implement and integrate path planning algorithms with Unity. The algorithms mentioned above can be used to plan a path for the robot to clean the room, and Unity provides a valuable tool for debugging and testing. Implementing and integrating these algorithms may require significant programming and technical expertise, but the result will be a fully autonomous land robot capable of cleaning a room.
+This project provides a great opportunity to implement and integrate path planning algorithms with Unity and Gazebo. The algorithms mentioned above can be used to plan a path for the robot to clean the room, and both Unity and Gazebo provide valuable tools for debugging, testing, and simulation. Implementing and integrating these algorithms may require significant programming and technical expertise, but the result will be a fully autonomous land robot capable of cleaning a room.
