@@ -16,12 +16,20 @@ namespace Pathfinding.Examples {
 
 		/// <summary>Issue a graph update object after placement</summary>
 		public bool issueGUOs = true;
-
+		private bool placingMode = false;
 		/// <summary>Update is called once per frame</summary>
 		void Update () {
-			if (Input.GetKeyDown("p")) {
-				PlaceObject();
+			if (Input.GetKeyDown("e")) {
+				placingMode = !placingMode;
 			}
+
+			if (placingMode)
+            {
+				if (Input.GetKeyDown(KeyCode.Mouse0))
+                {
+					PlaceObject();
+                }
+            }
 
 			if (Input.GetKeyDown("r")) {
 				StartCoroutine(RemoveObject());

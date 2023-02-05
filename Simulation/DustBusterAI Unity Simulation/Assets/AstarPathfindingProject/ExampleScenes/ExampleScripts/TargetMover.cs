@@ -44,6 +44,11 @@ namespace Pathfinding {
 			if (!onlyOnDoubleClick && cam != null) {
 				UpdateTargetPosition();
 			}
+
+			if (Input.GetKeyDown(KeyCode.Q))
+            {
+				onlyOnDoubleClick = !onlyOnDoubleClick;
+            }
 		}
 
 		public void UpdateTargetPosition () {

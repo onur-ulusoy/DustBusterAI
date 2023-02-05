@@ -155,6 +155,38 @@
       },
       "url": "https://packages.unity.com"
     },
+    "org.nuget.geneticsharp": {
+      "version": "2.6.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
+    "org.nuget.scriban": {
+      "version": "5.5.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.threading.tasks.extensions": "4.5.0"
+      },
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
+    "org.nuget.system.runtime.compilerservices.unsafe": {
+      "version": "4.5.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
+    "org.nuget.system.threading.tasks.extensions": {
+      "version": "4.5.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "4.5.0"
+      },
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
     "com.unity.modules.ai": {
       "version": "1.0.0",
       "depth": 0,
