@@ -19,6 +19,11 @@ public class GAController : MonoBehaviour
 
     private System.Collections.Generic.IList<TspCity> Cities;
     public List<GameObject> citiesGO;
+    public GameObject target;
+    public GameObject robot;
+    public GameObject plane;
+
+    int order;
 
     private LineRenderer m_lr;
     private void Awake()
@@ -55,7 +60,7 @@ public class GAController : MonoBehaviour
             //Debug.Log($"Generation: {m_ga.GenerationsNumber} - Distance: ${distance}");
         };
 
-        Cities = DrawCities();
+        Cities = DrawRandomCities();
 
         // Starts the genetic algorithm in a separate thread.
         m_gaThread = new Thread(() => m_ga.Start());
@@ -69,22 +74,24 @@ public class GAController : MonoBehaviour
         m_gaThread.Abort();
     }
 
-    System.Collections.Generic.IList<TspCity> DrawCities()
+    System.Collections.Generic.IList<TspCity> DrawRandomCities()
     {
         var cities = ((TspFitness)m_ga.Fitness).Cities;
-        
         for (int i = 0; i < m_numberOfCities; i++)
         {
-            Vector3 pos = new Vector3(i*2f, 2.08f, 0f);
+            int j = Random.Range(-6, 6);
+            int k = Random.Range(-6, 6);
+            Vector3 randomXZ = PickRandomPointOnPlane();
             var city = cities[i];
-            var go = Instantiate(CityPrefab, pos, Quaternion.identity) as GameObject;
+            var go = Instantiate(CityPrefab, randomXZ, Quaternion.identity) as GameObject;
             go.name = "City " + i;
             citiesGO.Add(go);
             city.Position = go.transform.position;
             go.GetComponent<CityController>().Data = city;
-
+            go.GetComponentInChildren<TextMesh>().text = i.ToString();
         }
-
+        order = 0;
+        target.transform.position = citiesGO[order].transform.position;
         return cities;
     }
 
@@ -106,8 +113,38 @@ public class GAController : MonoBehaviour
         }
     }
 
+    public void Reset()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+    }
+
     private void Update()
     {
         DrawRoute();
+
+        if (order < m_numberOfCities)
+        {
+            if (Mathf.Abs(robot.transform.position.x - target.transform.position.x) < 0.1 && Mathf.Abs(robot.transform.position.z - target.transform.position.z) < 0.1)
+            {
+                citiesGO[order].GetComponentInChildren<TextMesh>().color = Color.green;
+                order++;
+                if (order < m_numberOfCities)
+                    target.transform.position = citiesGO[order].transform.position;
+            }
+        }
+        
+    }
+
+    private Vector3 PickRandomPointOnPlane()
+    {
+        Vector3 planeSize = plane.GetComponent<Renderer>().bounds.size;
+        Vector3 planePosition = plane.transform.position;
+
+        float planeWidth = planeSize.x;
+        float planeHeight = planeSize.z;
+
+        float randomX = Random.Range(-planeWidth / 2, planeWidth / 2) + planePosition.x;
+        float randomZ = Random.Range(-planeHeight / 2, planeHeight / 2) + planePosition.z;
+        return new Vector3(randomX, 2.08f, randomZ);
     }
 }

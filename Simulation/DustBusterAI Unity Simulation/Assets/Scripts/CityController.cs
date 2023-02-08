@@ -1,5 +1,4 @@
 using UnityEngine;
-
 //[RequireComponent(typeof(BoxCollider2D))]
 public class CityController : MonoBehaviour
 {
@@ -31,6 +30,6 @@ public class CityController : MonoBehaviour
 
     void Update()
     {
-        transform.position = Data.Position;
+        //transform.position = Data.Position;
     }
 }

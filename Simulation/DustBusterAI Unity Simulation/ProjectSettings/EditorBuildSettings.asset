@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TSP Algorithm.unity
+    guid: 2ba429f1329719243890b08878471f2d
   m_configObjects: {}

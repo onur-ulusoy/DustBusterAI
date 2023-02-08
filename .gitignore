@@ -10,6 +10,7 @@ Assets/AssetStoreTools*
 *.suo
 *.user
 *.sln.docstates
+*.meta
 
 # Builds
 Simulation/DustBusterAI Unity Simulation/Build/
