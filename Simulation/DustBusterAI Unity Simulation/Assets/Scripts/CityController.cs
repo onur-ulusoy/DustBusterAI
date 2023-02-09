@@ -4,9 +4,14 @@ public class CityController : MonoBehaviour
 {
     private Vector3 screenPoint;
     private Vector3 offset;
+    [SerializeField]
+    GAController gacontroller;
 
     public TspCity Data { get; set; }
-
+    private void Start()
+    {
+        gacontroller = GameObject.FindWithTag("GAController").GetComponent<GAController>();
+    }
     void OnMouseDown()
     {
         screenPoint = Camera.main.WorldToScreenPoint(gameObject.transform.position);
@@ -17,6 +22,8 @@ public class CityController : MonoBehaviour
     void OnMouseUp()
     {
         transform.localScale /= 2f;
+        gacontroller.DrawRoute();
+
     }
 
     void OnMouseDrag()
@@ -26,6 +33,7 @@ public class CityController : MonoBehaviour
         transform.position = curPosition;
 
         Data.Position = transform.position;
+        gacontroller.DrawRoute();
     }
 
     void Update()

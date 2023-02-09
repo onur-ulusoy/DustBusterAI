@@ -8,6 +8,7 @@ using GeneticSharp.Domain.Terminations;
 using GeneticSharp.Infrastructure.Framework.Threading;
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 public class GAController : MonoBehaviour
 {
@@ -23,17 +24,19 @@ public class GAController : MonoBehaviour
     public GameObject robot;
     public GameObject plane;
 
-    int order;
+    private bool m_isEnabled = false;
+
 
     private LineRenderer m_lr;
     private void Awake()
     {
+        target.transform.position = robot.transform.position;
         m_lr = GetComponent<LineRenderer>();
         m_lr.positionCount = m_numberOfCities + 1;
     }
     private void Start()
     {
-        var fitness = new TspFitness(m_numberOfCities);
+        var fitness = new TspFitness(m_numberOfCities, plane, robot);
         var chromosome = new TspChromosome(m_numberOfCities);
 
         // This operators are classic genetic algorithm operators that lead to a good solution on TSP,
@@ -60,13 +63,33 @@ public class GAController : MonoBehaviour
             //Debug.Log($"Generation: {m_ga.GenerationsNumber} - Distance: ${distance}");
         };
 
-        Cities = DrawRandomCities();
+        //Cities = DrawCities();
+        DrawCities();
 
         // Starts the genetic algorithm in a separate thread.
-        m_gaThread = new Thread(() => m_ga.Start());
-        m_gaThread.Start();
-    }
+        try
+        {
+            m_gaThread = new Thread(() => m_ga.Start());
+            m_gaThread.Start();
+            //StartCoroutine(LateStart(0f));
+            StartCoroutine(LateStart(0.2f));
+            
+        }
 
+        catch
+        {
+            ;
+        }
+        
+
+    }
+    IEnumerator LateStart(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        DrawRoute();
+        m_isEnabled = true;
+        target.transform.position = citiesGO[0].transform.position;
+    }
     private void OnDestroy()
     {
         // When the script is destroyed we stop the genetic algorithm and abort its thread too.
@@ -74,77 +97,114 @@ public class GAController : MonoBehaviour
         m_gaThread.Abort();
     }
 
-    System.Collections.Generic.IList<TspCity> DrawRandomCities()
+
+    void DrawCities()
     {
         var cities = ((TspFitness)m_ga.Fitness).Cities;
+
         for (int i = 0; i < m_numberOfCities; i++)
         {
-            int j = Random.Range(-6, 6);
-            int k = Random.Range(-6, 6);
-            Vector3 randomXZ = PickRandomPointOnPlane();
             var city = cities[i];
-            var go = Instantiate(CityPrefab, randomXZ, Quaternion.identity) as GameObject;
-            go.name = "City " + i;
+            var go = Instantiate(CityPrefab, city.Position, Quaternion.identity) as GameObject;
             citiesGO.Add(go);
-            city.Position = go.transform.position;
             go.GetComponent<CityController>().Data = city;
-            go.GetComponentInChildren<TextMesh>().text = i.ToString();
+            city.go = go;
+            //go.GetComponentInChildren<TextMesh>().text = i.ToString();
+            go.name = "City " + i;
         }
-        order = 0;
-        target.transform.position = citiesGO[order].transform.position;
-        return cities;
+
     }
 
-    void DrawRoute()
+    TspCity prevCity;
+    List<TspCity> orderedCities;
+    public void DrawRoute()
     {
+        prevCity = new TspCity
+        {
+            next = null
+        };
         var c = m_ga.Population.CurrentGeneration.BestChromosome as TspChromosome;
 
         if (c != null)
         {
             var genes = c.GetGenes();
+            var cities = ((TspFitness)m_ga.Fitness).Cities;
+            orderedCities = new List<TspCity>();
 
             for (int i = 0; i < genes.Length; i++)
             {
-                m_lr.SetPosition(i, citiesGO[i].transform.position);
+                var city = cities[(int)genes[i].Value];
+                city.prev = prevCity;
+
+                city.next = (i == genes.Length - 1) ? cities[(int)genes[0].Value] : new TspCity();
+
+                m_lr.SetPosition(i, city.Position);
+                city.Order = i;
+                city.go.GetComponentInChildren<TextMesh>().text = city.Order.ToString();
+                prevCity.next = city;
+                prevCity = city;
             }
 
-            var firstCity = Cities[(int)genes[0].Value];
+            var initialCity = cities[0];
+            
+            initialCity.Order = 0;
+            initialCity.go.GetComponentInChildren<TextMesh>().text = initialCity.Order.ToString();
+            orderedCities.Add(initialCity);
+            var iter = initialCity.next;
+
+
+            int order = 1;
+            while (order < m_numberOfCities)
+            {
+                iter.Order = order++;
+                iter.go.GetComponentInChildren<TextMesh>().text = iter.Order.ToString();
+                orderedCities.Add(iter);
+                iter = iter.next;
+            }
+
+               
+
+            var firstCity = cities[(int)genes[0].Value];
             m_lr.SetPosition(m_numberOfCities, firstCity.Position);
+
+
+
+
         }
     }
 
     public void Reset()
     {
+        Debug.ClearDeveloperConsole();
+        order = 0;
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);
     }
 
+    int order = 0;
     private void Update()
     {
-        DrawRoute();
-
-        if (order < m_numberOfCities)
+        //DrawRoute();
+        if (m_isEnabled)
         {
-            if (Mathf.Abs(robot.transform.position.x - target.transform.position.x) < 0.1 && Mathf.Abs(robot.transform.position.z - target.transform.position.z) < 0.1)
+            if (order < m_numberOfCities)
             {
-                citiesGO[order].GetComponentInChildren<TextMesh>().color = Color.green;
-                order++;
-                if (order < m_numberOfCities)
-                    target.transform.position = citiesGO[order].transform.position;
+                if (Mathf.Abs(robot.transform.position.x - target.transform.position.x) < 0.1 && Mathf.Abs(robot.transform.position.z - target.transform.position.z) < 0.1)
+                {
+                    try {
+                        orderedCities[order].go.GetComponentInChildren<TextMesh>().color = Color.green;
+                        order++;
+                        if (order < m_numberOfCities)
+                            target.transform.position = orderedCities[order].go.transform.position;
+                    }
+
+                    catch
+                    {
+                        DrawRoute();
+                    }
+                    
+                }
             }
         }
-        
     }
 
-    private Vector3 PickRandomPointOnPlane()
-    {
-        Vector3 planeSize = plane.GetComponent<Renderer>().bounds.size;
-        Vector3 planePosition = plane.transform.position;
-
-        float planeWidth = planeSize.x;
-        float planeHeight = planeSize.z;
-
-        float randomX = Random.Range(-planeWidth / 2, planeWidth / 2) + planePosition.x;
-        float randomZ = Random.Range(-planeHeight / 2, planeHeight / 2) + planePosition.z;
-        return new Vector3(randomX, 2.08f, randomZ);
-    }
 }

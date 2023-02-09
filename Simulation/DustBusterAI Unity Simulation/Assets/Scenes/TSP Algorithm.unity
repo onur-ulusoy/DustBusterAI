@@ -6512,7 +6512,7 @@ GameObject:
   - component: {fileID: 1272324768}
   m_Layer: 0
   m_Name: GAController
-  m_TagString: Untagged
+  m_TagString: GAController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6529,7 +6529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5615a891984e941409e48cfd83095cf9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_numberOfCities: 5
+  m_numberOfCities: 15
   CityPrefab: {fileID: 5747804879003875126, guid: 55c3500891e89f84999e17ac8485793b, type: 3}
   citiesGO: []
   target: {fileID: 1101482928}
