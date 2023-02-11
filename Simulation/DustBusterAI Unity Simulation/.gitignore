@@ -2,6 +2,9 @@
 Library/
 Temp/
 obj/
+Logs/
+UserSettings/
+ProjectSettings/
 
 # Unity3D Assets
 Assets/AssetStoreTools*
@@ -14,6 +17,7 @@ Assets/AssetStoreTools*
 *.vsconfig
 
 # Builds
+Build/
 
 # OS generated files
 .DS_Store
