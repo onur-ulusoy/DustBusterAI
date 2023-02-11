@@ -2,6 +2,9 @@
 Library/
 Temp/
 obj/
+Logs/
+UserSettings/
+ProjectSettings/
 
 # Unity3D Assets
 Assets/AssetStoreTools*
