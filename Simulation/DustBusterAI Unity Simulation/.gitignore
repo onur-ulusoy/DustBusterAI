@@ -11,9 +11,10 @@ Assets/AssetStoreTools*
 *.user
 *.sln.docstates
 *.meta
+*.vsconfig
 
 # Builds
-Simulation/DustBusterAI Unity Simulation/Build/
+Build/
 
 # OS generated files
 .DS_Store
