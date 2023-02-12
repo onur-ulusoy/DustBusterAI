@@ -14,6 +14,7 @@
   - [Donate](#donate)
   - [Project Challenges](#project-challenges)
   - [Project Status](#project-status)
+  - [Simulation](#simulation)
   - [License](#license)
   - [Conclusion](#conclusion)
 
@@ -91,6 +92,13 @@ The DustBusterAI project faces several difficulty, including:
 
 ## Project Status
 As of February 11, 2023, the DustBusterAI project is in the design and planning phase. The team is currently working on developing the robot's decision making algorithms. The project is on track to meet its Q1 2023 deadline for completing the prototype.
+
+## Simulation
+Before investing resources into building a physical prototype of a robot, it's crucial to validate the underlying algorithms that will govern its behavior. This involves simulating the robot's movements and interactions with the environment to verify that the algorithms are functioning as intended. Unity, a popular game engine and simulation platform, provides a powerful toolset for creating these simulations. By building a virtual prototype in Unity, developers can test and refine the algorithms that will ultimately drive the physical robot's behavior, without the risks and expenses associated with building and testing a physical prototype. This can help to identify and resolve potential issues early on in the development process, ensuring that the final product is as efficient and effective as possible. Once the algorithms have been thoroughly tested and optimized in the Unity simulation, developers can confidently move forward with building the physical robot.
+
+Current unity simulation status can be checked from [Simulation Stages](https://github.com/onurulusoy4/DustBusterAI/blob/master/Simulation/DustBusterAI%20Unity%20Simulation/README.md)
+
+https://user-images.githubusercontent.com/95442568/218342408-01527365-9dfb-44d2-ae56-826d1409f608.mp4
 
 ## License
 
