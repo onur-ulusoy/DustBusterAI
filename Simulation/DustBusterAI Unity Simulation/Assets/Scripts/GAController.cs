@@ -18,25 +18,43 @@ public class GAController : MonoBehaviour
     public int m_numberOfCities = 20;
     public Object CityPrefab;
 
-    private System.Collections.Generic.IList<TspCity> Cities;
+    //private System.Collections.Generic.IList<TspCity> Cities;
     public List<GameObject> citiesGO;
     public GameObject target;
     public GameObject robot;
     public GameObject plane;
 
     private bool m_isEnabled = false;
+    public enum Mode { Random, Ordered }
 
+    public Mode mode;
+
+    [Header("Area discretization")]
+    [SerializeField]
+    int disc_interval;
 
     private LineRenderer m_lr;
     private void Awake()
     {
         target.transform.position = robot.transform.position;
-        m_lr = GetComponent<LineRenderer>();
-        m_lr.positionCount = m_numberOfCities + 1;
+        
     }
     private void Start()
     {
-        var fitness = new TspFitness(m_numberOfCities, plane, robot);
+        List<Vector3> points = new List<Vector3>();
+
+        if (mode == Mode.Ordered)
+        {
+            Vector3 planeSize = plane.GetComponent<Renderer>().bounds.size;
+            Vector3 planePosition = plane.transform.position;
+            points = DiscretizePlane(planeSize, planePosition, disc_interval);
+            m_numberOfCities = points.Count;
+        }
+
+        m_lr = GetComponent<LineRenderer>();
+        m_lr.positionCount = m_numberOfCities + 1;
+
+        var fitness = new TspFitness(m_numberOfCities, plane, robot, mode.ToString(), points);
         var chromosome = new TspChromosome(m_numberOfCities);
 
         // This operators are classic genetic algorithm operators that lead to a good solution on TSP,
@@ -72,24 +90,38 @@ public class GAController : MonoBehaviour
             m_gaThread = new Thread(() => m_ga.Start());
             m_gaThread.Start();
             //StartCoroutine(LateStart(0f));
-            StartCoroutine(LateStart(0.2f));
-            
+            //StartCoroutine(LateStart(0.2f));
         }
 
         catch
         {
             ;
         }
-        
+        InvokeRepeating("IterateOverTime", .2f, .1f);
+        Invoke("CancelInvokeIteration", 15f);
 
     }
     IEnumerator LateStart(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
         DrawRoute();
-        m_isEnabled = true;
+        //m_isEnabled = true;
         target.transform.position = citiesGO[0].transform.position;
     }
+
+    void IterateOverTime()
+    {
+        DrawRoute();
+        
+    }
+
+    private void CancelInvokeIteration()
+    {
+        CancelInvoke("IterateOverTime");
+        target.transform.position = citiesGO[0].transform.position;
+        m_isEnabled = true;
+    }
+
     private void OnDestroy()
     {
         // When the script is destroyed we stop the genetic algorithm and abort its thread too.
@@ -102,7 +134,7 @@ public class GAController : MonoBehaviour
     {
         var cities = ((TspFitness)m_ga.Fitness).Cities;
 
-        for (int i = 0; i < m_numberOfCities; i++)
+        for (int i = 0; i < cities.Count; i++)
         {
             var city = cities[i];
             var go = Instantiate(CityPrefab, city.Position, Quaternion.identity) as GameObject;
@@ -173,6 +205,30 @@ public class GAController : MonoBehaviour
         }
     }
 
+    private List<Vector3> DiscretizePlane(Vector3 planeSize, Vector3 planePosition, int interval)
+    {
+        float planeWidth = planeSize.x;
+        float planeHeight = planeSize.z;
+        int widthDiscretization = Mathf.RoundToInt(planeWidth);
+        int heightDiscretization = Mathf.RoundToInt(planeHeight);
+
+        List<Vector3> points = new List<Vector3>();
+
+        for (int i = 0; i <= widthDiscretization; i += interval)
+        {
+            for (int j = 0; j <= heightDiscretization; j += interval)
+            {
+                float x = i - widthDiscretization / 2 + planePosition.x;
+                float z = j - heightDiscretization / 2 + planePosition.z;
+                Vector3 point = new Vector3(x, 2.08f, z);
+                points.Add(point);
+            }
+        }
+
+
+        return points;
+    }
+
     public void Reset()
     {
         Debug.ClearDeveloperConsole();
@@ -184,6 +240,7 @@ public class GAController : MonoBehaviour
     private void Update()
     {
         //DrawRoute();
+
         if (m_isEnabled)
         {
             if (order < m_numberOfCities)
@@ -206,5 +263,7 @@ public class GAController : MonoBehaviour
             }
         }
     }
+
+    
 
 }

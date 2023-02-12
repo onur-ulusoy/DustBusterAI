@@ -11,29 +11,52 @@ public class TspFitness : IFitness
 {
     //private Rect m_area;
     GameObject plane;
-    public TspFitness(int numberOfCities, GameObject plane, GameObject robot)
+    public TspFitness(int numberOfCities, GameObject plane, GameObject robot, string Mode, List<Vector3> points)
     {
         this.plane = plane;
-        Cities = new List<TspCity>(numberOfCities);
 
-        var size = Camera.main.orthographicSize - 1;
+
+        //var size = Camera.main.orthographicSize - 1;
         //m_area = new Rect(-size, -size, size * 2, size * 2);
 
-        for (int i = 0; i < numberOfCities; i++)
+        //for (int i = 0; i < numberOfCities; i++)
+        //{
+        //if (i == 0)
+        //{
+        //    var city = new TspCity { Position = robot.transform.position };
+        //    city.Order = 0;
+        //    Cities.Add(city);
+        //}
+
+        switch (Mode)
         {
-            if (i == 0)
-            {
-                var city = new TspCity { Position = robot.transform.position };
-                city.Order = 0;
-                Cities.Add(city);
-            }
-            else
-            {
-                var city = new TspCity { Position = GetCityRandomPosition() };
-                //Debug.Log(city.Position);
-                Cities.Add(city);
-            }
+            case "Random":
+                Cities = new List<TspCity>(numberOfCities);
+
+                for (int i = 0; i < numberOfCities; i++)
+                {
+                    var city = new TspCity { Position = GetCityRandomPosition() };
+                    //Debug.Log(city.Position);
+                    
+                    Cities.Add(city);
+                }
+
+                break;
+
+            case "Ordered":
+                //var city2 = new TspCity { Position = GetCityRandomPosition() };
+                //Cities.Add(city2);
+                
+                Cities = new List<TspCity>(points.Count);
+                InstantiateCities(points);
+                break;
+
+            default:
+                break;
         }
+
+
+
 
     }
 
@@ -106,5 +129,15 @@ public class TspFitness : IFitness
         float randomZ = UnityEngine.Random.Range(-planeHeight / 2, planeHeight / 2) + planePosition.z;
         return new Vector3(randomX, 2.08f, randomZ);
     }
+
+    private void InstantiateCities(List<Vector3> points)
+    {
+        for (int i = 0; i < points.Count; i++)
+        {
+            var city = new TspCity { Position = points[i] };
+            Cities.Add(city);
+        }
+    }
+
 
 }
