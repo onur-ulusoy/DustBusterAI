@@ -102,7 +102,7 @@ https://user-images.githubusercontent.com/95442568/218342408-01527365-9dfb-44d2-
 
 ## License
 
-All software and hardware designs created for the DustBusterAI project are released under the [MIT License](https://github.com/onurulusoy4/DustBusterAI/LICENSE). This includes the source code, CAD files, and any other materials created for the project. You are free to use, modify, and distribute this project for both commercial and non-commercial purposes. However, the authors of this project make no warranties or guarantees as to the reliability, suitability, or accuracy of the materials provided. Use at your own risk.
+All software and hardware designs created for the DustBusterAI project are released under the [MIT License](https://github.com/onurulusoy4/DustBusterAI/blob/master/LICENSE). This includes the source code, CAD files, and any other materials created for the project. You are free to use, modify, and distribute this project for both commercial and non-commercial purposes. However, the authors of this project make no warranties or guarantees as to the reliability, suitability, or accuracy of the materials provided. Use at your own risk.
 
 ## Conclusion
 The DustbusterAI project is an ambitious undertaking that aims to develop an autonomous robot capable of cleaning a room using path planning, decision making, and motion control algorithms. By leveraging the latest technologies and techniques in robotics, the project hopes to create a robot that can handle different room sizes and shapes, as well as different types of obstacles.
