@@ -33,13 +33,55 @@ public class GAController : MonoBehaviour
     [SerializeField]
     int disc_interval;
 
+    public Transform CityParent;
+
+    public GameObject Obstacles;
+
     private LineRenderer m_lr;
+
+    List<ObstacleManager> obsManagers;
     private void Awake()
     {
         target.transform.position = robot.transform.position;
         
     }
     private void Start()
+    {
+        
+
+        //Cities = DrawCities();
+        //FillObsManager();
+        Invoke("FillObsManager", .2f);
+        Invoke("LateStart", .3f);
+
+    }
+
+    void FillObsManager()
+    {
+        obsManagers = new List<ObstacleManager>();
+
+        foreach (var obsManager in Obstacles.GetComponentsInChildren<ObstacleManager>())
+        {
+            obsManagers.Add(obsManager);
+
+            //foreach (var item in obsManager.bounds)
+            //{
+            //    //print(item);
+            //}
+        }
+        obsManagers.RemoveAt(0);
+        print(obsManagers.Count);
+
+        foreach (var obsManager in obsManagers)
+        {
+            foreach (var bound in obsManager.bounds)
+            {
+                print(bound.ToString());
+            }
+            print("\n");
+        }
+    }
+    void LateStart()
     {
         List<Vector3> points = new List<Vector3>();
 
@@ -81,7 +123,6 @@ public class GAController : MonoBehaviour
             //Debug.Log($"Generation: {m_ga.GenerationsNumber} - Distance: ${distance}");
         };
 
-        //Cities = DrawCities();
         DrawCities();
 
         // Starts the genetic algorithm in a separate thread.
@@ -99,14 +140,9 @@ public class GAController : MonoBehaviour
         }
         InvokeRepeating("IterateOverTime", .2f, .1f);
         Invoke("CancelInvokeIteration", 15f);
-
-    }
-    IEnumerator LateStart(float waitTime)
-    {
-        yield return new WaitForSeconds(waitTime);
-        DrawRoute();
-        //m_isEnabled = true;
-        target.transform.position = citiesGO[0].transform.position;
+        //DrawRoute();
+        ////m_isEnabled = true;
+        //target.transform.position = citiesGO[0].transform.position;
     }
 
     void IterateOverTime()
@@ -138,6 +174,7 @@ public class GAController : MonoBehaviour
         {
             var city = cities[i];
             var go = Instantiate(CityPrefab, city.Position, Quaternion.identity) as GameObject;
+            go.transform.SetParent(CityParent);
             citiesGO.Add(go);
             go.GetComponent<CityController>().Data = city;
             city.go = go;
@@ -199,34 +236,71 @@ public class GAController : MonoBehaviour
             var firstCity = cities[(int)genes[0].Value];
             m_lr.SetPosition(m_numberOfCities, firstCity.Position);
 
-
-
-
         }
     }
 
     private List<Vector3> DiscretizePlane(Vector3 planeSize, Vector3 planePosition, int interval)
     {
+        bool inWall;
+
         float planeWidth = planeSize.x;
         float planeHeight = planeSize.z;
         int widthDiscretization = Mathf.RoundToInt(planeWidth);
         int heightDiscretization = Mathf.RoundToInt(planeHeight);
 
         List<Vector3> points = new List<Vector3>();
-
-        for (int i = 0; i <= widthDiscretization; i += interval)
+        
+        for (int i = 2; i <= widthDiscretization - 2; i += interval)
         {
-            for (int j = 0; j <= heightDiscretization; j += interval)
+            for (int j = 2; j <= heightDiscretization - 2; j += interval)
             {
                 float x = i - widthDiscretization / 2 + planePosition.x;
                 float z = j - heightDiscretization / 2 + planePosition.z;
-                Vector3 point = new Vector3(x, 2.08f, z);
-                points.Add(point);
+
+                //print(obsManagers.Count);
+                Vector2 point2D = new Vector2(x, z);
+                inWall = false;
+                foreach (var obsManager in obsManagers)
+                {
+
+                    if (IsPointInsideRectangle(obsManager.bounds, point2D))
+                    {
+                        inWall = true;
+                        break;
+                    }
+
+                }
+
+                if (!inWall)
+                {
+                    Vector3 point = new Vector3(x, 2.08f, z);
+                    points.Add(point);
+                }
             }
         }
 
 
         return points;
+    }
+
+    bool IsPointInsideRectangle(Vector2[] rectangleCorners, Vector2 point)
+    {
+        int j = rectangleCorners.Length - 1;
+        bool inside = false;
+        for (int i = 0; i < rectangleCorners.Length; i++)
+        {
+            if ((rectangleCorners[i].y < point.y && rectangleCorners[j].y >= point.y ||
+                rectangleCorners[j].y < point.y && rectangleCorners[i].y >= point.y) &&
+                (rectangleCorners[i].x <= point.x || rectangleCorners[j].x <= point.x))
+            {
+                inside ^= (rectangleCorners[i].x + (point.y - rectangleCorners[i].y) /
+                    (rectangleCorners[j].y - rectangleCorners[i].y) *
+                    (rectangleCorners[j].x - rectangleCorners[i].x) < point.x);
+            }
+            j = i;
+        }
+
+        return inside;
     }
 
     public void Reset()
