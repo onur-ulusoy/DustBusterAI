@@ -40,6 +40,11 @@ public class GAController : MonoBehaviour
     private LineRenderer m_lr;
 
     List<ObstacleManager> obsManagers;
+
+    [Header("AI")]
+    public DistanceCalculator dc;
+
+
     private void Awake()
     {
         target.transform.position = robot.transform.position;
@@ -47,13 +52,8 @@ public class GAController : MonoBehaviour
     }
     private void Start()
     {
-        
-
-        //Cities = DrawCities();
-        //FillObsManager();
         Invoke("FillObsManager", .2f);
         Invoke("LateStart", .3f);
-
     }
 
     void FillObsManager()
@@ -70,16 +70,16 @@ public class GAController : MonoBehaviour
             //}
         }
         obsManagers.RemoveAt(0);
-        print(obsManagers.Count);
+        //print(obsManagers.Count);
 
-        foreach (var obsManager in obsManagers)
-        {
-            foreach (var bound in obsManager.bounds)
-            {
-                print(bound.ToString());
-            }
-            print("\n");
-        }
+        //foreach (var obsManager in obsManagers)
+        //{
+        //    foreach (var bound in obsManager.bounds)
+        //    {
+        //        print(bound.ToString());
+        //    }
+        //    print("\n");
+        //}
     }
     void LateStart()
     {
@@ -96,7 +96,7 @@ public class GAController : MonoBehaviour
         m_lr = GetComponent<LineRenderer>();
         m_lr.positionCount = m_numberOfCities + 1;
 
-        var fitness = new TspFitness(m_numberOfCities, plane, robot, mode.ToString(), points);
+        var fitness = new TspFitness(m_numberOfCities, plane, robot, mode.ToString(), points, dc);
         var chromosome = new TspChromosome(m_numberOfCities);
 
         // This operators are classic genetic algorithm operators that lead to a good solution on TSP,
@@ -278,7 +278,6 @@ public class GAController : MonoBehaviour
                 }
             }
         }
-
 
         return points;
     }

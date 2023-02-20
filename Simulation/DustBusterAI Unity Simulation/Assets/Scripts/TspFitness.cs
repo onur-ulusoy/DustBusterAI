@@ -6,15 +6,21 @@ using GeneticSharp.Domain.Chromosomes;
 using GeneticSharp.Domain.Fitnesses;
 using GeneticSharp.Domain.Randomizations;
 using UnityEngine;
+using Pathfinding;
+using Pathfinding.Util;
+using UnityEngine.AI;
 
 public class TspFitness : IFitness
 {
     //private Rect m_area;
     GameObject plane;
-    public TspFitness(int numberOfCities, GameObject plane, GameObject robot, string Mode, List<Vector3> points)
+    [SerializeField] private float wallPenalty = 100f;
+    DistanceCalculator DisCalc;
+    public TspFitness(int numberOfCities, GameObject plane, GameObject robot, string Mode, List<Vector3> points, DistanceCalculator DisCalc)
     {
+        this.DisCalc = DisCalc;
+        //ai.position = new Vector3(0, 2.08f, 0);
         this.plane = plane;
-
 
         //var size = Camera.main.orthographicSize - 1;
         //m_area = new Rect(-size, -size, size * 2, size * 2);
@@ -102,6 +108,39 @@ public class TspFitness : IFitness
         return fitness;
     }
 
+    private double CalcDistanceTwoCities(TspCity one, TspCity two)
+    {
+        Vector3 startPos = one.Position;
+        Vector3 endPos = two.Position;
+        //discalc.startPos = startPos;
+        //discalc.endPos = endPos;
+
+        //discalc.Scan = true;
+
+
+        //float distance = discalc.GetDistance(startPos, endPos);
+        //float distance = discalc.dist;
+        //Debug.Log(startPos.ToString() + endPos + distance);
+
+
+        float distance = 2;
+        //return (double)distance;
+        //Debug.Log(robot.GetComponent<AIDestinationSetter>().ai.position);
+        //robot.GetComponent<AIDestinationSetter>().target.position = new Vector3(0, 0, 0);
+        //dummyRobot.position = one.Position;
+        //dummyTarget.position = two.Position;
+
+        DisCalc.one = one.Position;
+        DisCalc.two = two.Position;
+        DisCalc.Scan = true;
+
+        //while (DisCalc.Scan);
+
+
+
+        return Vector3.Distance(one.Position, two.Position);
+    }
+
     private Vector3 GetCityRandomPosition()
     {
         Vector3 pos = PickRandomPointOnPlane();
@@ -110,11 +149,6 @@ public class TspFitness : IFitness
         //    RandomizationProvider.Current.GetFloat(m_area.xMin, m_area.xMax + 1),
         //    2.08f,
         //    RandomizationProvider.Current.GetFloat(m_area.yMin, m_area.yMax + 1));
-    }
-
-    private static double CalcDistanceTwoCities(TspCity one, TspCity two)
-    {
-        return Vector3.Distance(one.Position, two.Position);
     }
 
     private Vector3 PickRandomPointOnPlane()
