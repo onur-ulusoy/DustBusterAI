@@ -9,6 +9,7 @@ using GeneticSharp.Infrastructure.Framework.Threading;
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
+using Pathfinding;
 
 public class GAController : MonoBehaviour
 {
@@ -43,12 +44,22 @@ public class GAController : MonoBehaviour
 
     [Header("AI")]
     public DistanceCalculator dc;
+    public AIPath ai;
+
+    public Transform dummyTarget;
+    public Transform dummyRobot;
 
 
     private void Awake()
     {
         target.transform.position = robot.transform.position;
-        
+
+        dummyRobot = GameObject.Find("dummyRobot").transform;
+        //dummyRobot.position = new Vector3(0, 2.08f, 0);
+
+        ai = dummyRobot.GetComponent<AIPath>();
+        dummyTarget = GameObject.Find("dummyTarget").transform;
+
     }
     private void Start()
     {
@@ -138,8 +149,10 @@ public class GAController : MonoBehaviour
         {
             ;
         }
+        //Invoke("IterateOverTime", .2f);
         InvokeRepeating("IterateOverTime", .2f, .1f);
         Invoke("CancelInvokeIteration", 15f);
+
         //DrawRoute();
         ////m_isEnabled = true;
         //target.transform.position = citiesGO[0].transform.position;
@@ -181,6 +194,46 @@ public class GAController : MonoBehaviour
             //go.GetComponentInChildren<TextMesh>().text = i.ToString();
             go.name = "City " + i;
         }
+
+        foreach (var city1 in cities)
+        {
+            foreach (var city2 in cities)
+            {
+                //AstarDistance(city1.Position, city2.Position);
+            }
+        }
+
+        for (int i = 0; i < cities.Count; i++)
+        {
+            for (int j = 0; j < cities.Count; j++)
+            {
+                StartCoroutine(AstarDistance(cities[i].Position, cities[j].Position, delay));
+                delay += 4;
+                //print(cities[i].Position.ToString()+ cities[j].Position.ToString());
+            }
+        }
+
+        //print(AstarDistance(cities[0].Position, cities[1].Position));
+
+    }
+    float delay = 4f;
+    IEnumerator AstarDistance(Vector3 start, Vector3 end, float time)
+    {
+        yield return new WaitForSeconds(time);
+        dummyRobot.position = start;
+        dummyTarget.position = end;
+        yield return new WaitForSeconds(.1f);
+        print(start.ToString() + end.ToString());
+        print(ai.remainingDistance);
+        //print(ai.remainingDistance);
+        //StartCoroutine(WriteCache(delay));
+    }
+
+    IEnumerator WriteCache(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        //Debug.Log("Finished Sleeping for " + seconds + " seconds");
+        print(ai.remainingDistance);
 
     }
 
@@ -313,7 +366,7 @@ public class GAController : MonoBehaviour
     private void Update()
     {
         //DrawRoute();
-
+        //print(ai.remainingDistance.ToString());
         if (m_isEnabled)
         {
             if (order < m_numberOfCities)

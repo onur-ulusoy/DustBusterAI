@@ -1,0 +1,4 @@
+﻿[*.cs]
+
+# CS0114: Üye devralınmış üyeyi gizler; geçersiz kılma anahtar sözcüğü eksik
+dotnet_diagnostic.CS0114.severity = silent

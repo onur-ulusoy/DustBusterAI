@@ -9,6 +9,7 @@ using UnityEngine;
 using Pathfinding;
 using Pathfinding.Util;
 using UnityEngine.AI;
+using System.Threading;
 
 public class TspFitness : IFitness
 {
@@ -61,9 +62,6 @@ public class TspFitness : IFitness
                 break;
         }
 
-
-
-
     }
 
     public IList<TspCity> Cities { get; private set; }
@@ -107,7 +105,6 @@ public class TspFitness : IFitness
 
         return fitness;
     }
-
     private double CalcDistanceTwoCities(TspCity one, TspCity two)
     {
         Vector3 startPos = one.Position;
@@ -123,20 +120,27 @@ public class TspFitness : IFitness
         //Debug.Log(startPos.ToString() + endPos + distance);
 
 
-        float distance = 2;
+        //float distance = 2;
         //return (double)distance;
         //Debug.Log(robot.GetComponent<AIDestinationSetter>().ai.position);
         //robot.GetComponent<AIDestinationSetter>().target.position = new Vector3(0, 0, 0);
         //dummyRobot.position = one.Position;
         //dummyTarget.position = two.Position;
 
-        DisCalc.one = one.Position;
-        DisCalc.two = two.Position;
-        DisCalc.Scan = true;
+        ////DisCalc.one = one.Position;
+        ////DisCalc.two = two.Position;
+        ////DisCalc.Scan = true;
+
 
         //while (DisCalc.Scan);
 
+        //Thread.Sleep(300);
+        //Debug.Log(DisCalc.dist+"*");
 
+        //Debug.Log(Vector3.Distance(one.Position, two.Position));
+        //return Vector3.Distance(one.Position, two.Position);
+        //Debug.Log(++count);
+        //Thread.Sleep(3000);
 
         return Vector3.Distance(one.Position, two.Position);
     }

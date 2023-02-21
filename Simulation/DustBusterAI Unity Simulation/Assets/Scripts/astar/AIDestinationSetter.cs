@@ -21,7 +21,6 @@ namespace Pathfinding
 		public IAstarAI ai;
 		private void Start()
 		{
-			target = GameObject.Find("tr").transform;
 			target.position = new Vector3(0, 0, 0);
 		}
 		void OnEnable()

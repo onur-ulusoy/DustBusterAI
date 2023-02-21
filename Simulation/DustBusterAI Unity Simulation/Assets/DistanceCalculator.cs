@@ -14,19 +14,25 @@ public class DistanceCalculator : MonoBehaviour
 
     public float dist = -1;
     public bool Scan = false;
-    IAstarAI ai;
+    public AIPath ai;
 
     private void Start()
     {
-        ai = dummyRobot.GetComponent<AIDestinationSetter>().ai;
+        dummyRobot.position = new Vector3 (0, 2.08f, 0);
+        //ai = dummyRobot.GetComponent<AIPath>();
+        //print(ai.remainingDistance);
+        dummyRobot = GameObject.Find("dummyRobot").transform;
+        ai = dummyRobot.GetComponent<AIPath>();
+        //print(ai.remainingDistance.ToString());
+        //print(ai.remainingDistance);
     }
     private void Update()
     {
-        if (!Scan)
+        if (Scan)
         {
             dummyRobot.position = one;
             dummyTarget.position = two;
-
+            //print(ai.remainingDistance.ToString());
 
             dist = ai.remainingDistance;
             //print(dist);
