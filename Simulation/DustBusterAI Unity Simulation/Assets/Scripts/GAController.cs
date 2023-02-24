@@ -13,7 +13,7 @@ using Pathfinding;
 using System.IO;
 using Newtonsoft.Json;
 using System;
-
+using System.Linq;
 
 public class GAController : MonoBehaviour
 {
@@ -259,7 +259,6 @@ public class GAController : MonoBehaviour
             File.WriteAllText(Application.dataPath + "/distance_data.json", json);
 
             fitness.ConvertJsonToDictionary();
-            print(fitness.distances["1-6"]);
             
         }
     }
@@ -295,7 +294,10 @@ public class GAController : MonoBehaviour
                 prevCity = city;
             }
 
-            var initialCity = cities[0];
+            CityFinder cityFinder = gameObject.AddComponent<CityFinder>(); // Create an instance of the CityFinder class
+            TspCity closestCity = cityFinder.FindClosestCity(target, cities);
+
+            var initialCity = closestCity;
             
             initialCity.Order = 0;
             initialCity.go.GetComponentInChildren<TextMesh>().text = initialCity.Order.ToString();
@@ -319,7 +321,6 @@ public class GAController : MonoBehaviour
 
         }
     }
-
     private List<Vector3> DiscretizePlane(Vector3 planeSize, Vector3 planePosition, int interval)
     {
         bool inWall;
@@ -422,3 +423,37 @@ public class GAController : MonoBehaviour
     
 
 }
+
+public class CityDistanceComparer : System.Collections.Generic.IComparer<TspCity>
+{
+    private Vector3 targetPosition;
+
+    public CityDistanceComparer(Vector3 targetPosition)
+    {
+        this.targetPosition = targetPosition;
+    }
+
+    public int Compare(TspCity city1, TspCity city2)
+    {
+        float distance1 = Vector3.Distance(city1.Position, targetPosition);
+        float distance2 = Vector3.Distance(city2.Position, targetPosition);
+        return distance1.CompareTo(distance2);
+    }
+}
+
+public class CityFinder : MonoBehaviour
+{
+
+    public TspCity FindClosestCity(GameObject target, IList<TspCity> cities)
+    {
+        Vector3 targetPosition = target.transform.position;
+        CityDistanceComparer comparer = new CityDistanceComparer(targetPosition);
+        var sortedCities = cities.OrderBy(city => city, comparer);
+
+        return sortedCities.First();
+    }
+
+}
+
+
+
