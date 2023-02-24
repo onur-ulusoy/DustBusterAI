@@ -4,22 +4,17 @@ using System.Globalization;
 using System.Linq;
 using GeneticSharp.Domain.Chromosomes;
 using GeneticSharp.Domain.Fitnesses;
-using GeneticSharp.Domain.Randomizations;
 using UnityEngine;
-using Pathfinding;
-using Pathfinding.Util;
-using UnityEngine.AI;
-using System.Threading;
+using Newtonsoft.Json;
+using System.IO;
 
 public class TspFitness : IFitness
 {
     //private Rect m_area;
     GameObject plane;
     [SerializeField] private float wallPenalty = 100f;
-    DistanceCalculator DisCalc;
-    public TspFitness(int numberOfCities, GameObject plane, GameObject robot, string Mode, List<Vector3> points, DistanceCalculator DisCalc)
+    public TspFitness(int numberOfCities, GameObject plane, GameObject robot, string Mode, List<Vector3> points)
     {
-        this.DisCalc = DisCalc;
         //ai.position = new Vector3(0, 2.08f, 0);
         this.plane = plane;
 
@@ -107,8 +102,8 @@ public class TspFitness : IFitness
     }
     private double CalcDistanceTwoCities(TspCity one, TspCity two)
     {
-        Vector3 startPos = one.Position;
-        Vector3 endPos = two.Position;
+        //Vector3 startPos = one.Position;
+        //Vector3 endPos = two.Position;
         //discalc.startPos = startPos;
         //discalc.endPos = endPos;
 
@@ -142,8 +137,47 @@ public class TspFitness : IFitness
         //Debug.Log(++count);
         //Thread.Sleep(3000);
 
-        return Vector3.Distance(one.Position, two.Position);
+        return GetDistance(one.Number, two.Number);
     }
+    public class SaveData
+    {
+        public string Cache;
+        public double Distance;
+    }
+
+    public Dictionary<string, double> distances = new Dictionary<string, double>();
+    public void ConvertJsonToDictionary()
+    {
+        string json = File.ReadAllText("C:/Users/onuru/OneDrive/Desktop/DustBusterAI/Simulation/DustBusterAI Unity Simulation/Assets/distance_data.json");
+
+        var dict = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
+        var result = new Dictionary<string, double>();
+        foreach (var item in dict)
+        {
+            string cache = (string)item["Cache"];
+            double distance = (double)item["Distance"];
+            result[cache] = distance;
+        }
+        distances = result;
+    }
+
+    public double GetDistance(int order1, int order2)
+    {
+        string cache = $"{order1}-{order2}";
+        if (distances.ContainsKey(cache))
+        {
+            double distance = distances[cache];
+            //Debug.Log(order1+" "+order2+":"+distance);
+            return distance;
+        }
+        else
+        {
+            //Debug.Log(distances.ToString());
+            //Debug.Assert(false);
+            return 0.0;
+        }
+    }
+
 
     private Vector3 GetCityRandomPosition()
     {

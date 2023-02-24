@@ -1179,7 +1179,6 @@ GameObject:
   m_Component:
   - component: {fileID: 175307860}
   - component: {fileID: 175307861}
-  - component: {fileID: 175307862}
   m_Layer: 0
   m_Name: Simulation Controller
   m_TagString: Untagged
@@ -1217,25 +1216,6 @@ MonoBehaviour:
   go: {fileID: 6101429995132481219, guid: 45242fa4251ecdc4ebe93123f84a3335, type: 3}
   direct: 0
   issueGUOs: 1
---- !u!114 &175307862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 175307858}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 995c7e6592eed2c44bb90ef576b7ffc1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dummyTarget: {fileID: 1047096812}
-  dummyRobot: {fileID: 594375595}
-  one: {x: 0, y: 0, z: 0}
-  two: {x: 0, y: 0, z: 0}
-  dist: 0
-  Scan: 0
-  ai: {fileID: 0}
 --- !u!1 &182229434
 GameObject:
   m_ObjectHideFlags: 0
@@ -7318,13 +7298,13 @@ MonoBehaviour:
   robot: {fileID: 780306338}
   plane: {fileID: 362563967}
   mode: 1
-  disc_interval: 12
+  disc_interval: 11
   CityParent: {fileID: 593840484}
   Obstacles: {fileID: 375683099}
-  dc: {fileID: 175307862}
   ai: {fileID: 0}
   dummyTarget: {fileID: 0}
   dummyRobot: {fileID: 0}
+  overallDistance: 0
 --- !u!4 &1272324767
 Transform:
   m_ObjectHideFlags: 0
@@ -8846,7 +8826,7 @@ Transform:
   m_GameObject: {fileID: 1650009364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 24.3, y: 31.751497, z: -34.96}
-  m_LocalScale: {x: 9.717372, y: 3.2031999, z: 9.805864}
+  m_LocalScale: {x: 8.311899, y: 2.7399049, z: 8.387592}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 426930718}

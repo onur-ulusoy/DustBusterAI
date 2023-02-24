@@ -10,6 +10,10 @@ using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
 using Pathfinding;
+using System.IO;
+using Newtonsoft.Json;
+using System;
+
 
 public class GAController : MonoBehaviour
 {
@@ -17,7 +21,7 @@ public class GAController : MonoBehaviour
     private Thread m_gaThread;
 
     public int m_numberOfCities = 20;
-    public Object CityPrefab;
+    public UnityEngine.Object CityPrefab;
 
     //private System.Collections.Generic.IList<TspCity> Cities;
     public List<GameObject> citiesGO;
@@ -43,7 +47,6 @@ public class GAController : MonoBehaviour
     List<ObstacleManager> obsManagers;
 
     [Header("AI")]
-    public DistanceCalculator dc;
     public AIPath ai;
 
     public Transform dummyTarget;
@@ -92,6 +95,8 @@ public class GAController : MonoBehaviour
         //    print("\n");
         //}
     }
+
+    TspFitness fitness;
     void LateStart()
     {
         List<Vector3> points = new List<Vector3>();
@@ -107,7 +112,7 @@ public class GAController : MonoBehaviour
         m_lr = GetComponent<LineRenderer>();
         m_lr.positionCount = m_numberOfCities + 1;
 
-        var fitness = new TspFitness(m_numberOfCities, plane, robot, mode.ToString(), points, dc);
+        fitness = new TspFitness(m_numberOfCities, plane, robot, mode.ToString(), points);
         var chromosome = new TspChromosome(m_numberOfCities);
 
         // This operators are classic genetic algorithm operators that lead to a good solution on TSP,
@@ -150,8 +155,8 @@ public class GAController : MonoBehaviour
             ;
         }
         //Invoke("IterateOverTime", .2f);
-        InvokeRepeating("IterateOverTime", .2f, .1f);
-        Invoke("CancelInvokeIteration", 15f);
+        InvokeRepeating("IterateOverTime", 30f, .1f);
+        Invoke("CancelInvokeIteration", 50f);
 
         //DrawRoute();
         ////m_isEnabled = true;
@@ -193,49 +198,72 @@ public class GAController : MonoBehaviour
             city.go = go;
             //go.GetComponentInChildren<TextMesh>().text = i.ToString();
             go.name = "City " + i;
-        }
-
-        foreach (var city1 in cities)
-        {
-            foreach (var city2 in cities)
-            {
-                //AstarDistance(city1.Position, city2.Position);
-            }
+            city.Number = i;
         }
 
         for (int i = 0; i < cities.Count; i++)
         {
             for (int j = 0; j < cities.Count; j++)
             {
-                StartCoroutine(AstarDistance(cities[i].Position, cities[j].Position, delay));
-                delay += 4;
+                StartCoroutine(AstarDistance(cities[i], cities[j], delay));
+                delay += .1f/2;
                 //print(cities[i].Position.ToString()+ cities[j].Position.ToString());
             }
         }
-
         //print(AstarDistance(cities[0].Position, cities[1].Position));
 
     }
-    float delay = 4f;
-    IEnumerator AstarDistance(Vector3 start, Vector3 end, float time)
+    float delay = 2f;
+    public float overallDistance = 0;
+
+    IEnumerator AstarDistance(TspCity city1, TspCity city2, float time)
     {
+        Vector3 start = city1.Position;
+        Vector3 end = city2.Position;
+
+        int order1 = city1.Number;
+        int order2 = city2.Number;
+
         yield return new WaitForSeconds(time);
         dummyRobot.position = start;
         dummyTarget.position = end;
-        yield return new WaitForSeconds(.1f);
-        print(start.ToString() + end.ToString());
-        print(ai.remainingDistance);
+        yield return new WaitForSeconds(.1f/2/2);
+        //print(start.ToString() + end.ToString());
         //print(ai.remainingDistance);
-        //StartCoroutine(WriteCache(delay));
+        WriteCache(order1, order2, ai.remainingDistance);
+
+        overallDistance += ai.remainingDistance;
     }
 
-    IEnumerator WriteCache(float seconds)
+    public class SaveData
     {
-        yield return new WaitForSeconds(seconds);
-        //Debug.Log("Finished Sleeping for " + seconds + " seconds");
-        print(ai.remainingDistance);
-
+        public string Cache;
+        public double Distance;
     }
+
+
+    private List<SaveData> data = new List<SaveData>();
+    void WriteCache(int Number1, int Number2, float distance)
+    {
+        string cache = $"{Number1}-{Number2}";
+        double roundedDistance = Math.Round(distance, 3);
+        data.Add(new SaveData { Cache = cache, Distance = roundedDistance });
+
+        if (Number1 == citiesGO.Count - 1 && Number2 == citiesGO.Count - 1)
+        {
+            var jsonSettings = new JsonSerializerSettings
+            {
+                Formatting = Formatting.Indented
+            };
+            string json = JsonConvert.SerializeObject(data, jsonSettings);
+            File.WriteAllText(Application.dataPath + "/distance_data.json", json);
+
+            fitness.ConvertJsonToDictionary();
+            print(fitness.distances["1-6"]);
+            
+        }
+    }
+
 
     TspCity prevCity;
     List<TspCity> orderedCities;
@@ -365,6 +393,7 @@ public class GAController : MonoBehaviour
     int order = 0;
     private void Update()
     {
+        //ReadDistance(1, 5);
         //DrawRoute();
         //print(ai.remainingDistance.ToString());
         if (m_isEnabled)
