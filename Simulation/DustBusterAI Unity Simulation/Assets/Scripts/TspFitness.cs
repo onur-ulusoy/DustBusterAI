@@ -102,41 +102,6 @@ public class TspFitness : IFitness
     }
     private double CalcDistanceTwoCities(TspCity one, TspCity two)
     {
-        //Vector3 startPos = one.Position;
-        //Vector3 endPos = two.Position;
-        //discalc.startPos = startPos;
-        //discalc.endPos = endPos;
-
-        //discalc.Scan = true;
-
-
-        //float distance = discalc.GetDistance(startPos, endPos);
-        //float distance = discalc.dist;
-        //Debug.Log(startPos.ToString() + endPos + distance);
-
-
-        //float distance = 2;
-        //return (double)distance;
-        //Debug.Log(robot.GetComponent<AIDestinationSetter>().ai.position);
-        //robot.GetComponent<AIDestinationSetter>().target.position = new Vector3(0, 0, 0);
-        //dummyRobot.position = one.Position;
-        //dummyTarget.position = two.Position;
-
-        ////DisCalc.one = one.Position;
-        ////DisCalc.two = two.Position;
-        ////DisCalc.Scan = true;
-
-
-        //while (DisCalc.Scan);
-
-        //Thread.Sleep(300);
-        //Debug.Log(DisCalc.dist+"*");
-
-        //Debug.Log(Vector3.Distance(one.Position, two.Position));
-        //return Vector3.Distance(one.Position, two.Position);
-        //Debug.Log(++count);
-        //Thread.Sleep(3000);
-
         return GetDistance(one.Number, two.Number);
     }
     public class SaveData

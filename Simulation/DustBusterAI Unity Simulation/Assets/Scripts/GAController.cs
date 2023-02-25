@@ -14,13 +14,14 @@ using System.IO;
 using Newtonsoft.Json;
 using System;
 using System.Linq;
+using Path = Pathfinding.Path;
 
 public class GAController : MonoBehaviour
 {
     private GeneticAlgorithm m_ga;
     private Thread m_gaThread;
 
-    public int m_numberOfCities = 20;
+    public int m_numberOfCities;
     public UnityEngine.Object CityPrefab;
 
     //private System.Collections.Generic.IList<TspCity> Cities;
@@ -49,19 +50,19 @@ public class GAController : MonoBehaviour
     [Header("AI")]
     public AIPath ai;
 
-    public Transform dummyTarget;
-    public Transform dummyRobot;
+    //public Transform dummyTarget;
+    //public Transform dummyRobot;
 
 
     private void Awake()
     {
         target.transform.position = robot.transform.position;
 
-        dummyRobot = GameObject.Find("dummyRobot").transform;
+        //dummyRobot = GameObject.Find("dummyRobot").transform;
         //dummyRobot.position = new Vector3(0, 2.08f, 0);
 
-        ai = dummyRobot.GetComponent<AIPath>();
-        dummyTarget = GameObject.Find("dummyTarget").transform;
+        //ai = dummyRobot.GetComponent<AIPath>();
+        //dummyTarget = GameObject.Find("dummyTarget").transform;
 
     }
     private void Start()
@@ -97,6 +98,8 @@ public class GAController : MonoBehaviour
     }
 
     TspFitness fitness;
+
+    [Obsolete]
     void LateStart()
     {
         List<Vector3> points = new List<Vector3>();
@@ -123,7 +126,7 @@ public class GAController : MonoBehaviour
         var population = new Population(50, 100, chromosome);
 
         m_ga = new GeneticAlgorithm(population, fitness, selection, crossover, mutation);
-        m_ga.Termination = new TimeEvolvingTermination(System.TimeSpan.FromHours(1));
+        m_ga.Termination = new TimeEvolvingTermination(System.TimeSpan.FromHours(60));
 
         // The fitness evaluation of whole population will be running on parallel.
         m_ga.TaskExecutor = new ParallelTaskExecutor
@@ -155,8 +158,7 @@ public class GAController : MonoBehaviour
             ;
         }
         //Invoke("IterateOverTime", .2f);
-        InvokeRepeating("IterateOverTime", 30f, .1f);
-        Invoke("CancelInvokeIteration", 50f);
+        
 
         //DrawRoute();
         ////m_isEnabled = true;
@@ -172,7 +174,7 @@ public class GAController : MonoBehaviour
     private void CancelInvokeIteration()
     {
         CancelInvoke("IterateOverTime");
-        target.transform.position = citiesGO[0].transform.position;
+        target.transform.position = initialCity.Position;
         m_isEnabled = true;
     }
 
@@ -183,10 +185,11 @@ public class GAController : MonoBehaviour
         m_gaThread.Abort();
     }
 
-
+    IList<TspCity> cities;
+    [Obsolete]
     void DrawCities()
     {
-        var cities = ((TspFitness)m_ga.Fitness).Cities;
+        cities = ((TspFitness)m_ga.Fitness).Cities;
 
         for (int i = 0; i < cities.Count; i++)
         {
@@ -206,33 +209,66 @@ public class GAController : MonoBehaviour
             for (int j = 0; j < cities.Count; j++)
             {
                 StartCoroutine(AstarDistance(cities[i], cities[j], delay));
-                delay += .1f/2;
+                //delay += .005f;
                 //print(cities[i].Position.ToString()+ cities[j].Position.ToString());
             }
         }
         //print(AstarDistance(cities[0].Position, cities[1].Position));
 
     }
-    float delay = 2f;
+    float delay = 0f;
     public float overallDistance = 0;
 
+    [Obsolete]
     IEnumerator AstarDistance(TspCity city1, TspCity city2, float time)
     {
+        yield return new WaitForSeconds(time);
+
         Vector3 start = city1.Position;
         Vector3 end = city2.Position;
 
+        // Find the nearest node to the start and end points
+        NNInfo startNNInfo = AstarPath.active.GetNearest(start);
+        NNInfo endNNInfo = AstarPath.active.GetNearest(end);
+
+        // Get the node position from the NNInfo objects
+        Vector3 startNodePos = startNNInfo.clampedPosition;
+        Vector3 endNodePos = endNNInfo.clampedPosition;
+
+        // Get the nodes from the positions
+        GraphNode startNode = AstarPath.active.GetNearest(startNodePos).node;
+        GraphNode endNode = AstarPath.active.GetNearest(endNodePos).node;
+
+        // Get the path between the nodes
+        Path path = ABPath.Construct(startNodePos, endNodePos, null);
+        AstarPath.StartPath(path);
+
+        // Wait for the path to be calculated
+        yield return StartCoroutine(path.WaitForPath());
+
+        // Check if the path is valid
+        if (path.error)
+        {
+            Debug.LogError("Error calculating path: " + path.errorLog);
+            yield break;
+        }
+
+        // Get the length of the path
+        float pathLength = 0f;
+        Vector3 previousPosition = startNodePos;
+        for (int i = 0; i < path.vectorPath.Count; i++)
+        {
+            Vector3 currentPosition = path.vectorPath[i];
+            pathLength += Vector3.Distance(previousPosition, currentPosition);
+            previousPosition = currentPosition;
+        }
+
+        // Write the distance to the cache
         int order1 = city1.Number;
         int order2 = city2.Number;
-
-        yield return new WaitForSeconds(time);
-        dummyRobot.position = start;
-        dummyTarget.position = end;
-        yield return new WaitForSeconds(.1f/2/2);
-        //print(start.ToString() + end.ToString());
-        //print(ai.remainingDistance);
-        WriteCache(order1, order2, ai.remainingDistance);
-
-        overallDistance += ai.remainingDistance;
+        WriteCache(order1, order2, pathLength);
+        overallDistance += pathLength;
+        print(pathLength);
     }
 
     public class SaveData
@@ -259,12 +295,14 @@ public class GAController : MonoBehaviour
             File.WriteAllText(Application.dataPath + "/distance_data.json", json);
 
             fitness.ConvertJsonToDictionary();
-            
+            InvokeRepeating("IterateOverTime", .1f, .1f);
+            Invoke("CancelInvokeIteration", 240f);
         }
     }
 
 
     TspCity prevCity;
+    TspCity initialCity;
     List<TspCity> orderedCities;
     public void DrawRoute()
     {
@@ -297,7 +335,7 @@ public class GAController : MonoBehaviour
             CityFinder cityFinder = gameObject.AddComponent<CityFinder>(); // Create an instance of the CityFinder class
             TspCity closestCity = cityFinder.FindClosestCity(target, cities);
 
-            var initialCity = closestCity;
+            initialCity = closestCity;
             
             initialCity.Order = 0;
             initialCity.go.GetComponentInChildren<TextMesh>().text = initialCity.Order.ToString();
