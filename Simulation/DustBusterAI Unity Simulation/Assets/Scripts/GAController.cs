@@ -98,6 +98,7 @@ public class GAController : MonoBehaviour
     }
 
     TspFitness fitness;
+    double distance;
 
     [Obsolete]
     void LateStart()
@@ -123,10 +124,10 @@ public class GAController : MonoBehaviour
         var crossover = new OrderedCrossover();
         var mutation = new ReverseSequenceMutation();
         var selection = new RouletteWheelSelection();
-        var population = new Population(50, 100, chromosome);
-
+        var population = new Population(m_numberOfCities, m_numberOfCities, chromosome);
+        
         m_ga = new GeneticAlgorithm(population, fitness, selection, crossover, mutation);
-        m_ga.Termination = new TimeEvolvingTermination(System.TimeSpan.FromHours(60));
+        m_ga.Termination = new TimeEvolvingTermination(System.TimeSpan.FromHours(terminationTime+15)/3600);
 
         // The fitness evaluation of whole population will be running on parallel.
         m_ga.TaskExecutor = new ParallelTaskExecutor
@@ -135,20 +136,25 @@ public class GAController : MonoBehaviour
             MaxThreads = 200
         };
 
+        DrawCities();
+
         // Everty time a generation ends, we log the best solution.
         m_ga.GenerationRan += delegate
         {
-            var distance = ((TspChromosome)m_ga.BestChromosome).Distance;
-            //Debug.Log($"Generation: {m_ga.GenerationsNumber} - Distance: ${distance}");
-        };
 
-        DrawCities();
+            distance = ((TspChromosome)m_ga.BestChromosome).Distance;
+            Debug.Log($"Generation: {m_ga.GenerationsNumber} - Distance: ${distance}");
+
+
+        };
 
         // Starts the genetic algorithm in a separate thread.
         try
         {
             m_gaThread = new Thread(() => m_ga.Start());
             m_gaThread.Start();
+            
+            
             //StartCoroutine(LateStart(0f));
             //StartCoroutine(LateStart(0.2f));
         }
@@ -158,18 +164,22 @@ public class GAController : MonoBehaviour
             ;
         }
         //Invoke("IterateOverTime", .2f);
-        
+
 
         //DrawRoute();
         ////m_isEnabled = true;
         //target.transform.position = citiesGO[0].transform.position;
     }
 
+    //static TspChromosome cs;
     void IterateOverTime()
     {
+        //cs = m_ga.Population.CurrentGeneration.BestChromosome as TspChromosome;
+
+        //Debug.Log("Iteration: " + (++iterationCounter));
         DrawRoute();
-        
     }
+
 
     private void CancelInvokeIteration()
     {
@@ -279,6 +289,8 @@ public class GAController : MonoBehaviour
 
 
     private List<SaveData> data = new List<SaveData>();
+
+    public float terminationTime = 120;
     void WriteCache(int Number1, int Number2, float distance)
     {
         string cache = $"{Number1}-{Number2}";
@@ -296,10 +308,9 @@ public class GAController : MonoBehaviour
 
             fitness.ConvertJsonToDictionary();
             InvokeRepeating("IterateOverTime", .1f, .1f);
-            Invoke("CancelInvokeIteration", 240f);
+            Invoke("CancelInvokeIteration", terminationTime);
         }
     }
-
 
     TspCity prevCity;
     TspCity initialCity;
@@ -396,11 +407,13 @@ public class GAController : MonoBehaviour
                     Vector3 point = new Vector3(x, 2.08f, z);
                     points.Add(point);
                 }
+
             }
         }
 
         return points;
     }
+
 
     bool IsPointInsideRectangle(Vector2[] rectangleCorners, Vector2 point)
     {
@@ -422,6 +435,8 @@ public class GAController : MonoBehaviour
         return inside;
     }
 
+
+
     public void Reset()
     {
         Debug.ClearDeveloperConsole();
@@ -432,6 +447,10 @@ public class GAController : MonoBehaviour
     int order = 0;
     private void Update()
     {
+        if (distance < 600 && distance > 2)
+        {
+            DrawRoute();
+        }
         //ReadDistance(1, 5);
         //DrawRoute();
         //print(ai.remainingDistance.ToString());
