@@ -57,7 +57,6 @@ public class GAController : MonoBehaviour
     private void Awake()
     {
         target.transform.position = robot.transform.position;
-
         //dummyRobot = GameObject.Find("dummyRobot").transform;
         //dummyRobot.position = new Vector3(0, 2.08f, 0);
 
@@ -127,7 +126,7 @@ public class GAController : MonoBehaviour
         var population = new Population(m_numberOfCities, m_numberOfCities, chromosome);
         
         m_ga = new GeneticAlgorithm(population, fitness, selection, crossover, mutation);
-        m_ga.Termination = new TimeEvolvingTermination(System.TimeSpan.FromHours(terminationTime+15)/3600);
+        m_ga.Termination = new TimeEvolvingTermination(System.TimeSpan.FromHours(60));
 
         // The fitness evaluation of whole population will be running on parallel.
         m_ga.TaskExecutor = new ParallelTaskExecutor
@@ -290,7 +289,7 @@ public class GAController : MonoBehaviour
 
     private List<SaveData> data = new List<SaveData>();
 
-    public float terminationTime = 120;
+    public float terminationTime = 5;
     void WriteCache(int Number1, int Number2, float distance)
     {
         string cache = $"{Number1}-{Number2}";
@@ -307,6 +306,8 @@ public class GAController : MonoBehaviour
             File.WriteAllText(Application.dataPath + "/distance_data.json", json);
 
             fitness.ConvertJsonToDictionary();
+            print("*");
+
             InvokeRepeating("IterateOverTime", .1f, .1f);
             Invoke("CancelInvokeIteration", terminationTime);
         }
@@ -370,6 +371,7 @@ public class GAController : MonoBehaviour
 
         }
     }
+
     private List<Vector3> DiscretizePlane(Vector3 planeSize, Vector3 planePosition, int interval)
     {
         bool inWall;
@@ -381,9 +383,9 @@ public class GAController : MonoBehaviour
 
         List<Vector3> points = new List<Vector3>();
         
-        for (int i = 2; i <= widthDiscretization - 2; i += interval)
+        for (int i = 3; i <= widthDiscretization - 2; i += interval)
         {
-            for (int j = 2; j <= heightDiscretization - 2; j += interval)
+            for (int j = 3; j <= heightDiscretization - 2; j += interval)
             {
                 float x = i - widthDiscretization / 2 + planePosition.x;
                 float z = j - heightDiscretization / 2 + planePosition.z;
@@ -413,8 +415,6 @@ public class GAController : MonoBehaviour
 
         return points;
     }
-
-
     bool IsPointInsideRectangle(Vector2[] rectangleCorners, Vector2 point)
     {
         int j = rectangleCorners.Length - 1;
@@ -436,7 +436,6 @@ public class GAController : MonoBehaviour
     }
 
 
-
     public void Reset()
     {
         Debug.ClearDeveloperConsole();
@@ -447,18 +446,15 @@ public class GAController : MonoBehaviour
     int order = 0;
     private void Update()
     {
-        if (distance < 600 && distance > 2)
-        {
-            DrawRoute();
-        }
         //ReadDistance(1, 5);
         //DrawRoute();
         //print(ai.remainingDistance.ToString());
+
         if (m_isEnabled)
         {
             if (order < m_numberOfCities)
             {
-                if (Mathf.Abs(robot.transform.position.x - target.transform.position.x) < 0.1 && Mathf.Abs(robot.transform.position.z - target.transform.position.z) < 0.1)
+                if (Mathf.Abs(robot.transform.position.x - target.transform.position.x) < 4 && Mathf.Abs(robot.transform.position.z - target.transform.position.z) < 4)
                 {
                     try {
                         orderedCities[order].go.GetComponentInChildren<TextMesh>().color = Color.green;
