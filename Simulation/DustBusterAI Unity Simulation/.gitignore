@@ -32,3 +32,6 @@ Thumbs.db
 *.userprej
 *.unityproj
 
+# Packages documentations
+*.html
+*.pdf
