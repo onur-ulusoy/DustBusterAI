@@ -219,6 +219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d66346ed52c30c48b42f23c54550beb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gacontroller: {fileID: 0}
 --- !u!222 &7879829383773190083
 CanvasRenderer:
   m_ObjectHideFlags: 0

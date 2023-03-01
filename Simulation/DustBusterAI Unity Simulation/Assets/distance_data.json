@@ -1,0 +1,10002 @@
+[
+  {
+    "Cache": "0-0",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "0-1",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "0-2",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "0-3",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "0-4",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "0-5",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "0-6",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "0-7",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "0-8",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "0-9",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "0-10",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "0-11",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "0-12",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "0-13",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "0-14",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "0-15",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "0-16",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "0-17",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "0-18",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "0-19",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "0-20",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "0-21",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "0-22",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "0-23",
+    "Distance": 42.666
+  },
+  {
+    "Cache": "0-24",
+    "Distance": 49.666
+  },
+  {
+    "Cache": "0-25",
+    "Distance": 56.666
+  },
+  {
+    "Cache": "0-26",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "0-27",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "0-28",
+    "Distance": 32.322
+  },
+  {
+    "Cache": "0-29",
+    "Distance": 52.151
+  },
+  {
+    "Cache": "0-30",
+    "Distance": 59.151
+  },
+  {
+    "Cache": "0-31",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "0-32",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "0-33",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "0-34",
+    "Distance": 56.808
+  },
+  {
+    "Cache": "0-35",
+    "Distance": 62.05
+  },
+  {
+    "Cache": "0-36",
+    "Distance": 74.03
+  },
+  {
+    "Cache": "0-37",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "0-38",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "0-39",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "0-40",
+    "Distance": 55.05
+  },
+  {
+    "Cache": "0-41",
+    "Distance": 80.615
+  },
+  {
+    "Cache": "0-42",
+    "Distance": 81.03
+  },
+  {
+    "Cache": "0-43",
+    "Distance": 49.251
+  },
+  {
+    "Cache": "0-44",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "0-45",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "0-46",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "0-47",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "0-48",
+    "Distance": 83.373
+  },
+  {
+    "Cache": "0-49",
+    "Distance": 88.03
+  },
+  {
+    "Cache": "1-0",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "1-1",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "1-2",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "1-3",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "1-4",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "1-5",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "1-6",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "1-7",
+    "Distance": 13.373
+  },
+  {
+    "Cache": "1-8",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "1-9",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "1-10",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "1-11",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "1-12",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "1-13",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "1-14",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "1-15",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "1-16",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "1-17",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "1-18",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "1-19",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "1-20",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "1-21",
+    "Distance": 34.787
+  },
+  {
+    "Cache": "1-22",
+    "Distance": 41.787
+  },
+  {
+    "Cache": "1-23",
+    "Distance": 48.787
+  },
+  {
+    "Cache": "1-24",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "1-25",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "1-26",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "1-27",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "1-28",
+    "Distance": 38.444
+  },
+  {
+    "Cache": "1-29",
+    "Distance": 58.272
+  },
+  {
+    "Cache": "1-30",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "1-31",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "1-32",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "1-33",
+    "Distance": 44.272
+  },
+  {
+    "Cache": "1-34",
+    "Distance": 62.929
+  },
+  {
+    "Cache": "1-35",
+    "Distance": 68.172
+  },
+  {
+    "Cache": "1-36",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "1-37",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "1-38",
+    "Distance": 51.272
+  },
+  {
+    "Cache": "1-39",
+    "Distance": 54.172
+  },
+  {
+    "Cache": "1-40",
+    "Distance": 61.172
+  },
+  {
+    "Cache": "1-41",
+    "Distance": 73.615
+  },
+  {
+    "Cache": "1-42",
+    "Distance": 74.03
+  },
+  {
+    "Cache": "1-43",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "1-44",
+    "Distance": 61.494
+  },
+  {
+    "Cache": "1-45",
+    "Distance": 68.494
+  },
+  {
+    "Cache": "1-46",
+    "Distance": 75.494
+  },
+  {
+    "Cache": "1-47",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "1-48",
+    "Distance": 80.615
+  },
+  {
+    "Cache": "1-49",
+    "Distance": 81.03
+  },
+  {
+    "Cache": "2-0",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "2-1",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "2-2",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "2-3",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "2-4",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "2-5",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "2-6",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "2-7",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "2-8",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "2-9",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "2-10",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "2-11",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "2-12",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "2-13",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "2-14",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "2-15",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "2-16",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "2-17",
+    "Distance": 21.515
+  },
+  {
+    "Cache": "2-18",
+    "Distance": 28.515
+  },
+  {
+    "Cache": "2-19",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "2-20",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "2-21",
+    "Distance": 41.787
+  },
+  {
+    "Cache": "2-22",
+    "Distance": 48.787
+  },
+  {
+    "Cache": "2-23",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "2-24",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "2-25",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "2-26",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "2-27",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "2-28",
+    "Distance": 45.444
+  },
+  {
+    "Cache": "2-29",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "2-30",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "2-31",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "2-32",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "2-33",
+    "Distance": 51.272
+  },
+  {
+    "Cache": "2-34",
+    "Distance": 69.929
+  },
+  {
+    "Cache": "2-35",
+    "Distance": 75.172
+  },
+  {
+    "Cache": "2-36",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "2-37",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "2-38",
+    "Distance": 58.272
+  },
+  {
+    "Cache": "2-39",
+    "Distance": 61.172
+  },
+  {
+    "Cache": "2-40",
+    "Distance": 68.172
+  },
+  {
+    "Cache": "2-41",
+    "Distance": 66.615
+  },
+  {
+    "Cache": "2-42",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "2-43",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "2-44",
+    "Distance": 68.494
+  },
+  {
+    "Cache": "2-45",
+    "Distance": 75.494
+  },
+  {
+    "Cache": "2-46",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "2-47",
+    "Distance": 76.515
+  },
+  {
+    "Cache": "2-48",
+    "Distance": 73.615
+  },
+  {
+    "Cache": "2-49",
+    "Distance": 74.03
+  },
+  {
+    "Cache": "3-0",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "3-1",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "3-2",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "3-3",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "3-4",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "3-5",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "3-6",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "3-7",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "3-8",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "3-9",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "3-10",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "3-11",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "3-12",
+    "Distance": 25.03
+  },
+  {
+    "Cache": "3-13",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "3-14",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "3-15",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "3-16",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "3-17",
+    "Distance": 18.615
+  },
+  {
+    "Cache": "3-18",
+    "Distance": 21.515
+  },
+  {
+    "Cache": "3-19",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "3-20",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "3-21",
+    "Distance": 48.787
+  },
+  {
+    "Cache": "3-22",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "3-23",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "3-24",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "3-25",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "3-26",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "3-27",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "3-28",
+    "Distance": 52.444
+  },
+  {
+    "Cache": "3-29",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "3-30",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "3-31",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "3-32",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "3-33",
+    "Distance": 58.272
+  },
+  {
+    "Cache": "3-34",
+    "Distance": 76.929
+  },
+  {
+    "Cache": "3-35",
+    "Distance": 82.172
+  },
+  {
+    "Cache": "3-36",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "3-37",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "3-38",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "3-39",
+    "Distance": 68.172
+  },
+  {
+    "Cache": "3-40",
+    "Distance": 75.172
+  },
+  {
+    "Cache": "3-41",
+    "Distance": 59.615
+  },
+  {
+    "Cache": "3-42",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "3-43",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "3-44",
+    "Distance": 75.494
+  },
+  {
+    "Cache": "3-45",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "3-46",
+    "Distance": 76.222
+  },
+  {
+    "Cache": "3-47",
+    "Distance": 69.515
+  },
+  {
+    "Cache": "3-48",
+    "Distance": 66.615
+  },
+  {
+    "Cache": "3-49",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "4-0",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "4-1",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "4-2",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "4-3",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "4-4",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "4-5",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "4-6",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "4-7",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "4-8",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "4-9",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "4-10",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "4-11",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "4-12",
+    "Distance": 18.03
+  },
+  {
+    "Cache": "4-13",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "4-14",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "4-15",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "4-16",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "4-17",
+    "Distance": 15.494
+  },
+  {
+    "Cache": "4-18",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "4-19",
+    "Distance": 25.03
+  },
+  {
+    "Cache": "4-20",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "4-21",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "4-22",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "4-23",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "4-24",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "4-25",
+    "Distance": 83.787
+  },
+  {
+    "Cache": "4-26",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "4-27",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "4-28",
+    "Distance": 59.444
+  },
+  {
+    "Cache": "4-29",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "4-30",
+    "Distance": 86.272
+  },
+  {
+    "Cache": "4-31",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "4-32",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "4-33",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "4-34",
+    "Distance": 83.929
+  },
+  {
+    "Cache": "4-35",
+    "Distance": 89.172
+  },
+  {
+    "Cache": "4-36",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "4-37",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "4-38",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "4-39",
+    "Distance": 75.172
+  },
+  {
+    "Cache": "4-40",
+    "Distance": 82.172
+  },
+  {
+    "Cache": "4-41",
+    "Distance": 52.615
+  },
+  {
+    "Cache": "4-42",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "4-43",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "4-44",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "4-45",
+    "Distance": 76.222
+  },
+  {
+    "Cache": "4-46",
+    "Distance": 69.222
+  },
+  {
+    "Cache": "4-47",
+    "Distance": 62.515
+  },
+  {
+    "Cache": "4-48",
+    "Distance": 59.615
+  },
+  {
+    "Cache": "4-49",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "5-0",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "5-1",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "5-2",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "5-3",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "5-4",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "5-5",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "5-6",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "5-7",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "5-8",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "5-9",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "5-10",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "5-11",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "5-12",
+    "Distance": 11.03
+  },
+  {
+    "Cache": "5-13",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "5-14",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "5-15",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "5-16",
+    "Distance": 23.565
+  },
+  {
+    "Cache": "5-17",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "5-18",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "5-19",
+    "Distance": 18.03
+  },
+  {
+    "Cache": "5-20",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "5-21",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "5-22",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "5-23",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "5-24",
+    "Distance": 83.787
+  },
+  {
+    "Cache": "5-25",
+    "Distance": 90.787
+  },
+  {
+    "Cache": "5-26",
+    "Distance": 25.03
+  },
+  {
+    "Cache": "5-27",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "5-28",
+    "Distance": 66.444
+  },
+  {
+    "Cache": "5-29",
+    "Distance": 86.272
+  },
+  {
+    "Cache": "5-30",
+    "Distance": 93.272
+  },
+  {
+    "Cache": "5-31",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "5-32",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "5-33",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "5-34",
+    "Distance": 90.929
+  },
+  {
+    "Cache": "5-35",
+    "Distance": 96.172
+  },
+  {
+    "Cache": "5-36",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "5-37",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "5-38",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "5-39",
+    "Distance": 82.172
+  },
+  {
+    "Cache": "5-40",
+    "Distance": 89.172
+  },
+  {
+    "Cache": "5-41",
+    "Distance": 45.615
+  },
+  {
+    "Cache": "5-42",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "5-43",
+    "Distance": 83.222
+  },
+  {
+    "Cache": "5-44",
+    "Distance": 76.222
+  },
+  {
+    "Cache": "5-45",
+    "Distance": 69.222
+  },
+  {
+    "Cache": "5-46",
+    "Distance": 62.222
+  },
+  {
+    "Cache": "5-47",
+    "Distance": 55.515
+  },
+  {
+    "Cache": "5-48",
+    "Distance": 52.615
+  },
+  {
+    "Cache": "5-49",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "6-0",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "6-1",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "6-2",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "6-3",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "6-4",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "6-5",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "6-6",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "6-7",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "6-8",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "6-9",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "6-10",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "6-11",
+    "Distance": 12.494
+  },
+  {
+    "Cache": "6-12",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "6-13",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "6-14",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "6-15",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "6-16",
+    "Distance": 28.808
+  },
+  {
+    "Cache": "6-17",
+    "Distance": 22.394
+  },
+  {
+    "Cache": "6-18",
+    "Distance": 19.494
+  },
+  {
+    "Cache": "6-19",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "6-20",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "6-21",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "6-22",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "6-23",
+    "Distance": 83.787
+  },
+  {
+    "Cache": "6-24",
+    "Distance": 90.787
+  },
+  {
+    "Cache": "6-25",
+    "Distance": 97.787
+  },
+  {
+    "Cache": "6-26",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "6-27",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "6-28",
+    "Distance": 73.444
+  },
+  {
+    "Cache": "6-29",
+    "Distance": 93.272
+  },
+  {
+    "Cache": "6-30",
+    "Distance": 100.272
+  },
+  {
+    "Cache": "6-31",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "6-32",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "6-33",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "6-34",
+    "Distance": 97.929
+  },
+  {
+    "Cache": "6-35",
+    "Distance": 103.172
+  },
+  {
+    "Cache": "6-36",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "6-37",
+    "Distance": 83.373
+  },
+  {
+    "Cache": "6-38",
+    "Distance": 86.272
+  },
+  {
+    "Cache": "6-39",
+    "Distance": 89.172
+  },
+  {
+    "Cache": "6-40",
+    "Distance": 96.172
+  },
+  {
+    "Cache": "6-41",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "6-42",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "6-43",
+    "Distance": 82.757
+  },
+  {
+    "Cache": "6-44",
+    "Distance": 75.757
+  },
+  {
+    "Cache": "6-45",
+    "Distance": 68.757
+  },
+  {
+    "Cache": "6-46",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "6-47",
+    "Distance": 55.05
+  },
+  {
+    "Cache": "6-48",
+    "Distance": 52.151
+  },
+  {
+    "Cache": "6-49",
+    "Distance": 49.251
+  },
+  {
+    "Cache": "7-0",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "7-1",
+    "Distance": 13.373
+  },
+  {
+    "Cache": "7-2",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "7-3",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "7-4",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "7-5",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "7-6",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "7-7",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "7-8",
+    "Distance": 15.444
+  },
+  {
+    "Cache": "7-9",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "7-10",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "7-11",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "7-12",
+    "Distance": 51.322
+  },
+  {
+    "Cache": "7-13",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "7-14",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "7-15",
+    "Distance": 25.343
+  },
+  {
+    "Cache": "7-16",
+    "Distance": 32.343
+  },
+  {
+    "Cache": "7-17",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "7-18",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "7-19",
+    "Distance": 58.322
+  },
+  {
+    "Cache": "7-20",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "7-21",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "7-22",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "7-23",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "7-24",
+    "Distance": 42.666
+  },
+  {
+    "Cache": "7-25",
+    "Distance": 49.666
+  },
+  {
+    "Cache": "7-26",
+    "Distance": 65.322
+  },
+  {
+    "Cache": "7-27",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "7-28",
+    "Distance": 25.322
+  },
+  {
+    "Cache": "7-29",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "7-30",
+    "Distance": 52.151
+  },
+  {
+    "Cache": "7-31",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "7-32",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "7-33",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "7-34",
+    "Distance": 49.808
+  },
+  {
+    "Cache": "7-35",
+    "Distance": 55.05
+  },
+  {
+    "Cache": "7-36",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "7-37",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "7-38",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "7-39",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "7-40",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "7-41",
+    "Distance": 78.444
+  },
+  {
+    "Cache": "7-42",
+    "Distance": 85.444
+  },
+  {
+    "Cache": "7-43",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "7-44",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "7-45",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "7-46",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "7-47",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "7-48",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "7-49",
+    "Distance": 83.373
+  },
+  {
+    "Cache": "8-0",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "8-1",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "8-2",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "8-3",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "8-4",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "8-5",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "8-6",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "8-7",
+    "Distance": 15.444
+  },
+  {
+    "Cache": "8-8",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "8-9",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "8-10",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "8-11",
+    "Distance": 29.494
+  },
+  {
+    "Cache": "8-12",
+    "Distance": 41.101
+  },
+  {
+    "Cache": "8-13",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "8-14",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "8-15",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "8-16",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "8-17",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "8-18",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "8-19",
+    "Distance": 48.101
+  },
+  {
+    "Cache": "8-20",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "8-21",
+    "Distance": 36.858
+  },
+  {
+    "Cache": "8-22",
+    "Distance": 43.858
+  },
+  {
+    "Cache": "8-23",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "8-24",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "8-25",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "8-26",
+    "Distance": 55.101
+  },
+  {
+    "Cache": "8-27",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "8-28",
+    "Distance": 40.515
+  },
+  {
+    "Cache": "8-29",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "8-30",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "8-31",
+    "Distance": 62.101
+  },
+  {
+    "Cache": "8-32",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "8-33",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "8-34",
+    "Distance": 65.0
+  },
+  {
+    "Cache": "8-35",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "8-36",
+    "Distance": 69.101
+  },
+  {
+    "Cache": "8-37",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "8-38",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "8-39",
+    "Distance": 56.243
+  },
+  {
+    "Cache": "8-40",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "8-41",
+    "Distance": 75.686
+  },
+  {
+    "Cache": "8-42",
+    "Distance": 76.101
+  },
+  {
+    "Cache": "8-43",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "8-44",
+    "Distance": 63.565
+  },
+  {
+    "Cache": "8-45",
+    "Distance": 70.565
+  },
+  {
+    "Cache": "8-46",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "8-47",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "8-48",
+    "Distance": 82.686
+  },
+  {
+    "Cache": "8-49",
+    "Distance": 83.101
+  },
+  {
+    "Cache": "9-0",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "9-1",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "9-2",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "9-3",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "9-4",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "9-5",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "9-6",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "9-7",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "9-8",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "9-9",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "9-10",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "9-11",
+    "Distance": 22.494
+  },
+  {
+    "Cache": "9-12",
+    "Distance": 34.101
+  },
+  {
+    "Cache": "9-13",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "9-14",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "9-15",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "9-16",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "9-17",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "9-18",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "9-19",
+    "Distance": 41.101
+  },
+  {
+    "Cache": "9-20",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "9-21",
+    "Distance": 43.858
+  },
+  {
+    "Cache": "9-22",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "9-23",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "9-24",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "9-25",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "9-26",
+    "Distance": 48.101
+  },
+  {
+    "Cache": "9-27",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "9-28",
+    "Distance": 47.515
+  },
+  {
+    "Cache": "9-29",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "9-30",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "9-31",
+    "Distance": 55.101
+  },
+  {
+    "Cache": "9-32",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "9-33",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "9-34",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "9-35",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "9-36",
+    "Distance": 62.101
+  },
+  {
+    "Cache": "9-37",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "9-38",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "9-39",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "9-40",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "9-41",
+    "Distance": 68.686
+  },
+  {
+    "Cache": "9-42",
+    "Distance": 69.101
+  },
+  {
+    "Cache": "9-43",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "9-44",
+    "Distance": 70.565
+  },
+  {
+    "Cache": "9-45",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "9-46",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "9-47",
+    "Distance": 78.586
+  },
+  {
+    "Cache": "9-48",
+    "Distance": 75.686
+  },
+  {
+    "Cache": "9-49",
+    "Distance": 76.101
+  },
+  {
+    "Cache": "10-0",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "10-1",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "10-2",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "10-3",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "10-4",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "10-5",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "10-6",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "10-7",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "10-8",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "10-9",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "10-10",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "10-11",
+    "Distance": 15.494
+  },
+  {
+    "Cache": "10-12",
+    "Distance": 27.101
+  },
+  {
+    "Cache": "10-13",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "10-14",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "10-15",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "10-16",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "10-17",
+    "Distance": 11.615
+  },
+  {
+    "Cache": "10-18",
+    "Distance": 18.615
+  },
+  {
+    "Cache": "10-19",
+    "Distance": 34.101
+  },
+  {
+    "Cache": "10-20",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "10-21",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "10-22",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "10-23",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "10-24",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "10-25",
+    "Distance": 78.858
+  },
+  {
+    "Cache": "10-26",
+    "Distance": 41.101
+  },
+  {
+    "Cache": "10-27",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "10-28",
+    "Distance": 54.515
+  },
+  {
+    "Cache": "10-29",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "10-30",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "10-31",
+    "Distance": 48.101
+  },
+  {
+    "Cache": "10-32",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "10-33",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "10-34",
+    "Distance": 79.0
+  },
+  {
+    "Cache": "10-35",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "10-36",
+    "Distance": 55.101
+  },
+  {
+    "Cache": "10-37",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "10-38",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "10-39",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "10-40",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "10-41",
+    "Distance": 61.686
+  },
+  {
+    "Cache": "10-42",
+    "Distance": 62.101
+  },
+  {
+    "Cache": "10-43",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "10-44",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "10-45",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "10-46",
+    "Distance": 78.293
+  },
+  {
+    "Cache": "10-47",
+    "Distance": 71.586
+  },
+  {
+    "Cache": "10-48",
+    "Distance": 68.686
+  },
+  {
+    "Cache": "10-49",
+    "Distance": 69.101
+  },
+  {
+    "Cache": "11-0",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "11-1",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "11-2",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "11-3",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "11-4",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "11-5",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "11-6",
+    "Distance": 12.494
+  },
+  {
+    "Cache": "11-7",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "11-8",
+    "Distance": 29.494
+  },
+  {
+    "Cache": "11-9",
+    "Distance": 22.494
+  },
+  {
+    "Cache": "11-10",
+    "Distance": 15.494
+  },
+  {
+    "Cache": "11-11",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "11-12",
+    "Distance": 15.444
+  },
+  {
+    "Cache": "11-13",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "11-14",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "11-15",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "11-16",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "11-17",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "11-18",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "11-19",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "11-20",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "11-21",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "11-22",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "11-23",
+    "Distance": 78.858
+  },
+  {
+    "Cache": "11-24",
+    "Distance": 85.858
+  },
+  {
+    "Cache": "11-25",
+    "Distance": 92.858
+  },
+  {
+    "Cache": "11-26",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "11-27",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "11-28",
+    "Distance": 68.515
+  },
+  {
+    "Cache": "11-29",
+    "Distance": 88.343
+  },
+  {
+    "Cache": "11-30",
+    "Distance": 95.343
+  },
+  {
+    "Cache": "11-31",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "11-32",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "11-33",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "11-34",
+    "Distance": 93.0
+  },
+  {
+    "Cache": "11-35",
+    "Distance": 98.243
+  },
+  {
+    "Cache": "11-36",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "11-37",
+    "Distance": 78.444
+  },
+  {
+    "Cache": "11-38",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "11-39",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "11-40",
+    "Distance": 91.243
+  },
+  {
+    "Cache": "11-41",
+    "Distance": 50.03
+  },
+  {
+    "Cache": "11-42",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "11-43",
+    "Distance": 85.444
+  },
+  {
+    "Cache": "11-44",
+    "Distance": 80.636
+  },
+  {
+    "Cache": "11-45",
+    "Distance": 73.636
+  },
+  {
+    "Cache": "11-46",
+    "Distance": 66.636
+  },
+  {
+    "Cache": "11-47",
+    "Distance": 59.929
+  },
+  {
+    "Cache": "11-48",
+    "Distance": 57.03
+  },
+  {
+    "Cache": "11-49",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "12-0",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "12-1",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "12-2",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "12-3",
+    "Distance": 25.03
+  },
+  {
+    "Cache": "12-4",
+    "Distance": 18.03
+  },
+  {
+    "Cache": "12-5",
+    "Distance": 11.03
+  },
+  {
+    "Cache": "12-6",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "12-7",
+    "Distance": 51.322
+  },
+  {
+    "Cache": "12-8",
+    "Distance": 41.101
+  },
+  {
+    "Cache": "12-9",
+    "Distance": 34.101
+  },
+  {
+    "Cache": "12-10",
+    "Distance": 27.101
+  },
+  {
+    "Cache": "12-11",
+    "Distance": 15.444
+  },
+  {
+    "Cache": "12-12",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "12-13",
+    "Distance": 58.322
+  },
+  {
+    "Cache": "12-14",
+    "Distance": 44.0
+  },
+  {
+    "Cache": "12-15",
+    "Distance": 37.0
+  },
+  {
+    "Cache": "12-16",
+    "Distance": 31.757
+  },
+  {
+    "Cache": "12-17",
+    "Distance": 25.343
+  },
+  {
+    "Cache": "12-18",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "12-19",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "12-20",
+    "Distance": 65.322
+  },
+  {
+    "Cache": "12-21",
+    "Distance": 72.737
+  },
+  {
+    "Cache": "12-22",
+    "Distance": 79.737
+  },
+  {
+    "Cache": "12-23",
+    "Distance": 86.737
+  },
+  {
+    "Cache": "12-24",
+    "Distance": 93.737
+  },
+  {
+    "Cache": "12-25",
+    "Distance": 100.737
+  },
+  {
+    "Cache": "12-26",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "12-27",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "12-28",
+    "Distance": 76.394
+  },
+  {
+    "Cache": "12-29",
+    "Distance": 96.222
+  },
+  {
+    "Cache": "12-30",
+    "Distance": 103.222
+  },
+  {
+    "Cache": "12-31",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "12-32",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "12-33",
+    "Distance": 82.222
+  },
+  {
+    "Cache": "12-34",
+    "Distance": 100.879
+  },
+  {
+    "Cache": "12-35",
+    "Distance": 106.121
+  },
+  {
+    "Cache": "12-36",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "12-37",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "12-38",
+    "Distance": 89.222
+  },
+  {
+    "Cache": "12-39",
+    "Distance": 92.121
+  },
+  {
+    "Cache": "12-40",
+    "Distance": 99.121
+  },
+  {
+    "Cache": "12-41",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "12-42",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "12-43",
+    "Distance": 75.757
+  },
+  {
+    "Cache": "12-44",
+    "Distance": 68.757
+  },
+  {
+    "Cache": "12-45",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "12-46",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "12-47",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "12-48",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "12-49",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "13-0",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "13-1",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "13-2",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "13-3",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "13-4",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "13-5",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "13-6",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "13-7",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "13-8",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "13-9",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "13-10",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "13-11",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "13-12",
+    "Distance": 58.322
+  },
+  {
+    "Cache": "13-13",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "13-14",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "13-15",
+    "Distance": 32.343
+  },
+  {
+    "Cache": "13-16",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "13-17",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "13-18",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "13-19",
+    "Distance": 65.322
+  },
+  {
+    "Cache": "13-20",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "13-21",
+    "Distance": 14.666
+  },
+  {
+    "Cache": "13-22",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "13-23",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "13-24",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "13-25",
+    "Distance": 42.666
+  },
+  {
+    "Cache": "13-26",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "13-27",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "13-28",
+    "Distance": 18.322
+  },
+  {
+    "Cache": "13-29",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "13-30",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "13-31",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "13-32",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "13-33",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "13-34",
+    "Distance": 42.808
+  },
+  {
+    "Cache": "13-35",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "13-36",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "13-37",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "13-38",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "13-39",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "13-40",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "13-41",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "13-42",
+    "Distance": 78.444
+  },
+  {
+    "Cache": "13-43",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "13-44",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "13-45",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "13-46",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "13-47",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "13-48",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "13-49",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "14-0",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "14-1",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "14-2",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "14-3",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "14-4",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "14-5",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "14-6",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "14-7",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "14-8",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "14-9",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "14-10",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "14-11",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "14-12",
+    "Distance": 44.0
+  },
+  {
+    "Cache": "14-13",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "14-14",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "14-15",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "14-16",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "14-17",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "14-18",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "14-19",
+    "Distance": 51.0
+  },
+  {
+    "Cache": "14-20",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "14-21",
+    "Distance": 43.858
+  },
+  {
+    "Cache": "14-22",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "14-23",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "14-24",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "14-25",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "14-26",
+    "Distance": 58.0
+  },
+  {
+    "Cache": "14-27",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "14-28",
+    "Distance": 47.515
+  },
+  {
+    "Cache": "14-29",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "14-30",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "14-31",
+    "Distance": 65.0
+  },
+  {
+    "Cache": "14-32",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "14-33",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "14-34",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "14-35",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "14-36",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "14-37",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "14-38",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "14-39",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "14-40",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "14-41",
+    "Distance": 78.586
+  },
+  {
+    "Cache": "14-42",
+    "Distance": 79.0
+  },
+  {
+    "Cache": "14-43",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "14-44",
+    "Distance": 70.565
+  },
+  {
+    "Cache": "14-45",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "14-46",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "14-47",
+    "Distance": 88.485
+  },
+  {
+    "Cache": "14-48",
+    "Distance": 85.586
+  },
+  {
+    "Cache": "14-49",
+    "Distance": 86.0
+  },
+  {
+    "Cache": "15-0",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "15-1",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "15-2",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "15-3",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "15-4",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "15-5",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "15-6",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "15-7",
+    "Distance": 25.343
+  },
+  {
+    "Cache": "15-8",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "15-9",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "15-10",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "15-11",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "15-12",
+    "Distance": 37.0
+  },
+  {
+    "Cache": "15-13",
+    "Distance": 32.343
+  },
+  {
+    "Cache": "15-14",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "15-15",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "15-16",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "15-17",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "15-18",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "15-19",
+    "Distance": 44.0
+  },
+  {
+    "Cache": "15-20",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "15-21",
+    "Distance": 46.757
+  },
+  {
+    "Cache": "15-22",
+    "Distance": 53.757
+  },
+  {
+    "Cache": "15-23",
+    "Distance": 60.757
+  },
+  {
+    "Cache": "15-24",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "15-25",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "15-26",
+    "Distance": 51.0
+  },
+  {
+    "Cache": "15-27",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "15-28",
+    "Distance": 50.414
+  },
+  {
+    "Cache": "15-29",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "15-30",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "15-31",
+    "Distance": 58.0
+  },
+  {
+    "Cache": "15-32",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "15-33",
+    "Distance": 56.243
+  },
+  {
+    "Cache": "15-34",
+    "Distance": 74.9
+  },
+  {
+    "Cache": "15-35",
+    "Distance": 80.142
+  },
+  {
+    "Cache": "15-36",
+    "Distance": 65.0
+  },
+  {
+    "Cache": "15-37",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "15-38",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "15-39",
+    "Distance": 66.142
+  },
+  {
+    "Cache": "15-40",
+    "Distance": 73.142
+  },
+  {
+    "Cache": "15-41",
+    "Distance": 71.586
+  },
+  {
+    "Cache": "15-42",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "15-43",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "15-44",
+    "Distance": 73.465
+  },
+  {
+    "Cache": "15-45",
+    "Distance": 80.465
+  },
+  {
+    "Cache": "15-46",
+    "Distance": 87.465
+  },
+  {
+    "Cache": "15-47",
+    "Distance": 81.485
+  },
+  {
+    "Cache": "15-48",
+    "Distance": 78.586
+  },
+  {
+    "Cache": "15-49",
+    "Distance": 79.0
+  },
+  {
+    "Cache": "16-0",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "16-1",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "16-2",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "16-3",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "16-4",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "16-5",
+    "Distance": 23.565
+  },
+  {
+    "Cache": "16-6",
+    "Distance": 28.808
+  },
+  {
+    "Cache": "16-7",
+    "Distance": 32.343
+  },
+  {
+    "Cache": "16-8",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "16-9",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "16-10",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "16-11",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "16-12",
+    "Distance": 31.757
+  },
+  {
+    "Cache": "16-13",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "16-14",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "16-15",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "16-16",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "16-17",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "16-18",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "16-19",
+    "Distance": 38.757
+  },
+  {
+    "Cache": "16-20",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "16-21",
+    "Distance": 53.757
+  },
+  {
+    "Cache": "16-22",
+    "Distance": 60.757
+  },
+  {
+    "Cache": "16-23",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "16-24",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "16-25",
+    "Distance": 81.757
+  },
+  {
+    "Cache": "16-26",
+    "Distance": 45.757
+  },
+  {
+    "Cache": "16-27",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "16-28",
+    "Distance": 57.414
+  },
+  {
+    "Cache": "16-29",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "16-30",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "16-31",
+    "Distance": 52.757
+  },
+  {
+    "Cache": "16-32",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "16-33",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "16-34",
+    "Distance": 81.9
+  },
+  {
+    "Cache": "16-35",
+    "Distance": 87.142
+  },
+  {
+    "Cache": "16-36",
+    "Distance": 59.757
+  },
+  {
+    "Cache": "16-37",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "16-38",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "16-39",
+    "Distance": 73.142
+  },
+  {
+    "Cache": "16-40",
+    "Distance": 80.142
+  },
+  {
+    "Cache": "16-41",
+    "Distance": 66.343
+  },
+  {
+    "Cache": "16-42",
+    "Distance": 66.757
+  },
+  {
+    "Cache": "16-43",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "16-44",
+    "Distance": 80.465
+  },
+  {
+    "Cache": "16-45",
+    "Distance": 87.465
+  },
+  {
+    "Cache": "16-46",
+    "Distance": 82.95
+  },
+  {
+    "Cache": "16-47",
+    "Distance": 76.243
+  },
+  {
+    "Cache": "16-48",
+    "Distance": 73.343
+  },
+  {
+    "Cache": "16-49",
+    "Distance": 73.757
+  },
+  {
+    "Cache": "17-0",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "17-1",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "17-2",
+    "Distance": 21.515
+  },
+  {
+    "Cache": "17-3",
+    "Distance": 18.615
+  },
+  {
+    "Cache": "17-4",
+    "Distance": 15.494
+  },
+  {
+    "Cache": "17-5",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "17-6",
+    "Distance": 22.394
+  },
+  {
+    "Cache": "17-7",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "17-8",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "17-9",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "17-10",
+    "Distance": 11.615
+  },
+  {
+    "Cache": "17-11",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "17-12",
+    "Distance": 25.343
+  },
+  {
+    "Cache": "17-13",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "17-14",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "17-15",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "17-16",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "17-17",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "17-18",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "17-19",
+    "Distance": 32.343
+  },
+  {
+    "Cache": "17-20",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "17-21",
+    "Distance": 60.757
+  },
+  {
+    "Cache": "17-22",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "17-23",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "17-24",
+    "Distance": 81.757
+  },
+  {
+    "Cache": "17-25",
+    "Distance": 88.757
+  },
+  {
+    "Cache": "17-26",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "17-27",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "17-28",
+    "Distance": 64.414
+  },
+  {
+    "Cache": "17-29",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "17-30",
+    "Distance": 91.243
+  },
+  {
+    "Cache": "17-31",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "17-32",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "17-33",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "17-34",
+    "Distance": 88.9
+  },
+  {
+    "Cache": "17-35",
+    "Distance": 94.142
+  },
+  {
+    "Cache": "17-36",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "17-37",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "17-38",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "17-39",
+    "Distance": 80.142
+  },
+  {
+    "Cache": "17-40",
+    "Distance": 87.142
+  },
+  {
+    "Cache": "17-41",
+    "Distance": 59.929
+  },
+  {
+    "Cache": "17-42",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "17-43",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "17-44",
+    "Distance": 87.465
+  },
+  {
+    "Cache": "17-45",
+    "Distance": 83.536
+  },
+  {
+    "Cache": "17-46",
+    "Distance": 76.536
+  },
+  {
+    "Cache": "17-47",
+    "Distance": 69.829
+  },
+  {
+    "Cache": "17-48",
+    "Distance": 66.929
+  },
+  {
+    "Cache": "17-49",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "18-0",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "18-1",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "18-2",
+    "Distance": 28.515
+  },
+  {
+    "Cache": "18-3",
+    "Distance": 21.515
+  },
+  {
+    "Cache": "18-4",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "18-5",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "18-6",
+    "Distance": 19.494
+  },
+  {
+    "Cache": "18-7",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "18-8",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "18-9",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "18-10",
+    "Distance": 18.615
+  },
+  {
+    "Cache": "18-11",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "18-12",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "18-13",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "18-14",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "18-15",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "18-16",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "18-17",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "18-18",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "18-19",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "18-20",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "18-21",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "18-22",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "18-23",
+    "Distance": 81.757
+  },
+  {
+    "Cache": "18-24",
+    "Distance": 88.757
+  },
+  {
+    "Cache": "18-25",
+    "Distance": 95.757
+  },
+  {
+    "Cache": "18-26",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "18-27",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "18-28",
+    "Distance": 71.414
+  },
+  {
+    "Cache": "18-29",
+    "Distance": 91.243
+  },
+  {
+    "Cache": "18-30",
+    "Distance": 98.243
+  },
+  {
+    "Cache": "18-31",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "18-32",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "18-33",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "18-34",
+    "Distance": 95.9
+  },
+  {
+    "Cache": "18-35",
+    "Distance": 101.142
+  },
+  {
+    "Cache": "18-36",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "18-37",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "18-38",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "18-39",
+    "Distance": 87.142
+  },
+  {
+    "Cache": "18-40",
+    "Distance": 94.142
+  },
+  {
+    "Cache": "18-41",
+    "Distance": 57.03
+  },
+  {
+    "Cache": "18-42",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "18-43",
+    "Distance": 88.343
+  },
+  {
+    "Cache": "18-44",
+    "Distance": 87.636
+  },
+  {
+    "Cache": "18-45",
+    "Distance": 80.636
+  },
+  {
+    "Cache": "18-46",
+    "Distance": 73.636
+  },
+  {
+    "Cache": "18-47",
+    "Distance": 66.929
+  },
+  {
+    "Cache": "18-48",
+    "Distance": 64.03
+  },
+  {
+    "Cache": "18-49",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "19-0",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "19-1",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "19-2",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "19-3",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "19-4",
+    "Distance": 25.03
+  },
+  {
+    "Cache": "19-5",
+    "Distance": 18.03
+  },
+  {
+    "Cache": "19-6",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "19-7",
+    "Distance": 58.322
+  },
+  {
+    "Cache": "19-8",
+    "Distance": 48.101
+  },
+  {
+    "Cache": "19-9",
+    "Distance": 41.101
+  },
+  {
+    "Cache": "19-10",
+    "Distance": 34.101
+  },
+  {
+    "Cache": "19-11",
+    "Distance": 22.444
+  },
+  {
+    "Cache": "19-12",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "19-13",
+    "Distance": 65.322
+  },
+  {
+    "Cache": "19-14",
+    "Distance": 51.0
+  },
+  {
+    "Cache": "19-15",
+    "Distance": 44.0
+  },
+  {
+    "Cache": "19-16",
+    "Distance": 38.757
+  },
+  {
+    "Cache": "19-17",
+    "Distance": 32.343
+  },
+  {
+    "Cache": "19-18",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "19-19",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "19-20",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "19-21",
+    "Distance": 79.737
+  },
+  {
+    "Cache": "19-22",
+    "Distance": 86.737
+  },
+  {
+    "Cache": "19-23",
+    "Distance": 93.737
+  },
+  {
+    "Cache": "19-24",
+    "Distance": 100.737
+  },
+  {
+    "Cache": "19-25",
+    "Distance": 107.737
+  },
+  {
+    "Cache": "19-26",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "19-27",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "19-28",
+    "Distance": 83.394
+  },
+  {
+    "Cache": "19-29",
+    "Distance": 103.222
+  },
+  {
+    "Cache": "19-30",
+    "Distance": 110.222
+  },
+  {
+    "Cache": "19-31",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "19-32",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "19-33",
+    "Distance": 89.222
+  },
+  {
+    "Cache": "19-34",
+    "Distance": 107.879
+  },
+  {
+    "Cache": "19-35",
+    "Distance": 113.121
+  },
+  {
+    "Cache": "19-36",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "19-37",
+    "Distance": 74.05
+  },
+  {
+    "Cache": "19-38",
+    "Distance": 96.222
+  },
+  {
+    "Cache": "19-39",
+    "Distance": 99.121
+  },
+  {
+    "Cache": "19-40",
+    "Distance": 106.121
+  },
+  {
+    "Cache": "19-41",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "19-42",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "19-43",
+    "Distance": 68.757
+  },
+  {
+    "Cache": "19-44",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "19-45",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "19-46",
+    "Distance": 47.757
+  },
+  {
+    "Cache": "19-47",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "19-48",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "19-49",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "20-0",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "20-1",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "20-2",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "20-3",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "20-4",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "20-5",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "20-6",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "20-7",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "20-8",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "20-9",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "20-10",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "20-11",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "20-12",
+    "Distance": 65.322
+  },
+  {
+    "Cache": "20-13",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "20-14",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "20-15",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "20-16",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "20-17",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "20-18",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "20-19",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "20-20",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "20-21",
+    "Distance": 7.666
+  },
+  {
+    "Cache": "20-22",
+    "Distance": 14.666
+  },
+  {
+    "Cache": "20-23",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "20-24",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "20-25",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "20-26",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "20-27",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "20-28",
+    "Distance": 11.322
+  },
+  {
+    "Cache": "20-29",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "20-30",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "20-31",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "20-32",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "20-33",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "20-34",
+    "Distance": 35.808
+  },
+  {
+    "Cache": "20-35",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "20-36",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "20-37",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "20-38",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "20-39",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "20-40",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "20-41",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "20-42",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "20-43",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "20-44",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "20-45",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "20-46",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "20-47",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "20-48",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "20-49",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "21-0",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "21-1",
+    "Distance": 34.787
+  },
+  {
+    "Cache": "21-2",
+    "Distance": 41.787
+  },
+  {
+    "Cache": "21-3",
+    "Distance": 48.787
+  },
+  {
+    "Cache": "21-4",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "21-5",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "21-6",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "21-7",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "21-8",
+    "Distance": 36.858
+  },
+  {
+    "Cache": "21-9",
+    "Distance": 43.858
+  },
+  {
+    "Cache": "21-10",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "21-11",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "21-12",
+    "Distance": 72.737
+  },
+  {
+    "Cache": "21-13",
+    "Distance": 14.666
+  },
+  {
+    "Cache": "21-14",
+    "Distance": 43.858
+  },
+  {
+    "Cache": "21-15",
+    "Distance": 46.757
+  },
+  {
+    "Cache": "21-16",
+    "Distance": 53.757
+  },
+  {
+    "Cache": "21-17",
+    "Distance": 60.757
+  },
+  {
+    "Cache": "21-18",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "21-19",
+    "Distance": 79.737
+  },
+  {
+    "Cache": "21-20",
+    "Distance": 7.666
+  },
+  {
+    "Cache": "21-21",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "21-22",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "21-23",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "21-24",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "21-25",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "21-26",
+    "Distance": 86.737
+  },
+  {
+    "Cache": "21-27",
+    "Distance": 11.615
+  },
+  {
+    "Cache": "21-28",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "21-29",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "21-30",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "21-31",
+    "Distance": 85.414
+  },
+  {
+    "Cache": "21-32",
+    "Distance": 18.615
+  },
+  {
+    "Cache": "21-33",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "21-34",
+    "Distance": 28.808
+  },
+  {
+    "Cache": "21-35",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "21-36",
+    "Distance": 78.707
+  },
+  {
+    "Cache": "21-37",
+    "Distance": 25.615
+  },
+  {
+    "Cache": "21-38",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "21-39",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "21-40",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "21-41",
+    "Distance": 68.808
+  },
+  {
+    "Cache": "21-42",
+    "Distance": 75.808
+  },
+  {
+    "Cache": "21-43",
+    "Distance": 32.615
+  },
+  {
+    "Cache": "21-44",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "21-45",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "21-46",
+    "Distance": 52.737
+  },
+  {
+    "Cache": "21-47",
+    "Distance": 59.737
+  },
+  {
+    "Cache": "21-48",
+    "Distance": 66.737
+  },
+  {
+    "Cache": "21-49",
+    "Distance": 73.737
+  },
+  {
+    "Cache": "22-0",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "22-1",
+    "Distance": 41.787
+  },
+  {
+    "Cache": "22-2",
+    "Distance": 48.787
+  },
+  {
+    "Cache": "22-3",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "22-4",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "22-5",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "22-6",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "22-7",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "22-8",
+    "Distance": 43.858
+  },
+  {
+    "Cache": "22-9",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "22-10",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "22-11",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "22-12",
+    "Distance": 79.737
+  },
+  {
+    "Cache": "22-13",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "22-14",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "22-15",
+    "Distance": 53.757
+  },
+  {
+    "Cache": "22-16",
+    "Distance": 60.757
+  },
+  {
+    "Cache": "22-17",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "22-18",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "22-19",
+    "Distance": 86.737
+  },
+  {
+    "Cache": "22-20",
+    "Distance": 14.666
+  },
+  {
+    "Cache": "22-21",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "22-22",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "22-23",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "22-24",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "22-25",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "22-26",
+    "Distance": 93.737
+  },
+  {
+    "Cache": "22-27",
+    "Distance": 17.737
+  },
+  {
+    "Cache": "22-28",
+    "Distance": 10.444
+  },
+  {
+    "Cache": "22-29",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "22-30",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "22-31",
+    "Distance": 91.536
+  },
+  {
+    "Cache": "22-32",
+    "Distance": 24.737
+  },
+  {
+    "Cache": "22-33",
+    "Distance": 17.444
+  },
+  {
+    "Cache": "22-34",
+    "Distance": 21.808
+  },
+  {
+    "Cache": "22-35",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "22-36",
+    "Distance": 84.829
+  },
+  {
+    "Cache": "22-37",
+    "Distance": 31.737
+  },
+  {
+    "Cache": "22-38",
+    "Distance": 24.444
+  },
+  {
+    "Cache": "22-39",
+    "Distance": 25.686
+  },
+  {
+    "Cache": "22-40",
+    "Distance": 26.322
+  },
+  {
+    "Cache": "22-41",
+    "Distance": 74.929
+  },
+  {
+    "Cache": "22-42",
+    "Distance": 81.929
+  },
+  {
+    "Cache": "22-43",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "22-44",
+    "Distance": 44.858
+  },
+  {
+    "Cache": "22-45",
+    "Distance": 51.858
+  },
+  {
+    "Cache": "22-46",
+    "Distance": 58.858
+  },
+  {
+    "Cache": "22-47",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "22-48",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "22-49",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "23-0",
+    "Distance": 42.666
+  },
+  {
+    "Cache": "23-1",
+    "Distance": 48.787
+  },
+  {
+    "Cache": "23-2",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "23-3",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "23-4",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "23-5",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "23-6",
+    "Distance": 83.787
+  },
+  {
+    "Cache": "23-7",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "23-8",
+    "Distance": 50.858
+  },
+  {
+    "Cache": "23-9",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "23-10",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "23-11",
+    "Distance": 78.858
+  },
+  {
+    "Cache": "23-12",
+    "Distance": 86.737
+  },
+  {
+    "Cache": "23-13",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "23-14",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "23-15",
+    "Distance": 60.757
+  },
+  {
+    "Cache": "23-16",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "23-17",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "23-18",
+    "Distance": 81.757
+  },
+  {
+    "Cache": "23-19",
+    "Distance": 93.737
+  },
+  {
+    "Cache": "23-20",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "23-21",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "23-22",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "23-23",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "23-24",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "23-25",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "23-26",
+    "Distance": 100.737
+  },
+  {
+    "Cache": "23-27",
+    "Distance": 24.737
+  },
+  {
+    "Cache": "23-28",
+    "Distance": 17.444
+  },
+  {
+    "Cache": "23-29",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "23-30",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "23-31",
+    "Distance": 98.536
+  },
+  {
+    "Cache": "23-32",
+    "Distance": 31.737
+  },
+  {
+    "Cache": "23-33",
+    "Distance": 24.444
+  },
+  {
+    "Cache": "23-34",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "23-35",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "23-36",
+    "Distance": 91.829
+  },
+  {
+    "Cache": "23-37",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "23-38",
+    "Distance": 31.444
+  },
+  {
+    "Cache": "23-39",
+    "Distance": 26.03
+  },
+  {
+    "Cache": "23-40",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "23-41",
+    "Distance": 81.929
+  },
+  {
+    "Cache": "23-42",
+    "Distance": 88.929
+  },
+  {
+    "Cache": "23-43",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "23-44",
+    "Distance": 51.858
+  },
+  {
+    "Cache": "23-45",
+    "Distance": 58.858
+  },
+  {
+    "Cache": "23-46",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "23-47",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "23-48",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "23-49",
+    "Distance": 86.858
+  },
+  {
+    "Cache": "24-0",
+    "Distance": 49.666
+  },
+  {
+    "Cache": "24-1",
+    "Distance": 55.787
+  },
+  {
+    "Cache": "24-2",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "24-3",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "24-4",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "24-5",
+    "Distance": 83.787
+  },
+  {
+    "Cache": "24-6",
+    "Distance": 90.787
+  },
+  {
+    "Cache": "24-7",
+    "Distance": 42.666
+  },
+  {
+    "Cache": "24-8",
+    "Distance": 57.858
+  },
+  {
+    "Cache": "24-9",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "24-10",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "24-11",
+    "Distance": 85.858
+  },
+  {
+    "Cache": "24-12",
+    "Distance": 93.737
+  },
+  {
+    "Cache": "24-13",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "24-14",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "24-15",
+    "Distance": 67.757
+  },
+  {
+    "Cache": "24-16",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "24-17",
+    "Distance": 81.757
+  },
+  {
+    "Cache": "24-18",
+    "Distance": 88.757
+  },
+  {
+    "Cache": "24-19",
+    "Distance": 100.737
+  },
+  {
+    "Cache": "24-20",
+    "Distance": 28.666
+  },
+  {
+    "Cache": "24-21",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "24-22",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "24-23",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "24-24",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "24-25",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "24-26",
+    "Distance": 107.737
+  },
+  {
+    "Cache": "24-27",
+    "Distance": 31.737
+  },
+  {
+    "Cache": "24-28",
+    "Distance": 24.444
+  },
+  {
+    "Cache": "24-29",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "24-30",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "24-31",
+    "Distance": 105.536
+  },
+  {
+    "Cache": "24-32",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "24-33",
+    "Distance": 31.444
+  },
+  {
+    "Cache": "24-34",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "24-35",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "24-36",
+    "Distance": 98.829
+  },
+  {
+    "Cache": "24-37",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "24-38",
+    "Distance": 35.515
+  },
+  {
+    "Cache": "24-39",
+    "Distance": 28.515
+  },
+  {
+    "Cache": "24-40",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "24-41",
+    "Distance": 88.929
+  },
+  {
+    "Cache": "24-42",
+    "Distance": 95.929
+  },
+  {
+    "Cache": "24-43",
+    "Distance": 52.737
+  },
+  {
+    "Cache": "24-44",
+    "Distance": 58.858
+  },
+  {
+    "Cache": "24-45",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "24-46",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "24-47",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "24-48",
+    "Distance": 86.858
+  },
+  {
+    "Cache": "24-49",
+    "Distance": 93.858
+  },
+  {
+    "Cache": "25-0",
+    "Distance": 56.666
+  },
+  {
+    "Cache": "25-1",
+    "Distance": 62.787
+  },
+  {
+    "Cache": "25-2",
+    "Distance": 69.787
+  },
+  {
+    "Cache": "25-3",
+    "Distance": 76.787
+  },
+  {
+    "Cache": "25-4",
+    "Distance": 83.787
+  },
+  {
+    "Cache": "25-5",
+    "Distance": 90.787
+  },
+  {
+    "Cache": "25-6",
+    "Distance": 97.787
+  },
+  {
+    "Cache": "25-7",
+    "Distance": 49.666
+  },
+  {
+    "Cache": "25-8",
+    "Distance": 64.858
+  },
+  {
+    "Cache": "25-9",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "25-10",
+    "Distance": 78.858
+  },
+  {
+    "Cache": "25-11",
+    "Distance": 92.858
+  },
+  {
+    "Cache": "25-12",
+    "Distance": 100.737
+  },
+  {
+    "Cache": "25-13",
+    "Distance": 42.666
+  },
+  {
+    "Cache": "25-14",
+    "Distance": 71.858
+  },
+  {
+    "Cache": "25-15",
+    "Distance": 74.757
+  },
+  {
+    "Cache": "25-16",
+    "Distance": 81.757
+  },
+  {
+    "Cache": "25-17",
+    "Distance": 88.757
+  },
+  {
+    "Cache": "25-18",
+    "Distance": 95.757
+  },
+  {
+    "Cache": "25-19",
+    "Distance": 107.737
+  },
+  {
+    "Cache": "25-20",
+    "Distance": 35.666
+  },
+  {
+    "Cache": "25-21",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "25-22",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "25-23",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "25-24",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "25-25",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "25-26",
+    "Distance": 114.737
+  },
+  {
+    "Cache": "25-27",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "25-28",
+    "Distance": 31.444
+  },
+  {
+    "Cache": "25-29",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "25-30",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "25-31",
+    "Distance": 112.536
+  },
+  {
+    "Cache": "25-32",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "25-33",
+    "Distance": 37.586
+  },
+  {
+    "Cache": "25-34",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "25-35",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "25-36",
+    "Distance": 105.829
+  },
+  {
+    "Cache": "25-37",
+    "Distance": 52.737
+  },
+  {
+    "Cache": "25-38",
+    "Distance": 38.414
+  },
+  {
+    "Cache": "25-39",
+    "Distance": 31.414
+  },
+  {
+    "Cache": "25-40",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "25-41",
+    "Distance": 95.929
+  },
+  {
+    "Cache": "25-42",
+    "Distance": 102.929
+  },
+  {
+    "Cache": "25-43",
+    "Distance": 59.737
+  },
+  {
+    "Cache": "25-44",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "25-45",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "25-46",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "25-47",
+    "Distance": 86.858
+  },
+  {
+    "Cache": "25-48",
+    "Distance": 93.858
+  },
+  {
+    "Cache": "25-49",
+    "Distance": 100.858
+  },
+  {
+    "Cache": "26-0",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "26-1",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "26-2",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "26-3",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "26-4",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "26-5",
+    "Distance": 25.03
+  },
+  {
+    "Cache": "26-6",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "26-7",
+    "Distance": 65.322
+  },
+  {
+    "Cache": "26-8",
+    "Distance": 55.101
+  },
+  {
+    "Cache": "26-9",
+    "Distance": 48.101
+  },
+  {
+    "Cache": "26-10",
+    "Distance": 41.101
+  },
+  {
+    "Cache": "26-11",
+    "Distance": 29.444
+  },
+  {
+    "Cache": "26-12",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "26-13",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "26-14",
+    "Distance": 58.0
+  },
+  {
+    "Cache": "26-15",
+    "Distance": 51.0
+  },
+  {
+    "Cache": "26-16",
+    "Distance": 45.757
+  },
+  {
+    "Cache": "26-17",
+    "Distance": 39.343
+  },
+  {
+    "Cache": "26-18",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "26-19",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "26-20",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "26-21",
+    "Distance": 86.737
+  },
+  {
+    "Cache": "26-22",
+    "Distance": 93.737
+  },
+  {
+    "Cache": "26-23",
+    "Distance": 100.737
+  },
+  {
+    "Cache": "26-24",
+    "Distance": 107.737
+  },
+  {
+    "Cache": "26-25",
+    "Distance": 114.737
+  },
+  {
+    "Cache": "26-26",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "26-27",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "26-28",
+    "Distance": 89.879
+  },
+  {
+    "Cache": "26-29",
+    "Distance": 110.222
+  },
+  {
+    "Cache": "26-30",
+    "Distance": 117.222
+  },
+  {
+    "Cache": "26-31",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "26-32",
+    "Distance": 74.05
+  },
+  {
+    "Cache": "26-33",
+    "Distance": 94.243
+  },
+  {
+    "Cache": "26-34",
+    "Distance": 114.879
+  },
+  {
+    "Cache": "26-35",
+    "Distance": 120.121
+  },
+  {
+    "Cache": "26-36",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "26-37",
+    "Distance": 67.05
+  },
+  {
+    "Cache": "26-38",
+    "Distance": 101.243
+  },
+  {
+    "Cache": "26-39",
+    "Distance": 104.142
+  },
+  {
+    "Cache": "26-40",
+    "Distance": 111.142
+  },
+  {
+    "Cache": "26-41",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "26-42",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "26-43",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "26-44",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "26-45",
+    "Distance": 47.757
+  },
+  {
+    "Cache": "26-46",
+    "Distance": 40.757
+  },
+  {
+    "Cache": "26-47",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "26-48",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "26-49",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "27-0",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "27-1",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "27-2",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "27-3",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "27-4",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "27-5",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "27-6",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "27-7",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "27-8",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "27-9",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "27-10",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "27-11",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "27-12",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "27-13",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "27-14",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "27-15",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "27-16",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "27-17",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "27-18",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "27-19",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "27-20",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "27-21",
+    "Distance": 11.615
+  },
+  {
+    "Cache": "27-22",
+    "Distance": 17.737
+  },
+  {
+    "Cache": "27-23",
+    "Distance": 24.737
+  },
+  {
+    "Cache": "27-24",
+    "Distance": 31.737
+  },
+  {
+    "Cache": "27-25",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "27-26",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "27-27",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "27-28",
+    "Distance": 9.08
+  },
+  {
+    "Cache": "27-29",
+    "Distance": 31.322
+  },
+  {
+    "Cache": "27-30",
+    "Distance": 38.322
+  },
+  {
+    "Cache": "27-31",
+    "Distance": 74.05
+  },
+  {
+    "Cache": "27-32",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "27-33",
+    "Distance": 13.444
+  },
+  {
+    "Cache": "27-34",
+    "Distance": 35.979
+  },
+  {
+    "Cache": "27-35",
+    "Distance": 41.222
+  },
+  {
+    "Cache": "27-36",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "27-37",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "27-38",
+    "Distance": 20.444
+  },
+  {
+    "Cache": "27-39",
+    "Distance": 23.343
+  },
+  {
+    "Cache": "27-40",
+    "Distance": 30.343
+  },
+  {
+    "Cache": "27-41",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "27-42",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "27-43",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "27-44",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "27-45",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "27-46",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "27-47",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "27-48",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "27-49",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "28-0",
+    "Distance": 32.322
+  },
+  {
+    "Cache": "28-1",
+    "Distance": 38.444
+  },
+  {
+    "Cache": "28-2",
+    "Distance": 45.444
+  },
+  {
+    "Cache": "28-3",
+    "Distance": 52.444
+  },
+  {
+    "Cache": "28-4",
+    "Distance": 59.444
+  },
+  {
+    "Cache": "28-5",
+    "Distance": 66.444
+  },
+  {
+    "Cache": "28-6",
+    "Distance": 73.444
+  },
+  {
+    "Cache": "28-7",
+    "Distance": 25.322
+  },
+  {
+    "Cache": "28-8",
+    "Distance": 40.515
+  },
+  {
+    "Cache": "28-9",
+    "Distance": 47.515
+  },
+  {
+    "Cache": "28-10",
+    "Distance": 54.515
+  },
+  {
+    "Cache": "28-11",
+    "Distance": 68.515
+  },
+  {
+    "Cache": "28-12",
+    "Distance": 76.394
+  },
+  {
+    "Cache": "28-13",
+    "Distance": 18.322
+  },
+  {
+    "Cache": "28-14",
+    "Distance": 47.515
+  },
+  {
+    "Cache": "28-15",
+    "Distance": 50.414
+  },
+  {
+    "Cache": "28-16",
+    "Distance": 57.414
+  },
+  {
+    "Cache": "28-17",
+    "Distance": 64.414
+  },
+  {
+    "Cache": "28-18",
+    "Distance": 71.414
+  },
+  {
+    "Cache": "28-19",
+    "Distance": 83.394
+  },
+  {
+    "Cache": "28-20",
+    "Distance": 11.322
+  },
+  {
+    "Cache": "28-21",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "28-22",
+    "Distance": 10.444
+  },
+  {
+    "Cache": "28-23",
+    "Distance": 17.444
+  },
+  {
+    "Cache": "28-24",
+    "Distance": 24.444
+  },
+  {
+    "Cache": "28-25",
+    "Distance": 31.444
+  },
+  {
+    "Cache": "28-26",
+    "Distance": 89.879
+  },
+  {
+    "Cache": "28-27",
+    "Distance": 9.08
+  },
+  {
+    "Cache": "28-28",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "28-29",
+    "Distance": 24.03
+  },
+  {
+    "Cache": "28-30",
+    "Distance": 31.03
+  },
+  {
+    "Cache": "28-31",
+    "Distance": 82.879
+  },
+  {
+    "Cache": "28-32",
+    "Distance": 16.08
+  },
+  {
+    "Cache": "28-33",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "28-34",
+    "Distance": 28.686
+  },
+  {
+    "Cache": "28-35",
+    "Distance": 33.929
+  },
+  {
+    "Cache": "28-36",
+    "Distance": 76.172
+  },
+  {
+    "Cache": "28-37",
+    "Distance": 23.08
+  },
+  {
+    "Cache": "28-38",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "28-39",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "28-40",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "28-41",
+    "Distance": 66.272
+  },
+  {
+    "Cache": "28-42",
+    "Distance": 73.272
+  },
+  {
+    "Cache": "28-43",
+    "Distance": 30.08
+  },
+  {
+    "Cache": "28-44",
+    "Distance": 36.201
+  },
+  {
+    "Cache": "28-45",
+    "Distance": 43.201
+  },
+  {
+    "Cache": "28-46",
+    "Distance": 50.201
+  },
+  {
+    "Cache": "28-47",
+    "Distance": 57.201
+  },
+  {
+    "Cache": "28-48",
+    "Distance": 64.201
+  },
+  {
+    "Cache": "28-49",
+    "Distance": 71.201
+  },
+  {
+    "Cache": "29-0",
+    "Distance": 52.151
+  },
+  {
+    "Cache": "29-1",
+    "Distance": 58.272
+  },
+  {
+    "Cache": "29-2",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "29-3",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "29-4",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "29-5",
+    "Distance": 86.272
+  },
+  {
+    "Cache": "29-6",
+    "Distance": 93.272
+  },
+  {
+    "Cache": "29-7",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "29-8",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "29-9",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "29-10",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "29-11",
+    "Distance": 88.343
+  },
+  {
+    "Cache": "29-12",
+    "Distance": 96.222
+  },
+  {
+    "Cache": "29-13",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "29-14",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "29-15",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "29-16",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "29-17",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "29-18",
+    "Distance": 91.243
+  },
+  {
+    "Cache": "29-19",
+    "Distance": 103.222
+  },
+  {
+    "Cache": "29-20",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "29-21",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "29-22",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "29-23",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "29-24",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "29-25",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "29-26",
+    "Distance": 110.222
+  },
+  {
+    "Cache": "29-27",
+    "Distance": 31.322
+  },
+  {
+    "Cache": "29-28",
+    "Distance": 24.03
+  },
+  {
+    "Cache": "29-29",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "29-30",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "29-31",
+    "Distance": 105.121
+  },
+  {
+    "Cache": "29-32",
+    "Distance": 38.322
+  },
+  {
+    "Cache": "29-33",
+    "Distance": 27.686
+  },
+  {
+    "Cache": "29-34",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "29-35",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "29-36",
+    "Distance": 98.414
+  },
+  {
+    "Cache": "29-37",
+    "Distance": 45.322
+  },
+  {
+    "Cache": "29-38",
+    "Distance": 28.515
+  },
+  {
+    "Cache": "29-39",
+    "Distance": 21.515
+  },
+  {
+    "Cache": "29-40",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "29-41",
+    "Distance": 88.515
+  },
+  {
+    "Cache": "29-42",
+    "Distance": 95.515
+  },
+  {
+    "Cache": "29-43",
+    "Distance": 52.322
+  },
+  {
+    "Cache": "29-44",
+    "Distance": 58.444
+  },
+  {
+    "Cache": "29-45",
+    "Distance": 65.444
+  },
+  {
+    "Cache": "29-46",
+    "Distance": 72.444
+  },
+  {
+    "Cache": "29-47",
+    "Distance": 79.444
+  },
+  {
+    "Cache": "29-48",
+    "Distance": 86.444
+  },
+  {
+    "Cache": "29-49",
+    "Distance": 93.444
+  },
+  {
+    "Cache": "30-0",
+    "Distance": 59.151
+  },
+  {
+    "Cache": "30-1",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "30-2",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "30-3",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "30-4",
+    "Distance": 86.272
+  },
+  {
+    "Cache": "30-5",
+    "Distance": 93.272
+  },
+  {
+    "Cache": "30-6",
+    "Distance": 100.272
+  },
+  {
+    "Cache": "30-7",
+    "Distance": 52.151
+  },
+  {
+    "Cache": "30-8",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "30-9",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "30-10",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "30-11",
+    "Distance": 95.343
+  },
+  {
+    "Cache": "30-12",
+    "Distance": 103.222
+  },
+  {
+    "Cache": "30-13",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "30-14",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "30-15",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "30-16",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "30-17",
+    "Distance": 91.243
+  },
+  {
+    "Cache": "30-18",
+    "Distance": 98.243
+  },
+  {
+    "Cache": "30-19",
+    "Distance": 110.222
+  },
+  {
+    "Cache": "30-20",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "30-21",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "30-22",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "30-23",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "30-24",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "30-25",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "30-26",
+    "Distance": 117.222
+  },
+  {
+    "Cache": "30-27",
+    "Distance": 38.322
+  },
+  {
+    "Cache": "30-28",
+    "Distance": 31.03
+  },
+  {
+    "Cache": "30-29",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "30-30",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "30-31",
+    "Distance": 112.121
+  },
+  {
+    "Cache": "30-32",
+    "Distance": 45.322
+  },
+  {
+    "Cache": "30-33",
+    "Distance": 33.222
+  },
+  {
+    "Cache": "30-34",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "30-35",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "30-36",
+    "Distance": 105.414
+  },
+  {
+    "Cache": "30-37",
+    "Distance": 52.322
+  },
+  {
+    "Cache": "30-38",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "30-39",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "30-40",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "30-41",
+    "Distance": 95.515
+  },
+  {
+    "Cache": "30-42",
+    "Distance": 102.515
+  },
+  {
+    "Cache": "30-43",
+    "Distance": 59.322
+  },
+  {
+    "Cache": "30-44",
+    "Distance": 65.444
+  },
+  {
+    "Cache": "30-45",
+    "Distance": 72.444
+  },
+  {
+    "Cache": "30-46",
+    "Distance": 79.444
+  },
+  {
+    "Cache": "30-47",
+    "Distance": 86.444
+  },
+  {
+    "Cache": "30-48",
+    "Distance": 93.444
+  },
+  {
+    "Cache": "30-49",
+    "Distance": 100.444
+  },
+  {
+    "Cache": "31-0",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "31-1",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "31-2",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "31-3",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "31-4",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "31-5",
+    "Distance": 32.03
+  },
+  {
+    "Cache": "31-6",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "31-7",
+    "Distance": 72.322
+  },
+  {
+    "Cache": "31-8",
+    "Distance": 62.101
+  },
+  {
+    "Cache": "31-9",
+    "Distance": 55.101
+  },
+  {
+    "Cache": "31-10",
+    "Distance": 48.101
+  },
+  {
+    "Cache": "31-11",
+    "Distance": 36.444
+  },
+  {
+    "Cache": "31-12",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "31-13",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "31-14",
+    "Distance": 65.0
+  },
+  {
+    "Cache": "31-15",
+    "Distance": 58.0
+  },
+  {
+    "Cache": "31-16",
+    "Distance": 52.757
+  },
+  {
+    "Cache": "31-17",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "31-18",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "31-19",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "31-20",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "31-21",
+    "Distance": 85.414
+  },
+  {
+    "Cache": "31-22",
+    "Distance": 91.536
+  },
+  {
+    "Cache": "31-23",
+    "Distance": 98.536
+  },
+  {
+    "Cache": "31-24",
+    "Distance": 105.536
+  },
+  {
+    "Cache": "31-25",
+    "Distance": 112.536
+  },
+  {
+    "Cache": "31-26",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "31-27",
+    "Distance": 74.05
+  },
+  {
+    "Cache": "31-28",
+    "Distance": 82.879
+  },
+  {
+    "Cache": "31-29",
+    "Distance": 105.121
+  },
+  {
+    "Cache": "31-30",
+    "Distance": 112.121
+  },
+  {
+    "Cache": "31-31",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "31-32",
+    "Distance": 67.05
+  },
+  {
+    "Cache": "31-33",
+    "Distance": 87.243
+  },
+  {
+    "Cache": "31-34",
+    "Distance": 109.778
+  },
+  {
+    "Cache": "31-35",
+    "Distance": 115.021
+  },
+  {
+    "Cache": "31-36",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "31-37",
+    "Distance": 60.05
+  },
+  {
+    "Cache": "31-38",
+    "Distance": 94.243
+  },
+  {
+    "Cache": "31-39",
+    "Distance": 97.142
+  },
+  {
+    "Cache": "31-40",
+    "Distance": 104.142
+  },
+  {
+    "Cache": "31-41",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "31-42",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "31-43",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "31-44",
+    "Distance": 47.757
+  },
+  {
+    "Cache": "31-45",
+    "Distance": 40.757
+  },
+  {
+    "Cache": "31-46",
+    "Distance": 33.757
+  },
+  {
+    "Cache": "31-47",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "31-48",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "31-49",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "32-0",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "32-1",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "32-2",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "32-3",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "32-4",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "32-5",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "32-6",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "32-7",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "32-8",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "32-9",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "32-10",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "32-11",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "32-12",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "32-13",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "32-14",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "32-15",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "32-16",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "32-17",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "32-18",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "32-19",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "32-20",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "32-21",
+    "Distance": 18.615
+  },
+  {
+    "Cache": "32-22",
+    "Distance": 24.737
+  },
+  {
+    "Cache": "32-23",
+    "Distance": 31.737
+  },
+  {
+    "Cache": "32-24",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "32-25",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "32-26",
+    "Distance": 74.05
+  },
+  {
+    "Cache": "32-27",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "32-28",
+    "Distance": 16.08
+  },
+  {
+    "Cache": "32-29",
+    "Distance": 38.322
+  },
+  {
+    "Cache": "32-30",
+    "Distance": 45.322
+  },
+  {
+    "Cache": "32-31",
+    "Distance": 67.05
+  },
+  {
+    "Cache": "32-32",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "32-33",
+    "Distance": 20.444
+  },
+  {
+    "Cache": "32-34",
+    "Distance": 42.979
+  },
+  {
+    "Cache": "32-35",
+    "Distance": 48.222
+  },
+  {
+    "Cache": "32-36",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "32-37",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "32-38",
+    "Distance": 27.444
+  },
+  {
+    "Cache": "32-39",
+    "Distance": 30.343
+  },
+  {
+    "Cache": "32-40",
+    "Distance": 37.343
+  },
+  {
+    "Cache": "32-41",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "32-42",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "32-43",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "32-44",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "32-45",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "32-46",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "32-47",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "32-48",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "32-49",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "33-0",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "33-1",
+    "Distance": 44.272
+  },
+  {
+    "Cache": "33-2",
+    "Distance": 51.272
+  },
+  {
+    "Cache": "33-3",
+    "Distance": 58.272
+  },
+  {
+    "Cache": "33-4",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "33-5",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "33-6",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "33-7",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "33-8",
+    "Distance": 46.343
+  },
+  {
+    "Cache": "33-9",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "33-10",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "33-11",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "33-12",
+    "Distance": 82.222
+  },
+  {
+    "Cache": "33-13",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "33-14",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "33-15",
+    "Distance": 56.243
+  },
+  {
+    "Cache": "33-16",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "33-17",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "33-18",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "33-19",
+    "Distance": 89.222
+  },
+  {
+    "Cache": "33-20",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "33-21",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "33-22",
+    "Distance": 17.444
+  },
+  {
+    "Cache": "33-23",
+    "Distance": 24.444
+  },
+  {
+    "Cache": "33-24",
+    "Distance": 31.444
+  },
+  {
+    "Cache": "33-25",
+    "Distance": 37.586
+  },
+  {
+    "Cache": "33-26",
+    "Distance": 94.243
+  },
+  {
+    "Cache": "33-27",
+    "Distance": 13.444
+  },
+  {
+    "Cache": "33-28",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "33-29",
+    "Distance": 27.686
+  },
+  {
+    "Cache": "33-30",
+    "Distance": 33.222
+  },
+  {
+    "Cache": "33-31",
+    "Distance": 87.243
+  },
+  {
+    "Cache": "33-32",
+    "Distance": 20.444
+  },
+  {
+    "Cache": "33-33",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "33-34",
+    "Distance": 23.322
+  },
+  {
+    "Cache": "33-35",
+    "Distance": 30.322
+  },
+  {
+    "Cache": "33-36",
+    "Distance": 80.536
+  },
+  {
+    "Cache": "33-37",
+    "Distance": 27.444
+  },
+  {
+    "Cache": "33-38",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "33-39",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "33-40",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "33-41",
+    "Distance": 70.636
+  },
+  {
+    "Cache": "33-42",
+    "Distance": 77.636
+  },
+  {
+    "Cache": "33-43",
+    "Distance": 34.444
+  },
+  {
+    "Cache": "33-44",
+    "Distance": 40.565
+  },
+  {
+    "Cache": "33-45",
+    "Distance": 47.565
+  },
+  {
+    "Cache": "33-46",
+    "Distance": 54.565
+  },
+  {
+    "Cache": "33-47",
+    "Distance": 61.565
+  },
+  {
+    "Cache": "33-48",
+    "Distance": 68.565
+  },
+  {
+    "Cache": "33-49",
+    "Distance": 75.565
+  },
+  {
+    "Cache": "34-0",
+    "Distance": 56.808
+  },
+  {
+    "Cache": "34-1",
+    "Distance": 62.929
+  },
+  {
+    "Cache": "34-2",
+    "Distance": 69.929
+  },
+  {
+    "Cache": "34-3",
+    "Distance": 76.929
+  },
+  {
+    "Cache": "34-4",
+    "Distance": 83.929
+  },
+  {
+    "Cache": "34-5",
+    "Distance": 90.929
+  },
+  {
+    "Cache": "34-6",
+    "Distance": 97.929
+  },
+  {
+    "Cache": "34-7",
+    "Distance": 49.808
+  },
+  {
+    "Cache": "34-8",
+    "Distance": 65.0
+  },
+  {
+    "Cache": "34-9",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "34-10",
+    "Distance": 79.0
+  },
+  {
+    "Cache": "34-11",
+    "Distance": 93.0
+  },
+  {
+    "Cache": "34-12",
+    "Distance": 100.879
+  },
+  {
+    "Cache": "34-13",
+    "Distance": 42.808
+  },
+  {
+    "Cache": "34-14",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "34-15",
+    "Distance": 74.9
+  },
+  {
+    "Cache": "34-16",
+    "Distance": 81.9
+  },
+  {
+    "Cache": "34-17",
+    "Distance": 88.9
+  },
+  {
+    "Cache": "34-18",
+    "Distance": 95.9
+  },
+  {
+    "Cache": "34-19",
+    "Distance": 107.879
+  },
+  {
+    "Cache": "34-20",
+    "Distance": 35.808
+  },
+  {
+    "Cache": "34-21",
+    "Distance": 28.808
+  },
+  {
+    "Cache": "34-22",
+    "Distance": 21.808
+  },
+  {
+    "Cache": "34-23",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "34-24",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "34-25",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "34-26",
+    "Distance": 114.879
+  },
+  {
+    "Cache": "34-27",
+    "Distance": 35.979
+  },
+  {
+    "Cache": "34-28",
+    "Distance": 28.686
+  },
+  {
+    "Cache": "34-29",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "34-30",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "34-31",
+    "Distance": 109.778
+  },
+  {
+    "Cache": "34-32",
+    "Distance": 42.979
+  },
+  {
+    "Cache": "34-33",
+    "Distance": 23.322
+  },
+  {
+    "Cache": "34-34",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "34-35",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "34-36",
+    "Distance": 103.071
+  },
+  {
+    "Cache": "34-37",
+    "Distance": 49.979
+  },
+  {
+    "Cache": "34-38",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "34-39",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "34-40",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "34-41",
+    "Distance": 93.172
+  },
+  {
+    "Cache": "34-42",
+    "Distance": 100.172
+  },
+  {
+    "Cache": "34-43",
+    "Distance": 56.979
+  },
+  {
+    "Cache": "34-44",
+    "Distance": 63.101
+  },
+  {
+    "Cache": "34-45",
+    "Distance": 70.101
+  },
+  {
+    "Cache": "34-46",
+    "Distance": 77.101
+  },
+  {
+    "Cache": "34-47",
+    "Distance": 84.101
+  },
+  {
+    "Cache": "34-48",
+    "Distance": 91.101
+  },
+  {
+    "Cache": "34-49",
+    "Distance": 98.101
+  },
+  {
+    "Cache": "35-0",
+    "Distance": 62.05
+  },
+  {
+    "Cache": "35-1",
+    "Distance": 68.172
+  },
+  {
+    "Cache": "35-2",
+    "Distance": 75.172
+  },
+  {
+    "Cache": "35-3",
+    "Distance": 82.172
+  },
+  {
+    "Cache": "35-4",
+    "Distance": 89.172
+  },
+  {
+    "Cache": "35-5",
+    "Distance": 96.172
+  },
+  {
+    "Cache": "35-6",
+    "Distance": 103.172
+  },
+  {
+    "Cache": "35-7",
+    "Distance": 55.05
+  },
+  {
+    "Cache": "35-8",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "35-9",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "35-10",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "35-11",
+    "Distance": 98.243
+  },
+  {
+    "Cache": "35-12",
+    "Distance": 106.121
+  },
+  {
+    "Cache": "35-13",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "35-14",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "35-15",
+    "Distance": 80.142
+  },
+  {
+    "Cache": "35-16",
+    "Distance": 87.142
+  },
+  {
+    "Cache": "35-17",
+    "Distance": 94.142
+  },
+  {
+    "Cache": "35-18",
+    "Distance": 101.142
+  },
+  {
+    "Cache": "35-19",
+    "Distance": 113.121
+  },
+  {
+    "Cache": "35-20",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "35-21",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "35-22",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "35-23",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "35-24",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "35-25",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "35-26",
+    "Distance": 120.121
+  },
+  {
+    "Cache": "35-27",
+    "Distance": 41.222
+  },
+  {
+    "Cache": "35-28",
+    "Distance": 33.929
+  },
+  {
+    "Cache": "35-29",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "35-30",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "35-31",
+    "Distance": 115.021
+  },
+  {
+    "Cache": "35-32",
+    "Distance": 48.222
+  },
+  {
+    "Cache": "35-33",
+    "Distance": 30.322
+  },
+  {
+    "Cache": "35-34",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "35-35",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "35-36",
+    "Distance": 108.314
+  },
+  {
+    "Cache": "35-37",
+    "Distance": 55.222
+  },
+  {
+    "Cache": "35-38",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "35-39",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "35-40",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "35-41",
+    "Distance": 98.414
+  },
+  {
+    "Cache": "35-42",
+    "Distance": 105.414
+  },
+  {
+    "Cache": "35-43",
+    "Distance": 62.222
+  },
+  {
+    "Cache": "35-44",
+    "Distance": 68.343
+  },
+  {
+    "Cache": "35-45",
+    "Distance": 75.343
+  },
+  {
+    "Cache": "35-46",
+    "Distance": 82.343
+  },
+  {
+    "Cache": "35-47",
+    "Distance": 89.343
+  },
+  {
+    "Cache": "35-48",
+    "Distance": 96.343
+  },
+  {
+    "Cache": "35-49",
+    "Distance": 103.343
+  },
+  {
+    "Cache": "36-0",
+    "Distance": 74.03
+  },
+  {
+    "Cache": "36-1",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "36-2",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "36-3",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "36-4",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "36-5",
+    "Distance": 39.03
+  },
+  {
+    "Cache": "36-6",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "36-7",
+    "Distance": 79.322
+  },
+  {
+    "Cache": "36-8",
+    "Distance": 69.101
+  },
+  {
+    "Cache": "36-9",
+    "Distance": 62.101
+  },
+  {
+    "Cache": "36-10",
+    "Distance": 55.101
+  },
+  {
+    "Cache": "36-11",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "36-12",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "36-13",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "36-14",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "36-15",
+    "Distance": 65.0
+  },
+  {
+    "Cache": "36-16",
+    "Distance": 59.757
+  },
+  {
+    "Cache": "36-17",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "36-18",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "36-19",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "36-20",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "36-21",
+    "Distance": 78.707
+  },
+  {
+    "Cache": "36-22",
+    "Distance": 84.829
+  },
+  {
+    "Cache": "36-23",
+    "Distance": 91.829
+  },
+  {
+    "Cache": "36-24",
+    "Distance": 98.829
+  },
+  {
+    "Cache": "36-25",
+    "Distance": 105.829
+  },
+  {
+    "Cache": "36-26",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "36-27",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "36-28",
+    "Distance": 76.172
+  },
+  {
+    "Cache": "36-29",
+    "Distance": 98.414
+  },
+  {
+    "Cache": "36-30",
+    "Distance": 105.414
+  },
+  {
+    "Cache": "36-31",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "36-32",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "36-33",
+    "Distance": 80.536
+  },
+  {
+    "Cache": "36-34",
+    "Distance": 103.071
+  },
+  {
+    "Cache": "36-35",
+    "Distance": 108.314
+  },
+  {
+    "Cache": "36-36",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "36-37",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "36-38",
+    "Distance": 87.536
+  },
+  {
+    "Cache": "36-39",
+    "Distance": 90.435
+  },
+  {
+    "Cache": "36-40",
+    "Distance": 97.435
+  },
+  {
+    "Cache": "36-41",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "36-42",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "36-43",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "36-44",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "36-45",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "36-46",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "36-47",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "36-48",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "36-49",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "37-0",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "37-1",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "37-2",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "37-3",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "37-4",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "37-5",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "37-6",
+    "Distance": 83.373
+  },
+  {
+    "Cache": "37-7",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "37-8",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "37-9",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "37-10",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "37-11",
+    "Distance": 78.444
+  },
+  {
+    "Cache": "37-12",
+    "Distance": 81.05
+  },
+  {
+    "Cache": "37-13",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "37-14",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "37-15",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "37-16",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "37-17",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "37-18",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "37-19",
+    "Distance": 74.05
+  },
+  {
+    "Cache": "37-20",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "37-21",
+    "Distance": 25.615
+  },
+  {
+    "Cache": "37-22",
+    "Distance": 31.737
+  },
+  {
+    "Cache": "37-23",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "37-24",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "37-25",
+    "Distance": 52.737
+  },
+  {
+    "Cache": "37-26",
+    "Distance": 67.05
+  },
+  {
+    "Cache": "37-27",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "37-28",
+    "Distance": 23.08
+  },
+  {
+    "Cache": "37-29",
+    "Distance": 45.322
+  },
+  {
+    "Cache": "37-30",
+    "Distance": 52.322
+  },
+  {
+    "Cache": "37-31",
+    "Distance": 60.05
+  },
+  {
+    "Cache": "37-32",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "37-33",
+    "Distance": 27.444
+  },
+  {
+    "Cache": "37-34",
+    "Distance": 49.979
+  },
+  {
+    "Cache": "37-35",
+    "Distance": 55.222
+  },
+  {
+    "Cache": "37-36",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "37-37",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "37-38",
+    "Distance": 34.444
+  },
+  {
+    "Cache": "37-39",
+    "Distance": 37.343
+  },
+  {
+    "Cache": "37-40",
+    "Distance": 44.343
+  },
+  {
+    "Cache": "37-41",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "37-42",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "37-43",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "37-44",
+    "Distance": 13.373
+  },
+  {
+    "Cache": "37-45",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "37-46",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "37-47",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "37-48",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "37-49",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "38-0",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "38-1",
+    "Distance": 51.272
+  },
+  {
+    "Cache": "38-2",
+    "Distance": 58.272
+  },
+  {
+    "Cache": "38-3",
+    "Distance": 65.272
+  },
+  {
+    "Cache": "38-4",
+    "Distance": 72.272
+  },
+  {
+    "Cache": "38-5",
+    "Distance": 79.272
+  },
+  {
+    "Cache": "38-6",
+    "Distance": 86.272
+  },
+  {
+    "Cache": "38-7",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "38-8",
+    "Distance": 53.343
+  },
+  {
+    "Cache": "38-9",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "38-10",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "38-11",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "38-12",
+    "Distance": 89.222
+  },
+  {
+    "Cache": "38-13",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "38-14",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "38-15",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "38-16",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "38-17",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "38-18",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "38-19",
+    "Distance": 96.222
+  },
+  {
+    "Cache": "38-20",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "38-21",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "38-22",
+    "Distance": 24.444
+  },
+  {
+    "Cache": "38-23",
+    "Distance": 31.444
+  },
+  {
+    "Cache": "38-24",
+    "Distance": 35.515
+  },
+  {
+    "Cache": "38-25",
+    "Distance": 38.414
+  },
+  {
+    "Cache": "38-26",
+    "Distance": 101.243
+  },
+  {
+    "Cache": "38-27",
+    "Distance": 20.444
+  },
+  {
+    "Cache": "38-28",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "38-29",
+    "Distance": 28.515
+  },
+  {
+    "Cache": "38-30",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "38-31",
+    "Distance": 94.243
+  },
+  {
+    "Cache": "38-32",
+    "Distance": 27.444
+  },
+  {
+    "Cache": "38-33",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "38-34",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "38-35",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "38-36",
+    "Distance": 87.536
+  },
+  {
+    "Cache": "38-37",
+    "Distance": 34.444
+  },
+  {
+    "Cache": "38-38",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "38-39",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "38-40",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "38-41",
+    "Distance": 77.636
+  },
+  {
+    "Cache": "38-42",
+    "Distance": 84.636
+  },
+  {
+    "Cache": "38-43",
+    "Distance": 41.444
+  },
+  {
+    "Cache": "38-44",
+    "Distance": 47.565
+  },
+  {
+    "Cache": "38-45",
+    "Distance": 54.565
+  },
+  {
+    "Cache": "38-46",
+    "Distance": 61.565
+  },
+  {
+    "Cache": "38-47",
+    "Distance": 68.565
+  },
+  {
+    "Cache": "38-48",
+    "Distance": 75.565
+  },
+  {
+    "Cache": "38-49",
+    "Distance": 82.565
+  },
+  {
+    "Cache": "39-0",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "39-1",
+    "Distance": 54.172
+  },
+  {
+    "Cache": "39-2",
+    "Distance": 61.172
+  },
+  {
+    "Cache": "39-3",
+    "Distance": 68.172
+  },
+  {
+    "Cache": "39-4",
+    "Distance": 75.172
+  },
+  {
+    "Cache": "39-5",
+    "Distance": 82.172
+  },
+  {
+    "Cache": "39-6",
+    "Distance": 89.172
+  },
+  {
+    "Cache": "39-7",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "39-8",
+    "Distance": 56.243
+  },
+  {
+    "Cache": "39-9",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "39-10",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "39-11",
+    "Distance": 84.243
+  },
+  {
+    "Cache": "39-12",
+    "Distance": 92.121
+  },
+  {
+    "Cache": "39-13",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "39-14",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "39-15",
+    "Distance": 66.142
+  },
+  {
+    "Cache": "39-16",
+    "Distance": 73.142
+  },
+  {
+    "Cache": "39-17",
+    "Distance": 80.142
+  },
+  {
+    "Cache": "39-18",
+    "Distance": 87.142
+  },
+  {
+    "Cache": "39-19",
+    "Distance": 99.121
+  },
+  {
+    "Cache": "39-20",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "39-21",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "39-22",
+    "Distance": 25.686
+  },
+  {
+    "Cache": "39-23",
+    "Distance": 26.03
+  },
+  {
+    "Cache": "39-24",
+    "Distance": 28.515
+  },
+  {
+    "Cache": "39-25",
+    "Distance": 31.414
+  },
+  {
+    "Cache": "39-26",
+    "Distance": 104.142
+  },
+  {
+    "Cache": "39-27",
+    "Distance": 23.343
+  },
+  {
+    "Cache": "39-28",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "39-29",
+    "Distance": 21.515
+  },
+  {
+    "Cache": "39-30",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "39-31",
+    "Distance": 97.142
+  },
+  {
+    "Cache": "39-32",
+    "Distance": 30.343
+  },
+  {
+    "Cache": "39-33",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "39-34",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "39-35",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "39-36",
+    "Distance": 90.435
+  },
+  {
+    "Cache": "39-37",
+    "Distance": 37.343
+  },
+  {
+    "Cache": "39-38",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "39-39",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "39-40",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "39-41",
+    "Distance": 80.536
+  },
+  {
+    "Cache": "39-42",
+    "Distance": 87.536
+  },
+  {
+    "Cache": "39-43",
+    "Distance": 44.343
+  },
+  {
+    "Cache": "39-44",
+    "Distance": 50.465
+  },
+  {
+    "Cache": "39-45",
+    "Distance": 57.465
+  },
+  {
+    "Cache": "39-46",
+    "Distance": 64.465
+  },
+  {
+    "Cache": "39-47",
+    "Distance": 71.465
+  },
+  {
+    "Cache": "39-48",
+    "Distance": 78.465
+  },
+  {
+    "Cache": "39-49",
+    "Distance": 85.465
+  },
+  {
+    "Cache": "40-0",
+    "Distance": 55.05
+  },
+  {
+    "Cache": "40-1",
+    "Distance": 61.172
+  },
+  {
+    "Cache": "40-2",
+    "Distance": 68.172
+  },
+  {
+    "Cache": "40-3",
+    "Distance": 75.172
+  },
+  {
+    "Cache": "40-4",
+    "Distance": 82.172
+  },
+  {
+    "Cache": "40-5",
+    "Distance": 89.172
+  },
+  {
+    "Cache": "40-6",
+    "Distance": 96.172
+  },
+  {
+    "Cache": "40-7",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "40-8",
+    "Distance": 63.243
+  },
+  {
+    "Cache": "40-9",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "40-10",
+    "Distance": 77.243
+  },
+  {
+    "Cache": "40-11",
+    "Distance": 91.243
+  },
+  {
+    "Cache": "40-12",
+    "Distance": 99.121
+  },
+  {
+    "Cache": "40-13",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "40-14",
+    "Distance": 70.243
+  },
+  {
+    "Cache": "40-15",
+    "Distance": 73.142
+  },
+  {
+    "Cache": "40-16",
+    "Distance": 80.142
+  },
+  {
+    "Cache": "40-17",
+    "Distance": 87.142
+  },
+  {
+    "Cache": "40-18",
+    "Distance": 94.142
+  },
+  {
+    "Cache": "40-19",
+    "Distance": 106.121
+  },
+  {
+    "Cache": "40-20",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "40-21",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "40-22",
+    "Distance": 26.322
+  },
+  {
+    "Cache": "40-23",
+    "Distance": 21.666
+  },
+  {
+    "Cache": "40-24",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "40-25",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "40-26",
+    "Distance": 111.142
+  },
+  {
+    "Cache": "40-27",
+    "Distance": 30.343
+  },
+  {
+    "Cache": "40-28",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "40-29",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "40-30",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "40-31",
+    "Distance": 104.142
+  },
+  {
+    "Cache": "40-32",
+    "Distance": 37.343
+  },
+  {
+    "Cache": "40-33",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "40-34",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "40-35",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "40-36",
+    "Distance": 97.435
+  },
+  {
+    "Cache": "40-37",
+    "Distance": 44.343
+  },
+  {
+    "Cache": "40-38",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "40-39",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "40-40",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "40-41",
+    "Distance": 87.536
+  },
+  {
+    "Cache": "40-42",
+    "Distance": 94.536
+  },
+  {
+    "Cache": "40-43",
+    "Distance": 51.343
+  },
+  {
+    "Cache": "40-44",
+    "Distance": 57.465
+  },
+  {
+    "Cache": "40-45",
+    "Distance": 64.465
+  },
+  {
+    "Cache": "40-46",
+    "Distance": 71.465
+  },
+  {
+    "Cache": "40-47",
+    "Distance": 78.465
+  },
+  {
+    "Cache": "40-48",
+    "Distance": 85.465
+  },
+  {
+    "Cache": "40-49",
+    "Distance": 92.465
+  },
+  {
+    "Cache": "41-0",
+    "Distance": 80.615
+  },
+  {
+    "Cache": "41-1",
+    "Distance": 73.615
+  },
+  {
+    "Cache": "41-2",
+    "Distance": 66.615
+  },
+  {
+    "Cache": "41-3",
+    "Distance": 59.615
+  },
+  {
+    "Cache": "41-4",
+    "Distance": 52.615
+  },
+  {
+    "Cache": "41-5",
+    "Distance": 45.615
+  },
+  {
+    "Cache": "41-6",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "41-7",
+    "Distance": 78.444
+  },
+  {
+    "Cache": "41-8",
+    "Distance": 75.686
+  },
+  {
+    "Cache": "41-9",
+    "Distance": 68.686
+  },
+  {
+    "Cache": "41-10",
+    "Distance": 61.686
+  },
+  {
+    "Cache": "41-11",
+    "Distance": 50.03
+  },
+  {
+    "Cache": "41-12",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "41-13",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "41-14",
+    "Distance": 78.586
+  },
+  {
+    "Cache": "41-15",
+    "Distance": 71.586
+  },
+  {
+    "Cache": "41-16",
+    "Distance": 66.343
+  },
+  {
+    "Cache": "41-17",
+    "Distance": 59.929
+  },
+  {
+    "Cache": "41-18",
+    "Distance": 57.03
+  },
+  {
+    "Cache": "41-19",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "41-20",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "41-21",
+    "Distance": 68.808
+  },
+  {
+    "Cache": "41-22",
+    "Distance": 74.929
+  },
+  {
+    "Cache": "41-23",
+    "Distance": 81.929
+  },
+  {
+    "Cache": "41-24",
+    "Distance": 88.929
+  },
+  {
+    "Cache": "41-25",
+    "Distance": 95.929
+  },
+  {
+    "Cache": "41-26",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "41-27",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "41-28",
+    "Distance": 66.272
+  },
+  {
+    "Cache": "41-29",
+    "Distance": 88.515
+  },
+  {
+    "Cache": "41-30",
+    "Distance": 95.515
+  },
+  {
+    "Cache": "41-31",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "41-32",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "41-33",
+    "Distance": 70.636
+  },
+  {
+    "Cache": "41-34",
+    "Distance": 93.172
+  },
+  {
+    "Cache": "41-35",
+    "Distance": 98.414
+  },
+  {
+    "Cache": "41-36",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "41-37",
+    "Distance": 43.444
+  },
+  {
+    "Cache": "41-38",
+    "Distance": 77.636
+  },
+  {
+    "Cache": "41-39",
+    "Distance": 80.536
+  },
+  {
+    "Cache": "41-40",
+    "Distance": 87.536
+  },
+  {
+    "Cache": "41-41",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "41-42",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "41-43",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "41-44",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "41-45",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "41-46",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "41-47",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "41-48",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "41-49",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "42-0",
+    "Distance": 81.03
+  },
+  {
+    "Cache": "42-1",
+    "Distance": 74.03
+  },
+  {
+    "Cache": "42-2",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "42-3",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "42-4",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "42-5",
+    "Distance": 46.03
+  },
+  {
+    "Cache": "42-6",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "42-7",
+    "Distance": 85.444
+  },
+  {
+    "Cache": "42-8",
+    "Distance": 76.101
+  },
+  {
+    "Cache": "42-9",
+    "Distance": 69.101
+  },
+  {
+    "Cache": "42-10",
+    "Distance": 62.101
+  },
+  {
+    "Cache": "42-11",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "42-12",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "42-13",
+    "Distance": 78.444
+  },
+  {
+    "Cache": "42-14",
+    "Distance": 79.0
+  },
+  {
+    "Cache": "42-15",
+    "Distance": 72.0
+  },
+  {
+    "Cache": "42-16",
+    "Distance": 66.757
+  },
+  {
+    "Cache": "42-17",
+    "Distance": 60.343
+  },
+  {
+    "Cache": "42-18",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "42-19",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "42-20",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "42-21",
+    "Distance": 75.808
+  },
+  {
+    "Cache": "42-22",
+    "Distance": 81.929
+  },
+  {
+    "Cache": "42-23",
+    "Distance": 88.929
+  },
+  {
+    "Cache": "42-24",
+    "Distance": 95.929
+  },
+  {
+    "Cache": "42-25",
+    "Distance": 102.929
+  },
+  {
+    "Cache": "42-26",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "42-27",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "42-28",
+    "Distance": 73.272
+  },
+  {
+    "Cache": "42-29",
+    "Distance": 95.515
+  },
+  {
+    "Cache": "42-30",
+    "Distance": 102.515
+  },
+  {
+    "Cache": "42-31",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "42-32",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "42-33",
+    "Distance": 77.636
+  },
+  {
+    "Cache": "42-34",
+    "Distance": 100.172
+  },
+  {
+    "Cache": "42-35",
+    "Distance": 105.414
+  },
+  {
+    "Cache": "42-36",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "42-37",
+    "Distance": 50.444
+  },
+  {
+    "Cache": "42-38",
+    "Distance": 84.636
+  },
+  {
+    "Cache": "42-39",
+    "Distance": 87.536
+  },
+  {
+    "Cache": "42-40",
+    "Distance": 94.536
+  },
+  {
+    "Cache": "42-41",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "42-42",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "42-43",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "42-44",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "42-45",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "42-46",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "42-47",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "42-48",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "42-49",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "43-0",
+    "Distance": 49.251
+  },
+  {
+    "Cache": "43-1",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "43-2",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "43-3",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "43-4",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "43-5",
+    "Distance": 83.222
+  },
+  {
+    "Cache": "43-6",
+    "Distance": 82.757
+  },
+  {
+    "Cache": "43-7",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "43-8",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "43-9",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "43-10",
+    "Distance": 71.444
+  },
+  {
+    "Cache": "43-11",
+    "Distance": 85.444
+  },
+  {
+    "Cache": "43-12",
+    "Distance": 75.757
+  },
+  {
+    "Cache": "43-13",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "43-14",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "43-15",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "43-16",
+    "Distance": 74.343
+  },
+  {
+    "Cache": "43-17",
+    "Distance": 81.343
+  },
+  {
+    "Cache": "43-18",
+    "Distance": 88.343
+  },
+  {
+    "Cache": "43-19",
+    "Distance": 68.757
+  },
+  {
+    "Cache": "43-20",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "43-21",
+    "Distance": 32.615
+  },
+  {
+    "Cache": "43-22",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "43-23",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "43-24",
+    "Distance": 52.737
+  },
+  {
+    "Cache": "43-25",
+    "Distance": 59.737
+  },
+  {
+    "Cache": "43-26",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "43-27",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "43-28",
+    "Distance": 30.08
+  },
+  {
+    "Cache": "43-29",
+    "Distance": 52.322
+  },
+  {
+    "Cache": "43-30",
+    "Distance": 59.322
+  },
+  {
+    "Cache": "43-31",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "43-32",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "43-33",
+    "Distance": 34.444
+  },
+  {
+    "Cache": "43-34",
+    "Distance": 56.979
+  },
+  {
+    "Cache": "43-35",
+    "Distance": 62.222
+  },
+  {
+    "Cache": "43-36",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "43-37",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "43-38",
+    "Distance": 41.444
+  },
+  {
+    "Cache": "43-39",
+    "Distance": 44.343
+  },
+  {
+    "Cache": "43-40",
+    "Distance": 51.343
+  },
+  {
+    "Cache": "43-41",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "43-42",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "43-43",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "43-44",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "43-45",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "43-46",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "43-47",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "43-48",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "43-49",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "44-0",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "44-1",
+    "Distance": 61.494
+  },
+  {
+    "Cache": "44-2",
+    "Distance": 68.494
+  },
+  {
+    "Cache": "44-3",
+    "Distance": 75.494
+  },
+  {
+    "Cache": "44-4",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "44-5",
+    "Distance": 76.222
+  },
+  {
+    "Cache": "44-6",
+    "Distance": 75.757
+  },
+  {
+    "Cache": "44-7",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "44-8",
+    "Distance": 63.565
+  },
+  {
+    "Cache": "44-9",
+    "Distance": 70.565
+  },
+  {
+    "Cache": "44-10",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "44-11",
+    "Distance": 80.636
+  },
+  {
+    "Cache": "44-12",
+    "Distance": 68.757
+  },
+  {
+    "Cache": "44-13",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "44-14",
+    "Distance": 70.565
+  },
+  {
+    "Cache": "44-15",
+    "Distance": 73.465
+  },
+  {
+    "Cache": "44-16",
+    "Distance": 80.465
+  },
+  {
+    "Cache": "44-17",
+    "Distance": 87.465
+  },
+  {
+    "Cache": "44-18",
+    "Distance": 87.636
+  },
+  {
+    "Cache": "44-19",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "44-20",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "44-21",
+    "Distance": 38.737
+  },
+  {
+    "Cache": "44-22",
+    "Distance": 44.858
+  },
+  {
+    "Cache": "44-23",
+    "Distance": 51.858
+  },
+  {
+    "Cache": "44-24",
+    "Distance": 58.858
+  },
+  {
+    "Cache": "44-25",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "44-26",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "44-27",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "44-28",
+    "Distance": 36.201
+  },
+  {
+    "Cache": "44-29",
+    "Distance": 58.444
+  },
+  {
+    "Cache": "44-30",
+    "Distance": 65.444
+  },
+  {
+    "Cache": "44-31",
+    "Distance": 47.757
+  },
+  {
+    "Cache": "44-32",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "44-33",
+    "Distance": 40.565
+  },
+  {
+    "Cache": "44-34",
+    "Distance": 63.101
+  },
+  {
+    "Cache": "44-35",
+    "Distance": 68.343
+  },
+  {
+    "Cache": "44-36",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "44-37",
+    "Distance": 13.373
+  },
+  {
+    "Cache": "44-38",
+    "Distance": 47.565
+  },
+  {
+    "Cache": "44-39",
+    "Distance": 50.465
+  },
+  {
+    "Cache": "44-40",
+    "Distance": 57.465
+  },
+  {
+    "Cache": "44-41",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "44-42",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "44-43",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "44-44",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "44-45",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "44-46",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "44-47",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "44-48",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "44-49",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "45-0",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "45-1",
+    "Distance": 68.494
+  },
+  {
+    "Cache": "45-2",
+    "Distance": 75.494
+  },
+  {
+    "Cache": "45-3",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "45-4",
+    "Distance": 76.222
+  },
+  {
+    "Cache": "45-5",
+    "Distance": 69.222
+  },
+  {
+    "Cache": "45-6",
+    "Distance": 68.757
+  },
+  {
+    "Cache": "45-7",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "45-8",
+    "Distance": 70.565
+  },
+  {
+    "Cache": "45-9",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "45-10",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "45-11",
+    "Distance": 73.636
+  },
+  {
+    "Cache": "45-12",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "45-13",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "45-14",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "45-15",
+    "Distance": 80.465
+  },
+  {
+    "Cache": "45-16",
+    "Distance": 87.465
+  },
+  {
+    "Cache": "45-17",
+    "Distance": 83.536
+  },
+  {
+    "Cache": "45-18",
+    "Distance": 80.636
+  },
+  {
+    "Cache": "45-19",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "45-20",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "45-21",
+    "Distance": 45.737
+  },
+  {
+    "Cache": "45-22",
+    "Distance": 51.858
+  },
+  {
+    "Cache": "45-23",
+    "Distance": 58.858
+  },
+  {
+    "Cache": "45-24",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "45-25",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "45-26",
+    "Distance": 47.757
+  },
+  {
+    "Cache": "45-27",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "45-28",
+    "Distance": 43.201
+  },
+  {
+    "Cache": "45-29",
+    "Distance": 65.444
+  },
+  {
+    "Cache": "45-30",
+    "Distance": 72.444
+  },
+  {
+    "Cache": "45-31",
+    "Distance": 40.757
+  },
+  {
+    "Cache": "45-32",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "45-33",
+    "Distance": 47.565
+  },
+  {
+    "Cache": "45-34",
+    "Distance": 70.101
+  },
+  {
+    "Cache": "45-35",
+    "Distance": 75.343
+  },
+  {
+    "Cache": "45-36",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "45-37",
+    "Distance": 20.373
+  },
+  {
+    "Cache": "45-38",
+    "Distance": 54.565
+  },
+  {
+    "Cache": "45-39",
+    "Distance": 57.465
+  },
+  {
+    "Cache": "45-40",
+    "Distance": 64.465
+  },
+  {
+    "Cache": "45-41",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "45-42",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "45-43",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "45-44",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "45-45",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "45-46",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "45-47",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "45-48",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "45-49",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "46-0",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "46-1",
+    "Distance": 75.494
+  },
+  {
+    "Cache": "46-2",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "46-3",
+    "Distance": 76.222
+  },
+  {
+    "Cache": "46-4",
+    "Distance": 69.222
+  },
+  {
+    "Cache": "46-5",
+    "Distance": 62.222
+  },
+  {
+    "Cache": "46-6",
+    "Distance": 61.757
+  },
+  {
+    "Cache": "46-7",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "46-8",
+    "Distance": 77.565
+  },
+  {
+    "Cache": "46-9",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "46-10",
+    "Distance": 78.293
+  },
+  {
+    "Cache": "46-11",
+    "Distance": 66.636
+  },
+  {
+    "Cache": "46-12",
+    "Distance": 54.757
+  },
+  {
+    "Cache": "46-13",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "46-14",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "46-15",
+    "Distance": 87.465
+  },
+  {
+    "Cache": "46-16",
+    "Distance": 82.95
+  },
+  {
+    "Cache": "46-17",
+    "Distance": 76.536
+  },
+  {
+    "Cache": "46-18",
+    "Distance": 73.636
+  },
+  {
+    "Cache": "46-19",
+    "Distance": 47.757
+  },
+  {
+    "Cache": "46-20",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "46-21",
+    "Distance": 52.737
+  },
+  {
+    "Cache": "46-22",
+    "Distance": 58.858
+  },
+  {
+    "Cache": "46-23",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "46-24",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "46-25",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "46-26",
+    "Distance": 40.757
+  },
+  {
+    "Cache": "46-27",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "46-28",
+    "Distance": 50.201
+  },
+  {
+    "Cache": "46-29",
+    "Distance": 72.444
+  },
+  {
+    "Cache": "46-30",
+    "Distance": 79.444
+  },
+  {
+    "Cache": "46-31",
+    "Distance": 33.757
+  },
+  {
+    "Cache": "46-32",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "46-33",
+    "Distance": 54.565
+  },
+  {
+    "Cache": "46-34",
+    "Distance": 77.101
+  },
+  {
+    "Cache": "46-35",
+    "Distance": 82.343
+  },
+  {
+    "Cache": "46-36",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "46-37",
+    "Distance": 27.373
+  },
+  {
+    "Cache": "46-38",
+    "Distance": 61.565
+  },
+  {
+    "Cache": "46-39",
+    "Distance": 64.465
+  },
+  {
+    "Cache": "46-40",
+    "Distance": 71.465
+  },
+  {
+    "Cache": "46-41",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "46-42",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "46-43",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "46-44",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "46-45",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "46-46",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "46-47",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "46-48",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "46-49",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "47-0",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "47-1",
+    "Distance": 82.494
+  },
+  {
+    "Cache": "47-2",
+    "Distance": 76.515
+  },
+  {
+    "Cache": "47-3",
+    "Distance": 69.515
+  },
+  {
+    "Cache": "47-4",
+    "Distance": 62.515
+  },
+  {
+    "Cache": "47-5",
+    "Distance": 55.515
+  },
+  {
+    "Cache": "47-6",
+    "Distance": 55.05
+  },
+  {
+    "Cache": "47-7",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "47-8",
+    "Distance": 84.565
+  },
+  {
+    "Cache": "47-9",
+    "Distance": 78.586
+  },
+  {
+    "Cache": "47-10",
+    "Distance": 71.586
+  },
+  {
+    "Cache": "47-11",
+    "Distance": 59.929
+  },
+  {
+    "Cache": "47-12",
+    "Distance": 48.05
+  },
+  {
+    "Cache": "47-13",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "47-14",
+    "Distance": 88.485
+  },
+  {
+    "Cache": "47-15",
+    "Distance": 81.485
+  },
+  {
+    "Cache": "47-16",
+    "Distance": 76.243
+  },
+  {
+    "Cache": "47-17",
+    "Distance": 69.829
+  },
+  {
+    "Cache": "47-18",
+    "Distance": 66.929
+  },
+  {
+    "Cache": "47-19",
+    "Distance": 41.05
+  },
+  {
+    "Cache": "47-20",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "47-21",
+    "Distance": 59.737
+  },
+  {
+    "Cache": "47-22",
+    "Distance": 65.858
+  },
+  {
+    "Cache": "47-23",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "47-24",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "47-25",
+    "Distance": 86.858
+  },
+  {
+    "Cache": "47-26",
+    "Distance": 34.05
+  },
+  {
+    "Cache": "47-27",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "47-28",
+    "Distance": 57.201
+  },
+  {
+    "Cache": "47-29",
+    "Distance": 79.444
+  },
+  {
+    "Cache": "47-30",
+    "Distance": 86.444
+  },
+  {
+    "Cache": "47-31",
+    "Distance": 27.05
+  },
+  {
+    "Cache": "47-32",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "47-33",
+    "Distance": 61.565
+  },
+  {
+    "Cache": "47-34",
+    "Distance": 84.101
+  },
+  {
+    "Cache": "47-35",
+    "Distance": 89.343
+  },
+  {
+    "Cache": "47-36",
+    "Distance": 20.05
+  },
+  {
+    "Cache": "47-37",
+    "Distance": 34.373
+  },
+  {
+    "Cache": "47-38",
+    "Distance": 68.565
+  },
+  {
+    "Cache": "47-39",
+    "Distance": 71.465
+  },
+  {
+    "Cache": "47-40",
+    "Distance": 78.465
+  },
+  {
+    "Cache": "47-41",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "47-42",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "47-43",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "47-44",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "47-45",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "47-46",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "47-47",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "47-48",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "47-49",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "48-0",
+    "Distance": 83.373
+  },
+  {
+    "Cache": "48-1",
+    "Distance": 80.615
+  },
+  {
+    "Cache": "48-2",
+    "Distance": 73.615
+  },
+  {
+    "Cache": "48-3",
+    "Distance": 66.615
+  },
+  {
+    "Cache": "48-4",
+    "Distance": 59.615
+  },
+  {
+    "Cache": "48-5",
+    "Distance": 52.615
+  },
+  {
+    "Cache": "48-6",
+    "Distance": 52.151
+  },
+  {
+    "Cache": "48-7",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "48-8",
+    "Distance": 82.686
+  },
+  {
+    "Cache": "48-9",
+    "Distance": 75.686
+  },
+  {
+    "Cache": "48-10",
+    "Distance": 68.686
+  },
+  {
+    "Cache": "48-11",
+    "Distance": 57.03
+  },
+  {
+    "Cache": "48-12",
+    "Distance": 45.151
+  },
+  {
+    "Cache": "48-13",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "48-14",
+    "Distance": 85.586
+  },
+  {
+    "Cache": "48-15",
+    "Distance": 78.586
+  },
+  {
+    "Cache": "48-16",
+    "Distance": 73.343
+  },
+  {
+    "Cache": "48-17",
+    "Distance": 66.929
+  },
+  {
+    "Cache": "48-18",
+    "Distance": 64.03
+  },
+  {
+    "Cache": "48-19",
+    "Distance": 38.151
+  },
+  {
+    "Cache": "48-20",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "48-21",
+    "Distance": 66.737
+  },
+  {
+    "Cache": "48-22",
+    "Distance": 72.858
+  },
+  {
+    "Cache": "48-23",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "48-24",
+    "Distance": 86.858
+  },
+  {
+    "Cache": "48-25",
+    "Distance": 93.858
+  },
+  {
+    "Cache": "48-26",
+    "Distance": 31.151
+  },
+  {
+    "Cache": "48-27",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "48-28",
+    "Distance": 64.201
+  },
+  {
+    "Cache": "48-29",
+    "Distance": 86.444
+  },
+  {
+    "Cache": "48-30",
+    "Distance": 93.444
+  },
+  {
+    "Cache": "48-31",
+    "Distance": 24.151
+  },
+  {
+    "Cache": "48-32",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "48-33",
+    "Distance": 68.565
+  },
+  {
+    "Cache": "48-34",
+    "Distance": 91.101
+  },
+  {
+    "Cache": "48-35",
+    "Distance": 96.343
+  },
+  {
+    "Cache": "48-36",
+    "Distance": 17.151
+  },
+  {
+    "Cache": "48-37",
+    "Distance": 41.373
+  },
+  {
+    "Cache": "48-38",
+    "Distance": 75.565
+  },
+  {
+    "Cache": "48-39",
+    "Distance": 78.465
+  },
+  {
+    "Cache": "48-40",
+    "Distance": 85.465
+  },
+  {
+    "Cache": "48-41",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "48-42",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "48-43",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "48-44",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "48-45",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "48-46",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "48-47",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "48-48",
+    "Distance": 0.251
+  },
+  {
+    "Cache": "48-49",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "49-0",
+    "Distance": 88.03
+  },
+  {
+    "Cache": "49-1",
+    "Distance": 81.03
+  },
+  {
+    "Cache": "49-2",
+    "Distance": 74.03
+  },
+  {
+    "Cache": "49-3",
+    "Distance": 67.03
+  },
+  {
+    "Cache": "49-4",
+    "Distance": 60.03
+  },
+  {
+    "Cache": "49-5",
+    "Distance": 53.03
+  },
+  {
+    "Cache": "49-6",
+    "Distance": 49.251
+  },
+  {
+    "Cache": "49-7",
+    "Distance": 83.373
+  },
+  {
+    "Cache": "49-8",
+    "Distance": 83.101
+  },
+  {
+    "Cache": "49-9",
+    "Distance": 76.101
+  },
+  {
+    "Cache": "49-10",
+    "Distance": 69.101
+  },
+  {
+    "Cache": "49-11",
+    "Distance": 57.444
+  },
+  {
+    "Cache": "49-12",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "49-13",
+    "Distance": 76.373
+  },
+  {
+    "Cache": "49-14",
+    "Distance": 86.0
+  },
+  {
+    "Cache": "49-15",
+    "Distance": 79.0
+  },
+  {
+    "Cache": "49-16",
+    "Distance": 73.757
+  },
+  {
+    "Cache": "49-17",
+    "Distance": 67.343
+  },
+  {
+    "Cache": "49-18",
+    "Distance": 64.444
+  },
+  {
+    "Cache": "49-19",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "49-20",
+    "Distance": 69.373
+  },
+  {
+    "Cache": "49-21",
+    "Distance": 73.737
+  },
+  {
+    "Cache": "49-22",
+    "Distance": 79.858
+  },
+  {
+    "Cache": "49-23",
+    "Distance": 86.858
+  },
+  {
+    "Cache": "49-24",
+    "Distance": 93.858
+  },
+  {
+    "Cache": "49-25",
+    "Distance": 100.858
+  },
+  {
+    "Cache": "49-26",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "49-27",
+    "Distance": 62.373
+  },
+  {
+    "Cache": "49-28",
+    "Distance": 71.201
+  },
+  {
+    "Cache": "49-29",
+    "Distance": 93.444
+  },
+  {
+    "Cache": "49-30",
+    "Distance": 100.444
+  },
+  {
+    "Cache": "49-31",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "49-32",
+    "Distance": 55.373
+  },
+  {
+    "Cache": "49-33",
+    "Distance": 75.565
+  },
+  {
+    "Cache": "49-34",
+    "Distance": 98.101
+  },
+  {
+    "Cache": "49-35",
+    "Distance": 103.343
+  },
+  {
+    "Cache": "49-36",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "49-37",
+    "Distance": 48.373
+  },
+  {
+    "Cache": "49-38",
+    "Distance": 82.565
+  },
+  {
+    "Cache": "49-39",
+    "Distance": 85.465
+  },
+  {
+    "Cache": "49-40",
+    "Distance": 92.465
+  },
+  {
+    "Cache": "49-41",
+    "Distance": 10.151
+  },
+  {
+    "Cache": "49-42",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "49-43",
+    "Distance": 42.251
+  },
+  {
+    "Cache": "49-44",
+    "Distance": 35.251
+  },
+  {
+    "Cache": "49-45",
+    "Distance": 28.251
+  },
+  {
+    "Cache": "49-46",
+    "Distance": 21.251
+  },
+  {
+    "Cache": "49-47",
+    "Distance": 14.251
+  },
+  {
+    "Cache": "49-48",
+    "Distance": 7.251
+  },
+  {
+    "Cache": "49-49",
+    "Distance": 0.251
+  }
+]

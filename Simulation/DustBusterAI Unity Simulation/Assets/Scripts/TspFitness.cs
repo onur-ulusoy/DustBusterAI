@@ -4,17 +4,19 @@ using System.Globalization;
 using System.Linq;
 using GeneticSharp.Domain.Chromosomes;
 using GeneticSharp.Domain.Fitnesses;
-using GeneticSharp.Domain.Randomizations;
 using UnityEngine;
+using Newtonsoft.Json;
+using System.IO;
 
 public class TspFitness : IFitness
 {
     //private Rect m_area;
     GameObject plane;
+    [SerializeField] private float wallPenalty = 100f;
     public TspFitness(int numberOfCities, GameObject plane, GameObject robot, string Mode, List<Vector3> points)
     {
+        //ai.position = new Vector3(0, 2.08f, 0);
         this.plane = plane;
-
 
         //var size = Camera.main.orthographicSize - 1;
         //m_area = new Rect(-size, -size, size * 2, size * 2);
@@ -54,9 +56,6 @@ public class TspFitness : IFitness
             default:
                 break;
         }
-
-
-
 
     }
 
@@ -101,6 +100,49 @@ public class TspFitness : IFitness
 
         return fitness;
     }
+    private double CalcDistanceTwoCities(TspCity one, TspCity two)
+    {
+        return GetDistance(one.Number, two.Number);
+    }
+    public class SaveData
+    {
+        public string Cache;
+        public double Distance;
+    }
+
+    public Dictionary<string, double> distances = new Dictionary<string, double>();
+    public void ConvertJsonToDictionary()
+    {
+        string json = File.ReadAllText("C:/Users/onuru/OneDrive/Desktop/DustBusterAI/Simulation/DustBusterAI Unity Simulation/Assets/distance_data.json");
+
+        var dict = JsonConvert.DeserializeObject<List<Dictionary<string, object>>>(json);
+        var result = new Dictionary<string, double>();
+        foreach (var item in dict)
+        {
+            string cache = (string)item["Cache"];
+            double distance = (double)item["Distance"];
+            result[cache] = distance;
+        }
+        distances = result;
+    }
+
+    public double GetDistance(int order1, int order2)
+    {
+        string cache = $"{order1}-{order2}";
+        if (distances.ContainsKey(cache))
+        {
+            double distance = distances[cache];
+            //Debug.Log(order1+" "+order2+":"+distance);
+            return distance;
+        }
+        else
+        {
+            //Debug.Log(distances.ToString());
+            //Debug.Assert(false);
+            return 0.0;
+        }
+    }
+
 
     private Vector3 GetCityRandomPosition()
     {
@@ -110,11 +152,6 @@ public class TspFitness : IFitness
         //    RandomizationProvider.Current.GetFloat(m_area.xMin, m_area.xMax + 1),
         //    2.08f,
         //    RandomizationProvider.Current.GetFloat(m_area.yMin, m_area.yMax + 1));
-    }
-
-    private static double CalcDistanceTwoCities(TspCity one, TspCity two)
-    {
-        return Vector3.Distance(one.Position, two.Position);
     }
 
     private Vector3 PickRandomPointOnPlane()
