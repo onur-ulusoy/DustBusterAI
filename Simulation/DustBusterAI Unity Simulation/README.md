@@ -7,6 +7,7 @@ At each stage of development, the code may receive various changes, optimization
 - [Stage 2](#stage-2)
 - [Stage 3](#stage-3)
 - [Stage 4](#stage-4)
+- [Stage 5](#stage-5)
 
 It is continued to develop simulation stages.
 
@@ -57,3 +58,16 @@ Overall, by discretizing the area in which the robot operates, we can create a m
 
 https://user-images.githubusercontent.com/95442568/218342408-01527365-9dfb-44d2-ae56-826d1409f608.mp4
 
+## Stage 5
+
+In this latest stage, we have successfully prevented the appearance of targets in non-walkable areas and ensured an even distribution of targets in walkable areas. This enhancement has enabled the robot to traverse all the walkable areas in the most efficient time possible, utilizing both TSP and A* algorithms. Furthermore, we have optimized the interval between points, striking a balance between computation time, battery consumption, and robot speed. We have taken care to avoid excessive points that would slow down the robot and drain its battery.
+
+Moving forward, our focus will be on integrating these algorithms into ROS packages, which will enable us to experiment robot in Gazebo and eventually build a prototype.
+
+In addition to the improvements mentioned in the this stage, we have plans to optimize the existing algorithms further to increase efficiency. This will involve streamlining the algorithms and fine-tuning them to reduce computation time and minimize battery consumption.
+
+Moreover, we will be incorporating motion control algorithms to enhance the robot's path planning and movement capabilities. These algorithms will enable the robot to navigate more efficiently and effectively, taking into account various factors such as the robot's velocity and acceleration, as well as any obstacles in its path.
+
+By integrating these enhancements, we aim to create a highly optimized and efficient cleaning robot that can effectively navigate through any environment while maximizing its cleaning capabilities.
+
+https://user-images.githubusercontent.com/95442568/222244447-768bc50f-41e9-4a67-80c4-689e2ca3722b.mp4
