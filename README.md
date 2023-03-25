@@ -14,7 +14,7 @@
   - [Donate](#donate)
   - [Project Challenges](#project-challenges)
   - [Project Status](#project-status)
-  - [Simulation](#simulation)
+  - [Pre Simulations](#pre-simulations)
   - [License](#license)
   - [Conclusion](#conclusion)
 
@@ -91,15 +91,19 @@ The DustBusterAI project faces several difficulty, including:
 - Market competition from other cleaning robots and devices
 
 ## Project Status
-As of March 1, 2023, the DustBusterAI project is in the design and planning phase. The team is currently working on developing the robot's decision making algorithms. The project is on track to meet its Q1 2023 deadline for completing the prototype.
+As of March 25, 2023, the DustBusterAI project is in the design and planning phase. The team is currently working on developing the robot's decision making algorithms and testing using ROS2 framework, in Gazebo and RViz platforms. The project is on track to meet its Q1 2023 deadline for completing the prototype.
 
-## Simulation
-Before investing resources into building a physical prototype of a robot, it's crucial to validate the underlying algorithms that will govern its behavior. This involves simulating the robot's movements and interactions with the environment to verify that the algorithms are functioning as intended. Unity, a popular game engine and simulation platform, provides a powerful toolset for creating these simulations. By building a virtual prototype in Unity, developers can test and refine the algorithms that will ultimately drive the physical robot's behavior, without the risks and expenses associated with building and testing a physical prototype. This can help to identify and resolve potential issues early on in the development process, ensuring that the final product is as efficient and effective as possible. Once the algorithms have been thoroughly tested and optimized in the Unity simulation, developers can confidently move forward with building the physical robot.
+## Pre Simulations
+Since most of the algorithms are handled by development team, before creating ROS environment or investing resources into building a physical prototype of a robot, it's crucial to validate the underlying algorithms that will govern its behavior. This involves simulating the robot's movements and interactions with the environment to verify that the algorithms are functioning as intended. Unity, a popular game engine and simulation platform, provides a powerful toolset for creating these simulations. By building a virtual prototype in Unity, developers can test and refine the algorithms that will ultimately drive the physical robot's behavior, without the risks and expenses associated with building and testing a physical prototype. This can help to identify and resolve potential issues early on in the development process, ensuring that the final product is as efficient and effective as possible. Once the algorithms have been thoroughly tested and optimized in the Unity simulation, developers can confidently move forward with building the physical robot.
 
-Current unity simulation status can be checked from [Simulation Stages](https://github.com/onurulusoy4/DustBusterAI/tree/master/Simulation/DustBusterAI%20Unity%20Simulation)
+Algorithms first tested in Unity Engine and this is the main repository, not contain much another code, that's why the project is seen as C#.
+
+Current unity simulation status can be checked from [Simulation Stages](https://github.com/onurulusoy4/DustBusterAI/tree/master/Pre-Simulations/DustBusterAI%20Unity%20Simulation)
 
 
 https://user-images.githubusercontent.com/95442568/222244447-768bc50f-41e9-4a67-80c4-689e2ca3722b.mp4
+
+**Note:** Pre Simulations in Unity Engine is over, we jumped into developing ROS environment using Gazebo and RViz tools. [DustBusterAI-Software](https://github.com/onurulusoy4/DustBusterAI-Software)
 
 
 
