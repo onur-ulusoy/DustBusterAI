@@ -18,6 +18,6 @@ Additionally, wheel encoders are prone to cumulative error over time, which can 
 
 
 <p align="center">
-    <img width="500" src="../../Images/encoders-photo.png" alt="Encoders' photo mounted to the mile of wheels">
+    <img width="500" src="Images/encoders-photo.png" alt="Encoders' photo mounted to the mile of wheels">
 </p>
 <p align="center"><em>Encoders' photo mounted to the mile of wheels</em></p>
