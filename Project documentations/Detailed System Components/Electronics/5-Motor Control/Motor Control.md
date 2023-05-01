@@ -34,3 +34,7 @@ After being controlled, we can see that the controller is successful by looking 
 <p align="center"><em>Real-time Wheel Speed Graph</em></p>
 
 <p style="margin-bottom: 3em;"></p>
+
+This overview provides a clear understanding of the motor control process involved in the operation of the robot. With robust and precise motor control, the robot can effectively navigate through its environment according to the path planned by the navigation system.
+
+**For more detailed information** about the control structure, please navigate to the [Electronics/Control repository](../Electronics/Control/README.md).
