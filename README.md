@@ -1,5 +1,41 @@
 # DustBusterAI
 
+<div style="display: flex; align-items: center; justify-content: center;">
+    <a href="https://example.com/image1"><img src="Images/tech-used/ros-logo2.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
+    <a href="https://example.com/image2"><img src="Images/tech-used/gazebo-logo.png" alt="Image 2" style="width: 100px; margin-right: 32px;"></a>
+    <a href="https://example.com/image2"><img src="Images/tech-used/ubuntu-logo.png" alt="Image 2" style="width: 250px;"></a>
+</div>
+<br clear="both">
+
+
+
+<div style="display: flex; align-items: center; justify-content: center;">
+    <a href="https://example.com/image1"><img src="Images/tech-used/pi-logo.png" alt="Image 1" style="margin-right: 20px; width: 110px;"></a>
+    <a href="https://example.com/image2"><img src="Images/tech-used/arduino-logo.png" alt="Image 2" style="width: 100px;margin-right: 34px; "></a>
+    <a href="https://example.com/image1"><img src="Images/tech-used/Unity-Logo.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
+
+</div>
+<br clear="both">
+
+---
+
+<div style="display: flex; align-items: center; justify-content: center; margin-top: 30px; margin-bottom: 0px;">
+    <a href="https://example.com/image2"><img src="Images/tech-used/evolutionary-robotics-logo2.png" alt="Image 2" style="width: 400px;"></a>
+</div>
+<br clear="both">
+
+---
+<p style="margin-bottom: 1em;"></p>
+
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![ROS2 Version](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/rolling/Releases/Release-Humble-Hawksbill.html)
+[![Ubuntu Version](https://img.shields.io/badge/Ubuntu-22.04%20Jelly-orange.svg)](https://releases.ubuntu.com/22.04/)
+[![Python](https://img.shields.io/badge/Language-Python-yellow.svg)](https://www.python.org/)
+[![C++](https://img.shields.io/badge/Language-C%2B%2B-red.svg)](https://en.cppreference.com/)
+[![C#](https://img.shields.io/badge/Language-C%23-purple.svg)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Unity](https://img.shields.io/badge/Simulation-Unity-green.svg)](https://unity.com/)
+
+
 ## Table of Contents
 
 - [DustBusterAI](#dustbusterai)
@@ -19,11 +55,15 @@
   - [Conclusion](#conclusion)
 
 ## Project Overview
-DustBuster is an AI-powered full autonomous differential vehicled robot that is designed to clean plain floors in wide areas such as airports in the possible shortest period of time. DustBuster is equipped with advanced path planning, decision-making, and optimal motion control algorithms that enable it to navigate through complex environments while avoiding obstacles. Its powerful electric motors and durable wheels allow it to move quickly and efficiently across large areas, while its integrated cleaning system ensures that every nook and cranny is thoroughly cleaned. Vehicle electronics including hardware, firmwares and sensor system is designed with efficiency and reliability in mind, as the robot needs to be able to operate for extended periods of time without interruptions. This requires careful power management, thermal management, and fault tolerance design.
+DustBuster is an AI-powered full autonomous differential vehicled robot that is designed to clean plain floors in wide areas such as airports in the possible shortest period of time. DustBuster is equipped with advanced path planning, decision-making, and optimal motion control algorithms that enable it to navigate through complex environments while avoiding obstacles. Its powerful electric motors and durable wheels allow it to move quickly and efficiently across large areas, while its integrated cleaning system ensures that every nook and cranny is thoroughly cleaned. Vehicle electronics including hardware, firmwares, and sensor system is designed with efficiency and reliability in mind, as the robot needs to be able to operate for extended periods of time without interruptions. This requires careful power management and fault tolerance design.
+
+DustBusterAI uses the Robot Operating System 2 (ROS2), the well known and effective framework, to implement AI-based cleaning solutions for the robot. It employs simulation and monitoring platforms, Gazebo and RViz, for efficient development. 
 
 In addition to its autonomous capabilities, DustBuster also offers a range of features that make it easy to use and maintain. Its intuitive interface allows operators to monitor its progress and adjust settings as needed, while its modular design makes it easy to replace worn components and perform routine maintenance tasks.
 
 Overall, DustBuster represents a significant advancement in the field of autonomous cleaning robots, offering a powerful, efficient, and user-friendly solution for cleaning large areas quickly and effectively.
+
+
 
 ## Sub-repositories
 [DustBusterAI](https://github.com/onurulusoy4/DustBusterAI)
