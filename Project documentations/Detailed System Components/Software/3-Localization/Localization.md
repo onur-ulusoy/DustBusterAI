@@ -25,4 +25,53 @@ Combining odometry and mapping often leads to more accurate and effective locali
 </p>
 <p align="center"><em>Localization Schematic</em></p>
 
+
+## Localization Algorithms in ROS2
+
+There are various localization algorithm packages available for Robot Operating System (ROS) 2. These packages include significant solutions such as Simultaneous Localization and Mapping (SLAM) and Google's Cartographer.
+
+SLAM is a technique that allows robots to simultaneously determine their positions and map their environment in an unknown area. It is particularly useful when robots operate without knowledge of their environment or a predefined map. Many SLAM applications are available for ROS2, including popular ones such as Gmapping, RTAB-Map, and SLAM Toolbox.
+
+Cartographer, developed by Google, is an open-source SLAM library that holds a significant position among SLAM technologies. Cartographer works seamlessly with ROS2 and offers simultaneous localization and mapping capabilities. It utilizes data from multiple sensor sources, including odometry, LIDAR, and IMU, to create 2D and 3D maps around the robot and determine its position. Cartographer is known for its ability to solve local and global SLAM problems at a large scale and is popular in various applications.
+
+Both algorithms significantly enhance the ability of robots to map their surroundings and determine their position accurately. This helps robots navigate more effectively and interact with objects in their environment. It should be noted that the choice of the algorithm depends on the specific needs of the application and the environment in which the robot is used. 
+
+Eventually, robot is localized in the way that necessary transforms between frames (map → odom → base_link) are created in every moment as can be seen in below.
+
+
+<p align="center">
+    <img width="700" src="Images/localization-transforms.gif" alt="Transforms created by SLAM algorithms">
+</p>
+<p align="center"><em>Transforms created by SLAM algorithms</em></p>
+
+## ROS2 SLAM Package
+
+As an application of Simultaneous Localization and Mapping (SLAM) technology, the ROS2 SLAM package is used for robots to simultaneously determine their positions and map their environment. This is particularly necessary for effective navigation and path planning in unknown environments. With this feature, the ROS2 SLAM package provides an ideal solution for robotic systems operating in both indoor and outdoor environments with variable and uncertain conditions.
+
+### **Technical Details and Features**
+
+The SLAM algorithm typically integrates various sensor data, including odometry and LIDAR sensors. The ROS2 SLAM package supports a wide range of sensors, which increases its applicability to various robotic platforms.
+
+To resolve errors in odometry, the ROS2 SLAM package utilizes LIDAR data. LIDAR emits light waves to detect and measure distances to objects in the robot's surroundings. This data is used to improve the accuracy of odometry data and create an accurate environmental map.
+
+The SLAM algorithm consists of two main steps: localization and mapping. Localization utilizes sensor data to estimate the robot's position in the world frame. The mapping step creates a map of the environment using sensor data. These two steps continuously follow each other, allowing the robot to continuously update its position and expand its knowledge about the environment.
+
+The ROS2 SLAM package also possesses the ability to adapt to environmental changes. The algorithm detects changes in the environment and updates the map accordingly. This is particularly useful in dynamic environments where there are moving humans or vehicles.
+
+Finally, the ROS2 SLAM package offers various tuning parameters to customize and adapt the algorithm to a specific application. These parameters can be used to optimize performance and accuracy. For example, sensor settings, map resolution, or adjustments to specific parts of the algorithm can be made.
+
+
+### **Strengths and Applications**
+
+One of the strengths of the ROS2 SLAM package is its environment modeling capability, with high accuracy and reliability. This is highly valuable in complex and variable environments. The package allows the robot to accurately model its surroundings by combining position estimation and environmental information.
+
+The ROS2 SLAM package generally supports a wide range of sensors. This increases its applicability to various robotic platforms and applications. For example, the package can be used in aerial vehicles, ground vehicles, submarines, and even human-robot interactions.
+
+Additionally, the ROS2 SLAM package quickly adapts to environmental changes. As the environment dynamically changes, the package updates its map, allowing the robot to have an accurate understanding of the new environment. This is particularly valuable in continuously changing environments, such as areas where humans or vehicles move.
+
+However, there are also limitations and challenges in using the ROS2 SLAM package. In particular, its performance may decrease and result in incorrect maps in complex environments and cases with high sensor noise. This can affect the overall accuracy and reliability of the algorithm. Additionally, the ROS2 SLAM package generally requires high processing power, which can increase energy consumption and hardware costs.
+
+
+
+
 TO BE CONT.
