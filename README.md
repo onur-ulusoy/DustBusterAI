@@ -41,6 +41,12 @@
 - [DustBusterAI](#dustbusterai)
   - [Table of Contents](#table-of-contents)
   - [Project Overview](#project-overview)
+  - [Autonomous Overview](#autonomous-overview)
+    - [Sense](#sense)
+    - [Interpret](#interpret)
+    - [Plan](#plan)
+    - [Navigate](#navigate)
+    - [Actuate](#actuate)
   - [Sub-repositories](#sub-repositories)
   - [Project Goals](#project-goals)
   - [Project Team](#project-team)
@@ -62,6 +68,75 @@ DustBusterAI uses the Robot Operating System 2 (ROS2), the well known and effect
 In addition to its autonomous capabilities, DustBuster also offers a range of features that make it easy to use and maintain. Its intuitive interface allows operators to monitor its progress and adjust settings as needed, while its modular design makes it easy to replace worn components and perform routine maintenance tasks.
 
 Overall, DustBuster represents a significant advancement in the field of autonomous cleaning robots, offering a powerful, efficient, and user-friendly solution for cleaning large areas quickly and effectively.
+
+## Autonomous Overview
+
+<p align="center">
+    <img width="1300" src="Images/Autonomous-Overview.png" alt="Autonomous Overview">
+</p>
+
+<p style="margin-bottom: 3em;"></p>
+
+
+### **Sense**
+<p style="margin-bottom: 1em;"></p>
+
+<p align="center">
+    <img width="75" src="Images/autonomous-logos/sense.pnG" alt="Autonomous Overview">
+</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<p style="margin-bottom: 1em;"></p>
+
+### **Interpret**
+
+<p align="center">
+    <img width="75" src="Images/autonomous-logos/interpret.png" alt="Autonomous Overview">
+</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<p style="margin-bottom: 1em;"></p>
+
+
+### **Plan**
+
+<p align="center">
+    <img width="75" src="Images/autonomous-logos/plan.png" alt="Autonomous Overview">
+</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p style="margin-bottom: 1em;"></p>
+
+### **Navigate**
+<p align="center">
+    <img width="90" src="Images/autonomous-logos/navigate.png" alt="Autonomous Overview">
+</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<p style="margin-bottom: 1em;"></p>
+
+### **Actuate**
+
+<p align="center">
+    <img width="90" src="Images/autonomous-logos/actuate.png" alt="Autonomous Overview">
+</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<p style="margin-bottom: 1em;"></p>
+
 
 
 
