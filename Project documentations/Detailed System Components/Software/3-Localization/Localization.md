@@ -71,7 +71,26 @@ Additionally, the ROS2 SLAM package quickly adapts to environmental changes. As 
 
 However, there are also limitations and challenges in using the ROS2 SLAM package. In particular, its performance may decrease and result in incorrect maps in complex environments and cases with high sensor noise. This can affect the overall accuracy and reliability of the algorithm. Additionally, the ROS2 SLAM package generally requires high processing power, which can increase energy consumption and hardware costs.
 
+Overall, the ROS2 SLAM package provides an effective solution when properly configured and used under suitable conditions. However, considering the challenges posed by complex environments and high processing power requirements, it may not always be the optimal choice for every application. Therefore, it is important to evaluate different navigation and mapping solutions based on the requirements and operational conditions of the robot,.
 
+## ROS2 Cartographer Package
 
+Cartographer, a prominent SLAM package within SLAM technologies, is an open-source SLAM library developed by Google. It seamlessly integrates with ROS2 and provides simultaneous localization and mapping capabilities based on SLAM technology. However, Cartographer offers several distinct advantages compared to the ROS2 SLAM package.
 
-TO BE CONT.
+### **Notable Features and Advantages of Cartographer**
+
+Cartographer stands out from other SLAM technologies by offering 2D and 3D mapping capabilities. This allows for more accurate and detailed maps to be created in complex and dynamic environments. Its effectiveness on both indoor and outdoor areas, flat and irregular surfaces, is a significant advantage.
+
+Cartographer provides users with various tuning parameters to customize the package for specific applications or environments. These parameters can be used to adjust sensor settings, map resolution, or specific parts of the algorithm. This allows Cartographer to be optimized and deliver better performance for a particular task or environment.
+
+When optimized, Cartographer provides a highly stable solution. It also responds quickly and effectively to environmental changes, which is particularly valuable in dynamic environments with moving objects. Its Loop closure feature stands out in the mapping section.
+
+Finally, Cartographer's extensive parameter set allows customization and optimization for specific applications or environments. These parameters can be used to adjust sensor settings, map resolution, or specific parts of the algorithm.
+
+### **Weaknesses and Limitations**
+
+Cartographer also presents certain challenges. In particular, when not properly optimized, it may require high processing power and demand experience and expertise to correctly adjust various parameters. This can increase energy consumption and hardware costs. Additionally, in complex environments and situations with high sensor noise, Cartographer may generate incorrect maps.
+
+## Overall Evaluation
+
+Considering these features and advantages, the ROS2 Cartographer package proves to be a powerful and flexible tool for robotic navigation and mapping in complex environments based on SLAM technology. Therefore, we have chosen to use Cartographer instead of the ROS2 SLAM package.
