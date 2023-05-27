@@ -58,3 +58,52 @@ In conclusion, the genetic algorithm repeats the solution search process, select
 
 The genetic algorithm we developed is designed to work effectively in uncertain and changing environments. This allows the robot to adapt to any environment and situation. This allows the genetic algorithm to find effective solutions even in uncertain and variable environments. In future versions of the robot, we will use this algorithm a second time for a separate problem to obtain smarter solutions while discretizing the map.
 <p style="margin-bottom: 1em;"></p>
+
+## Algorithm Application
+The best route through the formed points is found using a genetic algorithm, as described below.
+
+At the beginning of the algorithm, random routes are generated. Routes with the shortest distances are selected by a certain percentage, and biological factors such as crossover and mutation are applied between them.
+
+In the new generation, the most suitable ones are again selected, and this process is terminated when the length of the path falls below a certain value or stabilizes.
+<p style="margin-bottom: 1em;"></p>
+
+<p align="center">
+    <img width="350" src="Images/genetic-solution.png" alt="Best route found using genetic algorithm">
+</p>
+<p align="center"><em>Best route found using genetic algorithm</em></p>
+
+<p style="margin-bottom: 3em;"></p>
+
+As shown in the graph below, it is seen that saturation is reached in about 18 generations.
+
+<p align="center">
+    <img width="350" src="Images/genetic-solution-fitness.png" alt="Graph showing generations until saturation">
+</p>
+
+<p align="center"><em>Graph showing generations until saturation</em></p>
+
+<p style="margin-bottom: 3em;"></p>
+
+
+The following can be considered as an error graph. Approaching in this way, we can characterize the genetic algorithm as a form of a **biological control method**.
+
+<p style="margin-bottom: 2em;"></p>
+
+<p align="center">
+    <img width="350" src="Images/genetic-solution-tourlength.png" alt="Error graph of the genetic algorithm process">
+</p>
+<p align="center"><em>Error graph of the genetic algorithm process</em></p>
+<p style="margin-bottom: 2em;"></p>
+
+Finally, the robot's navigation to the waypoints is performed as we see in the RViz image below.
+
+<p align="center">
+    <img width="350" src="Images/rviz-route-app.png" alt="Robot navigates to waypoints one by one">
+</p>
+<p align="center"><em>Robot navigates to waypoints one by one</em></p>
+
+<p style="margin-bottom: 2em;"></p>
+
+
+## Future Plans
+In the next version of the robot, we aim to tackle map discretization as a problem, and later to solve it with a genetic algorithm based on the robot's cleaning capacity. Since we will develop a specific algorithm based on the vehicle's mechanical criteria and cleaning capacity, we leave this to future versions of the robot.
