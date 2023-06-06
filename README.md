@@ -47,6 +47,7 @@
     - [Plan](#plan)
     - [Navigate](#navigate)
     - [Actuate](#actuate)
+    - [Overall](#overall)
   - [Sub-repositories](#sub-repositories)
   - [Project Goals](#project-goals)
   - [Project Team](#project-team)
@@ -74,69 +75,114 @@ Overall, DustBuster represents a significant advancement in the field of autonom
 <p align="center">
     <img width="1300" src="Images/Autonomous-Overview.png" alt="Autonomous Overview">
 </p>
-
-<p style="margin-bottom: 3em;"></p>
-
-
-### **Sense**
+The autonomous architecture of our DustBuster robot consists of five primary stages: perception, interpretation, planning, and navigation, followed by the actuation or motor drive stage. Detailed documentation of each of these stages can be found in the corresponding project folders and they are summarized below subsections.
 <p style="margin-bottom: 1em;"></p>
 
+---
+
+<p style="margin-bottom: 1.5em;"></p>
 <p align="center">
     <img width="75" src="Images/autonomous-logos/sense.pnG" alt="Autonomous Overview">
 </p>
 
-<p style="margin-bottom: 1em;"></p>
+### **Sense**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In the perception or sensing stage, the robot collects data from various sensors. We first employ a 2D Lidar. This sensor utilizes a laser beam within a 240-degree field of view to detect structures in the environment in two dimensions. Next in line are the encoders, which provide information about the vehicle's location by determining the degree of wheel rotation. Finally, the Inertial Measurement Unit (IMU) assists and provides reliability to the other sensors by detecting the vehicle's instant motion.
 
-<p style="margin-bottom: 1em;"></p>
+Raw data obtained is often noisy and may contain outliers or irrelevant information. To ensure the quality and reliability of the data, we employ various filtering techniques to reduce the noise and enhance the valuable information. 
 
-### **Interpret**
+For a deeper dive into DustBuster's sensing mechanisms, please refer to the following resources:
+
+- [Electronics Documentations](/Project%20Documentations/Detailed%20System%20Components/Electronics) offer detailed insights into the sensors and their configurations that enable DustBuster's operation.
+- [Electronics Repository](https://github.com/onur-ulusoy/DustBusterAI-Electronics) houses the electronic design files and code that power DustBuster's sensor systems.
+
+
+---
+
+<p style="margin-bottom: 1.5em;"></p>
+
 
 <p align="center">
     <img width="75" src="Images/autonomous-logos/interpret.png" alt="Autonomous Overview">
 </p>
 
-<p style="margin-bottom: 1em;"></p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### **Interpret**
 
-<p style="margin-bottom: 1em;"></p>
+The next stage is interpretation. In this stage, the processed sensor data is evaluated to gain an understanding of the robot's environment. This process aim to create environmental awareness for the robot. It answers critical questions like, "Where am I currently located?", "What obstacles are present in my surroundings?", and so on.
+
+We combine sensor data for localization and mapping, thereby obtaining more precise and reliable information. Initially, we determine the vehicle's current position by passing encoder and IMU data through a Kalman filter. We then utilize the Lidar data directly to generate the map.
+
+Sensing & Interpretation stages can be summarized with below schematic.
+
+<p style="margin-bottom: 2em;"></p>
 
 
-### **Plan**
+<p align="center">
+    <img width="900" src="Images/sensor-processing-line.png" alt="Autonomous Overview">
+</p>
+<p align="center"><em>Sensing & Interpretation Stages Schematic</em></p>
+<p style="margin-bottom: 2em;"></p>
+
+For a comprehensive understanding of the interpretation process, kindly refer to the following detailed documentations:
+
+- [Odometry](/Project%20Documentations/Detailed%20System%20Components/Software/1-Odometry/Odometry.md) provides information on how the robot's current position is computed.
+- [Mapping](/Project%20Documentations/Detailed%20System%20Components/Software/2-Mapping/Mapping.md) explains how Lidar data is utilized to generate the map.
+- [Localization](/Project%20Documentations/Detailed%20System%20Components/Software/3-Localization/Localization.md) expounds on the combination of sensor data for precise localization.
+- [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software) provides a broader view of the entire software of autonomous system with the source code.
+
+
+---
+<p style="margin-bottom: 1.5em;"></p>
 
 <p align="center">
     <img width="75" src="Images/autonomous-logos/plan.png" alt="Autonomous Overview">
 </p>
 
-<p style="margin-bottom: 1em;"></p>
+### **Plan**
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<p style="margin-bottom: 1em;"></p>
+<p style="margin-bottom: 1.5em;"></p>
 
-### **Navigate**
+---
+
 <p align="center">
     <img width="90" src="Images/autonomous-logos/navigate.png" alt="Autonomous Overview">
 </p>
 
-<p style="margin-bottom: 1em;"></p>
+### **Navigate**
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<p style="margin-bottom: 1em;"></p>
+<p style="margin-bottom: 1.5em;"></p>
 
-### **Actuate**
+---
+<p style="margin-bottom: 1.5em;"></p>
+
 
 <p align="center">
     <img width="90" src="Images/autonomous-logos/actuate.png" alt="Autonomous Overview">
 </p>
 
-<p style="margin-bottom: 1em;"></p>
+
+### **Actuate**
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <p style="margin-bottom: 1em;"></p>
 
+---
+
+### **Overall**
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+<p style="margin-bottom: 1em;"></p>
+
+
+<p align="center">
+    <img width="1200" src="Images/autonomous-schematic.png" alt="General Schematic">
+</p>
 
 
 
