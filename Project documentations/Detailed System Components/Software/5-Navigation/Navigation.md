@@ -37,4 +37,27 @@ ROS2 comes with the Nav2 package that supports a range of path planning algorith
 <p align="center"><em>Transforms of joints are created by Nav2</em></p>
 
 
+## ROS2 Nav2 Package
+DustbusterAI uses the Nav2 package for path planning, customizing and optimizing it for our purposes. In our project, path planning is primarily used to provide navigation to points (in general route) obtained from the genetic algorithm. In addition, secondly, the Nav2 package is utilized to determine the distances between points for the genetic algorithm used to solve the TSP problem.
+
+Nav2 works together with the cartographer and draws a global navigation map around the walls as you can see. The local navigation map operates around the vehicle. Thus, with the Adaptive Monte Carlo algorithm, the next speed signal is determined according to dynamic environmental conditions. 
+
+In this video, we test the success of the navigation algorithm by giving the position manually. I put a new obstacle into the environment in Gazebo, but the route is changed immediately as soon as it is detected and the obstacle is avoided.
+
+<p align="center">
+    <img width="700" src="Images/nav2-working.gif" alt="Optimized performance of Nav2">
+</p>
+<p align="center"><em>Optimized performance of Nav2</em></p>
+
+
+## ROS2 Nav2 Package and AMC Integration
+The ROS2 Navigation 2 (Nav2) package is a modern and modular navigation framework compatible with ROS2. Nav2 consists of a series of plugin-based subsystems that work together to perform navigation tasks. Subsystems include different modules for global and local path planning, path tracking, speed control, mapping, and other tasks. Nav2's modular design offers the ability to change these modules as needed and for users to create customized navigation solutions.
+
+Nav2 has integrated the Adaptive Monte Carlo (AMC) method into its path planning module. AMC's integration with Nav2 provides the ability to manage uncertainties and complexity in the environment quickly and efficiently. This integration greatly enhances the robot's overall path planning and navigation capabilities.
+
+## Global and Local Maps
+Nav2 creates additional maps in line with the path plan to be generated and provides a very effective solution by running these maps together. These are referred to as global and local maps. The global map is usually created once and used as a reference for the robot's general navigation. This map contains environmental information at the very beginning, i.e., when the robot is still at the starting point, and is usually static. The local map, on the other hand, represents the robot's instant environmental perception and movements and is generally dynamic. The local map is used to adapt quickly to changes in the environment. The adaptive feature of the navigation algorithm comes from here. Nav2 enhances the robot's navigation capabilities with its ability to switch between global and local maps.
+
+## Nav2 Tolerances and Adjustable Structure
+Nav2 allows users to adjust various navigation parameters and tolerances. These parameters include path planning speed, path tracking sensitivity, goal reaching tolerance, collision prevention parameters, and more. These parameters and tolerances allow the user to adjust navigation tasks and behaviors to optimize navigation performance and reliability. This feature increases Nav2's ability to adapt to various application scenarios and environmental conditions.
 
