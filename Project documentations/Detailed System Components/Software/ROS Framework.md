@@ -26,3 +26,25 @@ Gazebo is a robot simulation environment that, when used with ROS2, enables the 
 <p align="center"><em>Gazebo Environment</em></p>
 
 
+## Rviz and Visualization
+
+The ROS2 framework includes a 3D visualization tool called Rviz. Rviz visually represents data from robot sensors, aiding users in understanding the robot's state and its surroundings. This feature greatly facilitates the understanding and debugging of complex robotic systems.
+
+<p align="center">
+    <img width="300" src="Images/RViz.png" alt="Sensor data observation in RViz Tool">
+</p>
+<p align="center"><em>Sensor data observation in RViz Tool</em></p>
+
+## Advantages of ROS2
+
+ROS2 offers users a range of significant advantages. Firstly, it enhances code reusability. ROS2 provides a set of standardized libraries and tools, allowing users to quickly integrate pre-built versions of commonly used features for robotic systems. This accelerates the application development process and simplifies code maintenance and debugging.
+
+Secondly, ROS2 makes complex robotic systems manageable. With ROS2's nodes and services, users can break down complex robotic systems into a series of interconnected modules. This modular approach enables independent development, testing, and optimization of each module. It facilitates isolating system errors and enables efficient communication between systems.
+
+Thirdly, ROS2's scalability offers an excellent solution for scaling up the size and complexity of robot systems. It opens up possibilities for developing larger and more complex robotics applications, allowing users to adapt robots for a broader range of tasks. The combination of these features enables rapid development and deployment of robot systems, resulting in cost and time savings.
+
+---
+
+**For more detailed information** about the software we developed under ROS2 framework, including its components, features, and implementation details, please keep reading the other software documents or you can visit our Robotics repository below.
+
+[DustBusterAI-Software](https://github.com/onur-ulusoy/DustBusterAI-Software)
