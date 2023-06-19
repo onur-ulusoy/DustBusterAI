@@ -78,6 +78,8 @@ Overall, DustBuster represents a significant advancement in the field of autonom
 The autonomous architecture of our DustBuster robot consists of five primary stages: perception, interpretation, planning, and navigation, followed by the actuation or motor drive stage. Detailed documentation of each of these stages can be found in the corresponding project folders and they are summarized below subsections.
 <p style="margin-bottom: 1em;"></p>
 
+<p style="margin-bottom: 1em;"></p>
+
 ---
 
 <p style="margin-bottom: 1.5em;"></p>
@@ -95,6 +97,8 @@ For a deeper dive into DustBuster's sensing mechanisms, please refer to the foll
 
 - [Electronics Documentations](/Project%20Documentations/Detailed%20System%20Components/Electronics) offer detailed insights into the sensors and their configurations that enable DustBuster's operation.
 - [Electronics Repository](https://github.com/onur-ulusoy/DustBusterAI-Electronics) houses the electronic design files and code that power DustBuster's sensor systems.
+
+<p style="margin-bottom: 1em;"></p>
 
 
 ---
@@ -130,7 +134,7 @@ For a comprehensive understanding of the interpretation process, kindly refer to
 - [Mapping](/Project%20Documentations/Detailed%20System%20Components/Software/2-Mapping/Mapping.md) explains how Lidar data is utilized to generate the map.
 - [Localization](/Project%20Documentations/Detailed%20System%20Components/Software/3-Localization/Localization.md) expounds on the combination of sensor data for precise localization.
 - [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software) provides a broader view of the entire software of autonomous system with the source code.
-
+<p style="margin-bottom: 1em;"></p>
 
 ---
 <p style="margin-bottom: 1.5em;"></p>
@@ -141,8 +145,24 @@ For a comprehensive understanding of the interpretation process, kindly refer to
 
 ### **Plan**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<p style="margin-bottom: 1.5em;"></p>
+We then proceed to the planning stage. Using artificial intelligence algorithms and map data, we determine the general route that the robot will take. The goal here is to find the optimal path that ensures efficiency and safety while achieving the desired cleaning objectives.
+
+We use evolutionary algorithms to determine the optimal path at specified time stamps according to the situation. It can be seen in the below simulation the optimal path determination at the initial state of the robot in Unity platform.
+
+<p style="margin-bottom: 1em;"></p>
+
+<p align="center">
+    <img width="600" src="Images/genetic-unity.gif" alt="Route Determined by Genetic Algorithm Visualized in Unity Platform">
+</p>
+<p align="center"><em>Route Determined by Genetic Algorithm Visualized in Unity Platform</em></p>
+
+- [AI Overview](/Project%20Documentations/Detailed%20System%20Components/Software/4-Artificial%20Intelligence/AI%20Overview.md): An overview of the AI systems in DustBuster.
+- [Genetic Algorithm](/Project%20Documentations/Detailed%20System%20Components/Software/4-Artificial%20Intelligence/Genetic%20Algorithm.md): A detailed look into how we utilize genetic algorithms for path planning.
+- [Unity Simulation](/Simulations/DustBusterAI%20Unity%20Simulation/): Our simulation environment built on Unity to develop and test evolutionary algorithms.
+- [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software): Access to the codebase that powers DustBuster's software systems.
+
+
+<p style="margin-bottom: 1 em;"></p>
 
 ---
 
@@ -152,10 +172,22 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 ### **Navigate**
 
+Following planning, we reach the navigation stage. Here, the paths to the planned waypoints are generated, producing real-time velocity commands for the robot. This stage ensures the smooth and accurate execution of the planned route, responding dynamically to any changes in the environment.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-<p style="margin-bottom: 1.5em;"></p>
+Below is a video demonstration showcasing how DustBuster operates within an environment that is completely unknown to it initially.
 
+<p style="margin-bottom: 1em;"></p>
+
+<p align="center">
+    <img width="1300" src="Images/full-simulation.gif" alt="Demonstration of Route Navigation via Genetic Algorithm in Gazebo Simulation">
+</p>
+<p align="center"><em>Demonstration of Route Navigation via Genetic Algorithm in Gazebo Simulation</em></p>
+
+For a more thorough understanding of our navigation approach, consider checking out the following resources:
+
+- [Navigation Overview](/Project%20Documentations/Detailed%20System%20Components/Software/5-Navigation/Navigation%20Overview.md): An overview of DustBuster's navigation systems.
+- [Navigation Detailed](/Project%20Documentations/Detailed%20System%20Components/Software/5-Navigation/Navigation.md): An in-depth examination of our navigation processes.
+- [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software): Access to the codebase that powers DustBuster's software systems.
 ---
 <p style="margin-bottom: 1.5em;"></p>
 
