@@ -199,15 +199,35 @@ For a more thorough understanding of our navigation approach, consider checking 
 
 ### **Actuate**
 
+The final stage in DustBusterAI's autonomous architecture is motor drive or actuation. Here, the velocity command generated during the navigation phase is converted into a voltage signal suitable for the DC motor. This is achieved using a digital PI-PD controller embedded within the Arduino, a development that highlights the critical role of control theory in our design process. Leveraging tools like Matlab and Simulink, we've ensured the controller is well-tuned to provide efficient, responsive, and robust actuation. The result is a robot that settles to desired commands quickly, without overshoots, and remains stable across a range of conditions.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The efficacy of our controller design can be appreciated in the real-time wheel speed graph produced by the system. The following image demonstrates the performance of DustBusterAI's motor control in real-world conditions:
+
+<p align="center">
+    <img width="1500" src="Images/wheel-speed-graph.bmP" alt="Real-time Wheel Speed Graph">
+</p>
+
+<p align="center"><em>Real-time Wheel Speed Graph</em></p>
+
+<p style="margin-bottom: 3em;"></p>
+
+For in-depth information on our controller design and motor actuation strategies, refer to the following resources:
+
+- [Control System Design](https://github.com/onur-ulusoy/DustBusterAI-Electronics/Documentation/Control%20System%20Design.md) - Comprehensive documentation detailing the system model and our controller design process.
+- [Motor Control Overview](/Project%20Documentations/Detailed%20System%20Components/Electronics/5-Motor%20Control/Motor%20Control.md) - An overview of the motor control strategy for DustBusterAI.
+- [Electronics Repository](https://github.com/onur-ulusoy/DustBusterAI-Electronics) - Comprises the Arduino codebase, including the implemented digital controllers, as well as the Simulink files and design documents for our control system.
+
+
+
 
 <p style="margin-bottom: 1em;"></p>
 
 ---
 
 ### **Overall**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The entire operation of DustBusterAI, our robot, is a carefully coordinated process where multiple subsystems work together to achieve autonomous cleaning. The block diagram provided below offers a clear picture of how these different subsystems interact and work together in a step-by-step manner, from initial sensing of the environment, through interpretation of data and route planning, to navigation and final actuation of the motors.
+
+To understand the details of this process and the design decisions made along the way, we invite you to explore our main and sub-repositories, as well as the extensive documentation provided for each subsystem. These resources will offer a comprehensive understanding of the inner workings of DustBusterAI.
 
 <p style="margin-bottom: 1em;"></p>
 
