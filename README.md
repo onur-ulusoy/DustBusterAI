@@ -50,11 +50,11 @@
     - [Overall](#overall)
   - [Sub-repositories](#sub-repositories)
   - [Project Goals](#project-goals)
-  - [Project Team](#project-team)
+  - [Project Team \& Academic](#project-team--academic)
   - [Technologies Used](#technologies-used)
   - [Project Timeline](#project-timeline)
   - [Project Budget](#project-budget)
-  - [Donate](#donate)
+  - [Donate \& Join the Team](#donate--join-the-team)
   - [Project Challenges](#project-challenges)
   - [Project Status](#project-status)
   - [Pre Simulations](#pre-simulations)
@@ -240,16 +240,16 @@ To understand the details of this process and the design decisions made along th
 
 ## Sub-repositories
 [DustBusterAI](https://github.com/onurulusoy4/DustBusterAI)
-(this) is the main repository of the project and contains general planning, management and visualisation. 
+(this) is the main repository of the project and contains general planning, documentation, management and visualisation. 
 
 Sub-repositories are,
-- [DustBusterAI-Software](https://github.com/onurulusoy4/DustBusterAI-Software)
-- [DustBusterAI-Control](https://github.com/onurulusoy4/DustBusterAI-Control)
-- [DustBusterAI-Electronics](https://github.com/onurulusoy4/DustBusterAI-Electronics)
-- [DustBusterAI-Mechanics](https://github.com/onurulusoy4/DustBusterAI-Software)
+- [**DustBusterAI-Software**](https://github.com/onur-ulusoy/DustBusterAI-Software) Contains all the software codebase of DustBusterAI running on the embedded computer. It includes the ROS packages, autonomous navigation and control algorithms, sensor fusion codes, AI-based path planning and all other necessary software that powers the robot's intelligence and autonomy.
+- [**DustBusterAI-Electronics**](https://github.com/onur-ulusoy/DustBusterAI-Electronics) This repository houses the embedded firmware codebase, electronic design and control systems of the DustBusterAI. It covers the embedded systems, circuit schematics, wiring diagrams, motor control systems, and sensor interfaces. This is where the physical aspects of the robot - motor controls, sensors, power management, and overall electronics - are managed and documented.
+
+Note that, as DustBusterAI continues to evolve, new sub-repositories may be created to cater to evolving project needs. This could include a dedicated repository for advanced artificial intelligence algorithms, robot monitoring written in Java, or a repository for a web interface built using ASP.NET. Be sure to follow our GitHub for the latest project updates.
 
 ## Project Goals
-The goals of the DustBusterAI project are:
+The goals of the DustBusterAI project in the initial phase are:
 
 - To create, optimize and visualize the algorithms in simulation platforms (Unity, Gazebo)
 - To make algorithms to run on ROS environment
@@ -259,12 +259,20 @@ The goals of the DustBusterAI project are:
 - To design and build a working prototype of the robot
 - To develop a user-friendly interface for monitoring the robot
 
-## Project Team
+## Project Team & Academic
 The DustBusterAI project is being developed by a team of engineering students. The team includes:
 
-- [Onur Ulusoy](https://github.com/onurulusoy4/)
-- Kemal Turan
-- Efecan Becer
+- [Onur Ulusoy](https://github.com/onur-ulusoy/)  (Software, Electronics, Control Systems Developer)
+- Kemal Turan (Mechanical Designer)
+- Efecan Becer (Mechanical Designer)
+
+A part of this project has been developed as an academic research within the **Autonomous Systems Research Laboratory** at our university. 
+
+The development and progress of the project were carefully monitored and guided by our esteemed faculty member, [**Prof. Dr. Erdinç Altuğ**](https://web.itu.edu.tr/altuger/). His invaluable insights and direction were instrumental in achieving the objectives of this project.
+
+For academic insights, mechanical designs, manufactured items, theses, presentations, and publications related to this project, please visit our [Project Documentations](/Project%20Documentations).
+
+
 
 ## Technologies Used
 The following technologies will be used in the DustbusterAI project:
@@ -287,14 +295,17 @@ The following technologies will be used in the DustbusterAI project:
 
 ## Project Budget
 
-The project budget for DustBusterAI is estimated for the first prototype to be $5000, including costs for materials, components, hardware and firmware development, software development, algorithm optimization, and prototype testing. This budget will be allocated across the different phases of the project according to the timeline outlined above.
-## Donate
-Donate to Support the DustBusterAI Project.
+The project budget for DustBusterAI is estimated for the first prototype to be $650, including costs for materials, components, hardware and firmware development, software development, algorithm optimization, and prototype testing. This budget will be allocated across the different phases of the project according to the timeline outlined above.
+
+It's worth noting that not all items were purchased at the academic timeline of the project, as they were already available in the laboratory. For further details, please refer to the [Bill of Materials](/Bill%20of%20materials/) 
+
+## Donate & Join the Team
+Donate or Join to Support the DustBusterAI Project.
 
 We are having economic burdens in our country which usually result in the necessary materials or manufacturing fees such as PCB production or 3D printing to be overpriced.
-We rely on the support of donors like you to bring the DustBusterAI project to life. Your contribution will help us purchase the necessary equipment and materials to build a working prototype of the robot, as well as fund the development of the necessary software and algorithms to make it run. By donating, you can be a part of revolutionizing the cleaning industry and making our world a cleaner, more efficient place. Thank you for your support!
+We rely on the support of donors like you to bring the DustBusterAI project to develop further. Your contribution will help us purchase the necessary equipment and materials to build a working prototype of the robot, or if you are interested in and eager to develop this project, you can **join our team** for the further development of the necessary software and electronics to make it run, design of the mechanical parts to enpower the system. By donating or joining to us, you can be a part of revolutionizing the cleaning industry and making our world a cleaner, more efficient place. Thank you for your support!
 
-To donate to our project please contact [Onur Ulusoy](https://www.linkedin.com/in/onurulusoy7/)
+Reach us out contacting [Onur Ulusoy](https://www.linkedin.com/in/onur-ulusoy/)
 
 ## Project Challenges
 The DustBusterAI project faces several difficulty, including:
