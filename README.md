@@ -1,18 +1,18 @@
 # DustBusterAI
 
 <div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://example.com/image1"><img src="Images/tech-used/ros-logo2.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
-    <a href="https://example.com/image2"><img src="Images/tech-used/gazebo-logo.png" alt="Image 2" style="width: 100px; margin-right: 32px;"></a>
-    <a href="https://example.com/image2"><img src="Images/tech-used/ubuntu-logo.png" alt="Image 2" style="width: 250px;"></a>
+    <a href="https://www.ros.org/"><img src="Images/tech-used/ros-logo2.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
+    <a href="http://gazebosim.org/"><img src="Images/tech-used/gazebo-logo.png" alt="Image 2" style="width: 100px; margin-right: 32px;"></a>
+    <a href="https://ubuntu.com/download/server"><img src="Images/tech-used/ubuntu-logo.png" alt="Image 2" style="width: 250px;"></a>
 </div>
 <br clear="both">
 
 
 
 <div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://example.com/image1"><img src="Images/tech-used/pi-logo.png" alt="Image 1" style="margin-right: 20px; width: 110px;"></a>
-    <a href="https://example.com/image2"><img src="Images/tech-used/arduino-logo.png" alt="Image 2" style="width: 100px;margin-right: 34px; "></a>
-    <a href="https://example.com/image1"><img src="Images/tech-used/Unity-Logo.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
+    <a href="https://www.raspberrypi.org/"><img src="Images/tech-used/pi-logo.png" alt="Image 1" style="margin-right: 20px; width: 110px;"></a>
+    <a href="https://www.arduino.cc/"><img src="Images/tech-used/arduino-logo.png" alt="Image 2" style="width: 100px;margin-right: 34px; "></a>
+    <a href="https://unity.com/"><img src="Images/tech-used/Unity-Logo.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
 
 </div>
 <br clear="both">
@@ -20,7 +20,7 @@
 ---
 
 <div style="display: flex; align-items: center; justify-content: center; margin-top: 30px; margin-bottom: 0px;">
-    <a href="https://example.com/image2"><img src="Images/tech-used/evolutionary-robotics-logo2.png" alt="Image 2" style="width: 400px;"></a>
+    <img src="Images/tech-used/evolutionary-robotics-logo2.png" alt="Image 2" style="width: 400px;"></a>
 </div>
 <br clear="both">
 
@@ -57,8 +57,9 @@
   - [Donate \& Join the Team](#donate--join-the-team)
   - [Project Challenges](#project-challenges)
   - [Project Status](#project-status)
-  - [Pre Simulations](#pre-simulations)
+  - [Algorithm Simulations](#algorithm-simulations)
   - [License](#license)
+  - [Acknowledgements](#acknowledgements)
   - [Conclusion](#conclusion)
 
 ## Project Overview
@@ -84,7 +85,7 @@ The autonomous architecture of our DustBuster robot consists of five primary sta
 
 <p style="margin-bottom: 1.5em;"></p>
 <p align="center">
-    <img width="75" src="Images/autonomous-logos/sense.pnG" alt="Autonomous Overview">
+    <img width="75" src="Images/autonomous-logos/sense.pnG" alt="sense">
 </p>
 
 ### **Sense**
@@ -107,7 +108,7 @@ For a deeper dive into DustBuster's sensing mechanisms, please refer to the foll
 
 
 <p align="center">
-    <img width="75" src="Images/autonomous-logos/interpret.png" alt="Autonomous Overview">
+    <img width="75" src="Images/autonomous-logos/interpret.png" alt="interpret">
 </p>
 
 
@@ -123,7 +124,7 @@ Sensing & Interpretation stages can be summarized with below schematic.
 
 
 <p align="center">
-    <img width="900" src="Images/sensor-processing-line.png" alt="Autonomous Overview">
+    <img width="900" src="Images/sensor-processing-line.png" alt="Sensing & Interpretation Stages Schematic">
 </p>
 <p align="center"><em>Sensing & Interpretation Stages Schematic</em></p>
 <p style="margin-bottom: 2em;"></p>
@@ -140,7 +141,7 @@ For a comprehensive understanding of the interpretation process, kindly refer to
 <p style="margin-bottom: 1.5em;"></p>
 
 <p align="center">
-    <img width="75" src="Images/autonomous-logos/plan.png" alt="Autonomous Overview">
+    <img width="75" src="Images/autonomous-logos/plan.png" alt="plan">
 </p>
 
 ### **Plan**
@@ -167,7 +168,7 @@ We use evolutionary algorithms to determine the optimal path at specified time s
 ---
 
 <p align="center">
-    <img width="90" src="Images/autonomous-logos/navigate.png" alt="Autonomous Overview">
+    <img width="90" src="Images/autonomous-logos/navigate.png" alt="navigate">
 </p>
 
 ### **Navigate**
@@ -193,7 +194,7 @@ For a more thorough understanding of our navigation approach, consider checking 
 
 
 <p align="center">
-    <img width="90" src="Images/autonomous-logos/actuate.png" alt="Autonomous Overview">
+    <img width="90" src="Images/autonomous-logos/actuate.png" alt="actuate">
 </p>
 
 
@@ -204,7 +205,7 @@ The final stage in DustBusterAI's autonomous architecture is motor drive or actu
 The efficacy of our controller design can be appreciated in the real-time wheel speed graph produced by the system. The following image demonstrates the performance of DustBusterAI's motor control in real-world conditions:
 
 <p align="center">
-    <img width="1500" src="Images/wheel-speed-graph.bmP" alt="Real-time Wheel Speed Graph">
+    <img width="1500" src="Images/wheel-speed-graph.bmp" alt="Real-time Wheel Speed Graph">
 </p>
 
 <p align="center"><em>Real-time Wheel Speed Graph</em></p>
@@ -266,7 +267,7 @@ The DustBusterAI project is being developed by a team of engineering students. T
 - Kemal Turan (Mechanical Designer)
 - Efecan Becer (Mechanical Designer)
 
-A part of this project has been developed as an academic research within the **Autonomous Systems Research Laboratory** at our university. 
+A part of this project has been developed as an academic research within the [**Autonomous Systems Research Laboratory**](https://otonom.itu.edu.tr/index_e.htm) at our university. 
 
 The development and progress of the project were carefully monitored and guided by our esteemed faculty member, [**Prof. Dr. Erdinç Altuğ**](https://web.itu.edu.tr/altuger/). His invaluable insights and direction were instrumental in achieving the objectives of this project.
 
@@ -275,16 +276,65 @@ For academic insights, mechanical designs, manufactured items, theses, presentat
 
 
 ## Technologies Used
-The following technologies will be used in the DustbusterAI project:
 
-- Firmware development: C and C++ for programming the embedded systems of the robot
-- ROS-based software development: C++, Python for developing the software that runs on the robot's onboard computer
-- Simulation and visualization: Unity C# and Gazebo for creating a realistic virtual environment to test the robot's behavior
-- Version control: Git for tracking changes and managing collaboration among team members
-- Continuous integration and deployment: tools like Jenkins or Travis CI for automating the build, test, and deployment process
-- Hardware design: Altium Designer and LTSpice for designing and prototyping the robot's electronic hardware
-- Communication protocols: UART, SPI, and I2C for ensuring seamless communication between the various components of the robot. Bluetooth and Wi-Fi is supported for monitoring.
-- Structural 3D design and analysis: Utilizing industry-leading software such as Fusion 360 and Catia for comprehensive design, while ANSYS and Abaqus provide advanced analysis capabilities to ensure optimal structural integrity.
+In the development of DustbusterAI, we benefit a wide array of technologies across different disciplines. Here is a categorised breakdown:
+
+### Software Development:
+
+- [Visual Studio Code](https://code.visualstudio.com/): A powerful source code editor with essential addons, providing an impeccable development experience.
+
+- [ROS2 framework](https://docs.ros.org/en/humble/index.html): An open-source, flexible, and easy-to-use software framework for robotics.
+
+- [Gazebo](http://gazebosim.org/): A powerful 3D robotics simulator that accurately and efficiently simulates populations of robots in complex indoor and outdoor environments.
+
+- [Ubuntu Server OS 22.04](https://ubuntu.com/download/server): A reliable, high performance server operating system has high compability with ROS.
+
+- [Git](https://git-scm.com/): A distributed version control system for tracking changes in source code during software development.
+
+- [Doxygen](http://www.doxygen.nl/): A tool for generating documentation from annotated source code, providing a streamlined and efficient way to keep the documentation consistent with the code base.
+
+
+### Electronics and Firmware Development:
+
+- [Arduino IDE](https://www.arduino.cc/en/software): An open-source electronics platform for easy-to-use hardware and software, perfect for our firmware development.
+
+- [Logic Analyzer Software from Saleae](https://www.saleae.com/): Software to view, measure, and analyze signals for electronics prototyping and production.
+
+### Control System Design:
+
+- [Matlab and Control System Toolbox](https://www.mathworks.com/products/control.html): High-level language and interactive environment used for numerical computation, visualization, and programming. The Control System Toolbox provides algorithms and apps for systematically analyzing, designing, and tuning linear control systems.
+
+- [Matlab Simulink](https://www.mathworks.com/products/simulink.html): Block diagram environment for multidomain simulation and Model-Based Design. It supports system-level design, simulation, automatic code generation, and continuous test and verification of embedded systems.
+
+
+### Algorithm Simulation:
+
+- [Unity Engine](https://unity.com/): A versatile game development platform used for algorithm simulation and visual representations.
+
+### Mechanical Design:
+
+- [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/overview): An integrated CAD, CAM, and CAE software for product and industrial design.
+
+- [Autodesk CFD](https://www.autodesk.com/products/cfd/overview): A computational fluid dynamics software that provides fast, accurate, and flexible fluid flow and thermal simulation tools.
+
+- [Ultimaker Cura](https://ultimaker.com/software/ultimaker-cura): A powerful, easy-to-use 3D slicer application to prepare models for 3D printing.
+
+- [Creality CR-10 S4](https://www.creality.com): A high-precision, large-format 3D printer used to fabricate mechanical parts of the DustBusterAI robot.
+
+### Schematic and Graphic Design:
+
+- [Drawio](https://www.diagrams.net/): A free online diagram software for making flowcharts, process diagrams, org charts, UML, ER, and network diagrams.
+
+- [Adobe Photoshop](https://www.adobe.com/products/photoshop.html): A raster graphics editor developed and published by Adobe Inc.
+
+### Video Editing:
+
+- [Davinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/): A revolutionary tool for video editing, color correction, audio post production, and visual effects.
+
+### Supportive:
+
+- [GPT 3.5 (Davinci) and 4 models from OpenAI](https://www.openai.com/): Powerful language models that utilize deep learning techniques to generate human-like text, enabling natural language processing and understanding.
+
 
 ## Project Timeline
 - Q1 2023: Begin algorithm development and optimization in simulation environments, start designing electronic and mechanical design
@@ -305,7 +355,7 @@ Donate or Join to Support the DustBusterAI Project.
 We are having economic burdens in our country which usually result in the necessary materials or manufacturing fees such as PCB production or 3D printing to be overpriced.
 We rely on the support of donors like you to bring the DustBusterAI project to develop further. Your contribution will help us purchase the necessary equipment and materials to build a working prototype of the robot, or if you are interested in and eager to develop this project, you can **join our team** for the further development of the necessary software and electronics to make it run, design of the mechanical parts to enpower the system. By donating or joining to us, you can be a part of revolutionizing the cleaning industry and making our world a cleaner, more efficient place. Thank you for your support!
 
-Reach us out contacting [Onur Ulusoy](https://www.linkedin.com/in/onur-ulusoy/)
+Reach us out by contacting [Onur Ulusoy](https://www.linkedin.com/in/onur-ulusoy/)
 
 ## Project Challenges
 The DustBusterAI project faces several difficulty, including:
@@ -315,28 +365,34 @@ The DustBusterAI project faces several difficulty, including:
 - Market competition from other cleaning robots and devices
 
 ## Project Status
-As of March 25, 2023, the DustBusterAI project is in the design and planning phase. The team is currently working on developing the robot's decision making algorithms and testing using ROS2 framework, in Gazebo and RViz platforms. The project is on track to meet its Q1 2023 deadline for completing the prototype.
+As of June 14, 2023, the initial prototype designs of DustBusterAI are completed and we are currently in the physical prototyping stage. The software team is still in the process of developing and refining the decision-making algorithms, conducting tests using the ROS2 framework in conjunction with Gazebo and RViz platforms. The project is progressing according to the set milestones and timelines.
 
-## Pre Simulations
+## Algorithm Simulations
 Since most of the algorithms are handled by development team, before creating ROS environment or investing resources into building a physical prototype of a robot, it's crucial to validate the underlying algorithms that will govern its behavior. This involves simulating the robot's movements and interactions with the environment to verify that the algorithms are functioning as intended. Unity, a popular game engine and simulation platform, provides a powerful toolset for creating these simulations. By building a virtual prototype in Unity, developers can test and refine the algorithms that will ultimately drive the physical robot's behavior, without the risks and expenses associated with building and testing a physical prototype. This can help to identify and resolve potential issues early on in the development process, ensuring that the final product is as efficient and effective as possible. Once the algorithms have been thoroughly tested and optimized in the Unity simulation, developers can confidently move forward with building the physical robot.
 
-Algorithms first tested in Unity Engine and this is the main repository, not contain much another code, that's why the project is seen as C#.
-
-Current unity simulation status can be checked from [Simulation Stages](https://github.com/onurulusoy4/DustBusterAI/tree/master/Pre-Simulations/DustBusterAI%20Unity%20Simulation)
+Current unity simulation status can be checked from [Simulation Stages](/Algorithm%20Simulations/DustBusterAI%20Unity%20Simulation)
 
 
 https://user-images.githubusercontent.com/95442568/222244447-768bc50f-41e9-4a67-80c4-689e2ca3722b.mp4
 
-**Note:** Pre Simulations in Unity Engine is over, we jumped into developing ROS environment using Gazebo and RViz tools. [DustBusterAI-Software](https://github.com/onurulusoy4/DustBusterAI-Software)
-
+**Note:** Initial simulations in Unity Engine are over, we jumped into developing this algoritms in ROS environment using Gazebo and RViz tools. [DustBusterAI-Software](https://github.com/onur-ulusoy/DustBusterAI-Software)
 
 
 ## License
 
-All software and hardware designs created for the DustBusterAI project are released under the [MIT License](https://github.com/onurulusoy4/DustBusterAI/blob/master/LICENSE). This includes the source code, CAD files, and any other materials created for the project. You are free to use, modify, and distribute this project for both commercial and non-commercial purposes. However, the authors of this project make no warranties or guarantees as to the reliability, suitability, or accuracy of the materials provided. Use at your own risk.
+All software and hardware designs created for the DustBusterAI project are released under the [MIT License](LICENSE). This includes the source code, CAD files, and any other materials created for the project. You are free to use, modify, and distribute this project for both commercial and non-commercial purposes. However, the authors of this project make no warranties or guarantees as to the reliability, suitability, or accuracy of the materials provided. Use at your own risk.
+
+## Acknowledgements
+
+We would like to take this opportunity to extend our gratitude to all those who have made significant contributions to the DustBusterAI project. This includes everyone from those who worked on the technical aspects to those who provided valuable insights and ideas.
+
+In particular, we would like to acknowledge the exceptional work of the designers who brought our brand to life with their creative artwork. Their contributions have given DustBusterAI its unique and recognizable identity.
+
+For a detailed list of acknowledgements, please refer to our [ACKNOWLEDGEMENTS](/ACKNOWLEDGEMENTS.md) document.
+
 
 ## Conclusion
-The DustbusterAI project is an ambitious undertaking that aims to develop an autonomous robot capable of cleaning a room using path planning, decision making, and motion control algorithms. By leveraging the latest technologies and techniques in robotics, the project hopes to create a robot that can handle different room sizes and shapes, as well as different types of obstacles.
+The DustbusterAI project is an ambitious undertaking that aims to develop an autonomous robot capable of cleaning a room using path planning, decision making, and motion control algorithms. By utilizing the latest technologies and techniques in robotics, the project hopes to create a robot that can handle different room sizes and shapes, as well as different types of obstacles.
 
 
 
