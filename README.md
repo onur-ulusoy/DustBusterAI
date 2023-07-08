@@ -1,31 +1,21 @@
 # DustBusterAI
 
-<div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://www.ros.org/"><img src="Images/tech-used/ros-logo2.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
-    <a href="http://gazebosim.org/"><img src="Images/tech-used/gazebo-logo.png" alt="Image 2" style="width: 100px; margin-right: 32px;"></a>
-    <a href="https://ubuntu.com/download/server"><img src="Images/tech-used/ubuntu-logo.png" alt="Image 2" style="width: 250px;"></a>
-</div>
-<br clear="both">
+<p align="center">
+    <img width="900" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/fbed7f2c-a949-4cd9-a4d5-18891b94236e">
+</p>
 
+<p align="center">
+    <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830">
+</p>
 
+<p align="center">
+    <img width="475" src="Images/tech-used/evolutionary-robotics-logo2.png">
+</p>
 
-<div style="display: flex; align-items: center; justify-content: center;">
-    <a href="https://www.raspberrypi.org/"><img src="Images/tech-used/pi-logo.png" alt="Image 1" style="margin-right: 20px; width: 110px;"></a>
-    <a href="https://www.arduino.cc/"><img src="Images/tech-used/arduino-logo.png" alt="Image 2" style="width: 100px;margin-right: 34px; "></a>
-    <a href="https://unity.com/"><img src="Images/tech-used/Unity-Logo.png" alt="Image 1" style="margin-right: 20px; width: 200px;"></a>
+<p align="center">
+    <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830">
+</p>
 
-</div>
-<br clear="both">
-
----
-
-<div style="display: flex; align-items: center; justify-content: center; margin-top: 30px; margin-bottom: 0px;">
-    <img src="Images/tech-used/evolutionary-robotics-logo2.png" alt="Image 2" style="width: 400px;"></a>
-</div>
-<br clear="both">
-
----
-<p style="margin-bottom: 1em;"></p>
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![ROS2 Version](https://img.shields.io/badge/ROS2-Humble-blue.svg)](https://docs.ros.org/en/rolling/Releases/Release-Humble-Hawksbill.html)
@@ -77,15 +67,14 @@ Overall, DustBuster represents a significant advancement in the field of autonom
     <img width="1300" src="Images/Autonomous-Overview.png" alt="Autonomous Overview">
 </p>
 The autonomous architecture of our DustBuster robot consists of five primary stages: perception, interpretation, planning, and navigation, followed by the actuation or motor drive stage. Detailed documentation of each of these stages can be found in the corresponding project folders and they are summarized below subsections.
-<p style="margin-bottom: 1em;"></p>
+<p style="margin-bottom: 2em;"></p>
 
-<p style="margin-bottom: 1em;"></p>
 
----
+<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
 
 <p style="margin-bottom: 1.5em;"></p>
 <p align="center">
-    <img width="75" src="Images/autonomous-logos/sense.pnG" alt="sense">
+    <img width="75" src="Images/autonomous-logos/sense.png" alt="sense">
 </p>
 
 ### **Sense**
@@ -102,7 +91,7 @@ For a deeper dive into DustBuster's sensing mechanisms, please refer to the foll
 <p style="margin-bottom: 1em;"></p>
 
 
----
+<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
 
 <p style="margin-bottom: 1.5em;"></p>
 
@@ -137,7 +126,7 @@ For a comprehensive understanding of the interpretation process, kindly refer to
 - [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software) provides a broader view of the entire software of autonomous system with the source code.
 <p style="margin-bottom: 1em;"></p>
 
----
+<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
 <p style="margin-bottom: 1.5em;"></p>
 
 <p align="center">
@@ -165,7 +154,7 @@ We use evolutionary algorithms to determine the optimal path at specified time s
 
 <p style="margin-bottom: 1 em;"></p>
 
----
+<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
 
 <p align="center">
     <img width="90" src="Images/autonomous-logos/navigate.png" alt="navigate">
@@ -189,7 +178,7 @@ For a more thorough understanding of our navigation approach, consider checking 
 - [Navigation Overview](/Project%20Documentations/Detailed%20System%20Components/Software/5-Navigation/Navigation%20Overview.md): An overview of DustBuster's navigation systems.
 - [Navigation Detailed](/Project%20Documentations/Detailed%20System%20Components/Software/5-Navigation/Navigation.md): An in-depth examination of our navigation processes.
 - [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software): Access to the codebase that powers DustBuster's software systems.
----
+<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
 <p style="margin-bottom: 1.5em;"></p>
 
 
@@ -223,7 +212,7 @@ For in-depth information on our controller design and motor actuation strategies
 
 <p style="margin-bottom: 1em;"></p>
 
----
+<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
 
 ### **Overall**
 The entire operation of DustBusterAI, our robot, is a carefully coordinated process where multiple subsystems work together to achieve autonomous cleaning. The block diagram provided below offers a clear picture of how these different subsystems interact and work together in a step-by-step manner, from initial sensing of the environment, through interpretation of data and route planning, to navigation and final actuation of the motors.
