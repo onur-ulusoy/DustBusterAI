@@ -369,6 +369,8 @@ https://user-images.githubusercontent.com/95442568/222244447-768bc50f-41e9-4a67-
 
 All software and hardware designs created for the DustBusterAI project are released under the [MIT License](LICENSE). This includes the source code, CAD files, and any other materials created for the project. You are free to use, modify, and distribute this project for both commercial and non-commercial purposes. However, the authors of this project make no warranties or guarantees as to the reliability, suitability, or accuracy of the materials provided. Use at your own risk.
 
+The media files, including but not limited to graphics, videos, and other visual content, accompanying the DustBusterAI project are licensed under a separate [Restrictive License](LICENSE-MEDIA). These media files created and owned by Onur Ulusoy are the exclusive property of Onur Ulusoy and may not be used, reproduced, distributed, modified, or exploited in any manner, whether commercial or private, without explicit written permission. Unauthorized use or exploitation of the media files may result in legal action.
+
 ## Acknowledgements
 
 We would like to take this opportunity to extend our gratitude to all those who have made significant contributions to the DustBusterAI project. This includes everyone from those who worked on the technical aspects to those who provided valuable insights and ideas.
