@@ -4,17 +4,14 @@
     <img width="900" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/fbed7f2c-a949-4cd9-a4d5-18891b94236e">
 </p>
 
-<p align="center">
-    <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830">
-</p>
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
+
 
 <p align="center">
-    <img width="475" src="Images/tech-used/evolutionary-robotics-logo2.png">
+    <img width="470" src="Images/tech-used/evolutionary-robotics-logo2.png">
 </p>
 
-<p align="center">
-    <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830">
-</p>
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
 
 
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -70,7 +67,7 @@ The autonomous architecture of our DustBuster robot consists of five primary sta
 <p style="margin-bottom: 2em;"></p>
 
 
-<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
 
 <p style="margin-bottom: 1.5em;"></p>
 <p align="center">
@@ -91,7 +88,7 @@ For a deeper dive into DustBuster's sensing mechanisms, please refer to the foll
 <p style="margin-bottom: 1em;"></p>
 
 
-<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
 
 <p style="margin-bottom: 1.5em;"></p>
 
@@ -126,7 +123,7 @@ For a comprehensive understanding of the interpretation process, kindly refer to
 - [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software) provides a broader view of the entire software of autonomous system with the source code.
 <p style="margin-bottom: 1em;"></p>
 
-<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
 <p style="margin-bottom: 1.5em;"></p>
 
 <p align="center">
@@ -154,7 +151,7 @@ We use evolutionary algorithms to determine the optimal path at specified time s
 
 <p style="margin-bottom: 1 em;"></p>
 
-<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
 
 <p align="center">
     <img width="90" src="Images/autonomous-logos/navigate.png" alt="navigate">
@@ -178,7 +175,8 @@ For a more thorough understanding of our navigation approach, consider checking 
 - [Navigation Overview](/Project%20Documentations/Detailed%20System%20Components/Software/5-Navigation/Navigation%20Overview.md): An overview of DustBuster's navigation systems.
 - [Navigation Detailed](/Project%20Documentations/Detailed%20System%20Components/Software/5-Navigation/Navigation.md): An in-depth examination of our navigation processes.
 - [Software Repository](https://github.com/onur-ulusoy/DustBusterAI-Software): Access to the codebase that powers DustBuster's software systems.
-<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
+  
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
 <p style="margin-bottom: 1.5em;"></p>
 
 
@@ -212,7 +210,7 @@ For in-depth information on our controller design and motor actuation strategies
 
 <p style="margin-bottom: 1em;"></p>
 
-<p align="center">     <img width="1000" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/e203875f-4f26-4b0a-ae5a-adf6261c7830"> </p>
+<picture>   <img alt="dash" src="https://github.com/onur-ulusoy/DustBusterAI/assets/95442568/8e1cb940-ab80-405b-adaa-f5ce4d95049a"> </picture>
 
 ### **Overall**
 The entire operation of DustBusterAI, our robot, is a carefully coordinated process where multiple subsystems work together to achieve autonomous cleaning. The block diagram provided below offers a clear picture of how these different subsystems interact and work together in a step-by-step manner, from initial sensing of the environment, through interpretation of data and route planning, to navigation and final actuation of the motors.
